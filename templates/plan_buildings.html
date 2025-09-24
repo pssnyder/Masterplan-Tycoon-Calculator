@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+
+{% block title %}{{ plan_name }} Buildings - Masterplan Tycoon{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>
+        <i class="fas fa-map-marker-alt text-primary"></i>
+        {{ plan_name }} Buildings
+    </h1>
+    <div>
+        <button class="btn btn-outline-secondary" id="sortTier">
+            <i class="fas fa-sort-amount-down"></i> Sort by Tier
+        </button>
+        <button class="btn btn-outline-secondary" id="sortName">
+            <i class="fas fa-sort-alpha-down"></i> Sort by Name
+        </button>
+    </div>
+</div>
+
+{% if buildings %}
+<div class="row" id="buildingsContainer">
+    {% for building in buildings %}
+    <div class="col-lg-4 col-md-6 mb-3 building-item" data-tier="{{ building.tier }}" data-name="{{ building.name }}" data-building-id="{{ building.id }}">
+        <div class="card building-card h-100">
+            <div class="card-header d-flex justify-content-between align-items-center">
+                <div>
+                    <small class="text-muted">{{ building.building_id }}</small>
+                </div>
+                <span class="badge bg-primary tier-badge">Tier {{ building.tier }}</span>
+            </div>
+            <div class="card-body">
+                <h6 class="card-title">{{ building.name }}</h6>
+                {% if building.category_name %}
+                <p class="text-muted small mb-2">
+                    <i class="fas fa-tag"></i> {{ building.category_name }}
+                </p>
+                {% endif %}
+                {% if building.production_time %}
+                <p class="text-success small mb-2">
+                    <i class="fas fa-clock"></i> Production: {{ building.production_time }}s
+                </p>
+                {% endif %}
+                <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">Click to view details</small>
+                    <i class="fas fa-arrow-right text-primary"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<div class="mt-4">
+    <p class="text-muted">
+        <i class="fas fa-info-circle"></i>
+        Found {{ buildings|length }} buildings in {{ plan_name }}.
+        Click on any building card to view detailed specifications.
+    </p>
+</div>
+
+{% else %}
+<div class="alert alert-warning">
+    <i class="fas fa-exclamation-triangle"></i>
+    No buildings found for {{ plan_name }}.
+</div>
+{% endif %}
+
+<div class="mt-4">
+    <a href="{{ url_for('index') }}" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Back to Home
+    </a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('buildingsContainer');
+    const sortTierBtn = document.getElementById('sortTier');
+    const sortNameBtn = document.getElementById('sortName');
+    
+    let currentSort = 'tier'; // Default sort
+    
+    function sortBuildings(sortBy) {
+        const items = Array.from(container.children);
+        
+        items.sort((a, b) => {
+            if (sortBy === 'tier') {
+                const tierA = parseInt(a.dataset.tier);
+                const tierB = parseInt(b.dataset.tier);
+                if (tierA === tierB) {
+                    return a.dataset.name.localeCompare(b.dataset.name);
+                }
+                return tierA - tierB;
+            } else if (sortBy === 'name') {
+                return a.dataset.name.localeCompare(b.dataset.name);
+            }
+        });
+        
+        // Clear and re-append sorted items
+        container.innerHTML = '';
+        items.forEach(item => container.appendChild(item));
+        
+        // Update button states
+        sortTierBtn.classList.toggle('btn-primary', sortBy === 'tier');
+        sortTierBtn.classList.toggle('btn-outline-secondary', sortBy !== 'tier');
+        sortNameBtn.classList.toggle('btn-primary', sortBy === 'name');
+        sortNameBtn.classList.toggle('btn-outline-secondary', sortBy !== 'name');
+    }
+    
+    sortTierBtn.addEventListener('click', () => {
+        currentSort = 'tier';
+        sortBuildings('tier');
+    });
+    
+    sortNameBtn.addEventListener('click', () => {
+        currentSort = 'name';
+        sortBuildings('name');
+    });
+    
+    // Initial sort
+    sortBuildings('tier');
+    
+    // Add search functionality
+    const searchInput = document.querySelector('input[name="q"]');
+    if (searchInput) {
+        searchInput.addEventListener('input', function() {
+            const searchTerm = this.value.toLowerCase();
+            const buildingItems = document.querySelectorAll('.building-item');
+            
+            buildingItems.forEach(item => {
+                const buildingName = item.dataset.name.toLowerCase();
+                const categoryName = item.querySelector('.text-muted').textContent.toLowerCase();
+                
+                if (buildingName.includes(searchTerm) || categoryName.includes(searchTerm)) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    }
+});
+</script>
+{% endblock %}

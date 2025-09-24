@@ -1,0 +1,162 @@
+{% extends "base.html" %}
+
+{% block title %}Production Calculator - Masterplan Tycoon{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">
+                    <i class="fas fa-calculator text-success"></i>
+                    Production Calculator
+                </h2>
+            </div>
+            <div class="card-body">
+                <div class="alert alert-info">
+                    <i class="fas fa-info-circle"></i>
+                    <strong>Coming Soon!</strong> This calculator will help you optimize production chains and calculate building ratios.
+                </div>
+                
+                <form>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="targetResource" class="form-label">Target Resource</label>
+                            <select class="form-select" id="targetResource">
+                                <option value="">Select a resource...</option>
+                                <option value="brick">Brick</option>
+                                <option value="steel">Steel</option>
+                                <option value="bread">Bread</option>
+                                <option value="clothes">Clothes</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="targetQuantity" class="form-label">Target Production Rate (per minute)</label>
+                            <input type="number" class="form-control" id="targetQuantity" min="1" placeholder="e.g., 10">
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="region" class="form-label">Preferred Region</label>
+                        <select class="form-select" id="region">
+                            <option value="">Any region</option>
+                            <option value="master">Master</option>
+                            <option value="islands">Islands</option>
+                            <option value="mountains">Mountains</option>
+                        </select>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-success" disabled>
+                        <i class="fas fa-calculator"></i> Calculate Production Chain
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5><i class="fas fa-project-diagram"></i> Production Chain Visualization</h5>
+            </div>
+            <div class="card-body">
+                <div class="text-center text-muted py-4">
+                    <i class="fas fa-chart-line fa-3x mb-3"></i>
+                    <p>Select a target resource to see the production chain visualization here.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-lightbulb"></i> Calculator Features</h5>
+            </div>
+            <div class="card-body">
+                <p class="small text-muted mb-3">
+                    The production calculator will help you:
+                </p>
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Calculate optimal building ratios
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Find efficient production chains
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Minimize resource waste
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Account for maintenance costs
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Cross-region optimization
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6><i class="fas fa-example"></i> Example Calculations</h6>
+            </div>
+            <div class="card-body">
+                <div class="mb-3">
+                    <h6 class="small">Brick Production Chain</h6>
+                    <p class="small text-muted">
+                        Clay Pit → Brick Factory<br>
+                        <strong>Ratio:</strong> 2 Clay Pits : 1 Brick Factory<br>
+                        <strong>Rate:</strong> 2.67 Brick/min
+                    </p>
+                </div>
+                
+                <div class="mb-3">
+                    <h6 class="small">Steel Production Chain</h6>
+                    <p class="small text-muted">
+                        Coal Mine + Iron Mine → Furnace → Steelworks<br>
+                        <strong>Complex multi-step chain</strong><br>
+                        <strong>Rate:</strong> Varies by tier
+                    </p>
+                </div>
+                
+                <button class="btn btn-sm btn-outline-primary w-100">
+                    <i class="fas fa-play"></i> Try These Examples
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const targetResource = document.getElementById('targetResource');
+    const targetQuantity = document.getElementById('targetQuantity');
+    const calculateBtn = document.querySelector('button[type="submit"]');
+    
+    function updateCalculateButton() {
+        if (targetResource.value && targetQuantity.value) {
+            calculateBtn.disabled = false;
+            calculateBtn.innerHTML = '<i class="fas fa-calculator"></i> Calculate Production Chain';
+        } else {
+            calculateBtn.disabled = true;
+            calculateBtn.innerHTML = '<i class="fas fa-calculator"></i> Select Resource and Quantity';
+        }
+    }
+    
+    targetResource.addEventListener('change', updateCalculateButton);
+    targetQuantity.addEventListener('input', updateCalculateButton);
+    
+    // Prevent form submission for now
+    calculateBtn.addEventListener('click', function(e) {
+        e.preventDefault();
+        alert('Production calculator coming soon! This will calculate optimal building ratios and production chains.');
+    });
+});
+</script>
+{% endblock %}

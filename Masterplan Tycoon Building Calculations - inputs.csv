@@ -1,0 +1,222 @@
+buid,building,input,input_qty
+3-09-R-AFM,Ammo Factory (Mountains),Coal,1
+1-04-A-AWM,Anchor Workshop (Master),Steel Beams,1
+1-01-B-BM,Bakery (Master),Meal,2
+1-01-B-BM,Bakery (Master),Water,1
+3-01-B-BM,Bakery (Mountains),Barley Meal,2
+3-01-B-BM,Bakery (Mountains),Water,1
+4-01-B-BO,Bakery (Other),Bean,1
+2-05-T-BFI,Bamboo Factory (Islands),Bamboo,2
+3-12-B-BM,Bank (Mountains),Coin,150
+3-09-S-BFM,Barrel Factory (Mountains),Hoop,1
+3-09-S-BFM,Barrel Factory (Mountains),Oak,1
+1-06-SE-BFM,Boiler Factory (Master),Copper Pipes,1
+3-06-SE-BFM,Boiler Factory (Mountains),Copper,1
+3-06-SE-BFM,Boiler Factory (Mountains),Water,3
+1-04-B-BFM,Boot Factory (Master),Tanned Leather,1
+1-06-G-BSM,Brass Smeltery (Master),Copper Ore,1
+3-06-G-BSM,Brass Smeltery (Mountains),Coal,1
+3-06-G-BSM,Brass Smeltery (Mountains),Copper Ore,1
+1-01-B-BM,Brewery (Master),Grain,1
+1-01-B-BM,Brewery (Master),Water,1
+1-01-B-BFM,Brick Factory (Master),Clay,2
+2-01-B-BFI,Brick Factory (Islands),Clay,2
+1-00-P-BMM,Brick Mission (Master),Bread,1
+1-00-P-BMM,Brick Mission (Master),Steam Engine,1
+1-00-P-BMM,Brick Mission (Master),Stone,1
+1-02-S-BM,Butchery (Master),Pig,1
+3-02-S-BM,Butchery (Mountains),Pig,1
+3-07-FP-CM,Cafeteria (Mountains),Cranberry,1
+3-07-FP-CM,Cafeteria (Mountains),Raspberry,1
+1-03-MC-CFM,Can Factory (Master),Coal,1
+1-03-MC-CFM,Can Factory (Master),Steel,1
+3-03-MC-CFM,Can Factory (Mountains),Coal,1
+3-03-MC-CFM,Can Factory (Mountains),Steel,1
+1-04-CF-CM,Cannery (Master),Beef,1
+1-04-CF-CM,Cannery (Master),Can,1
+1-04-CF-CM,Cannery (Master),Red Pepper,1
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Carrot,1
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Glass Cup,1
+1-05-C-CFM,Cement Factory (Master),Limestone,1
+1-05-C-CFM,Cement Factory (Master),Water,1
+3-09-SE-CFM,Chain Factory (Mountains),Barley,2
+3-09-SE-CFM,Chain Factory (Mountains),Copper,1
+1-02-SB-CKM,Charcoal Kiln (Master),Tree,2
+1-05-C-CFM,Cheese Factory (Master),Curdling,1
+1-07-C-CFM,Chocolate Factory (Master),Sheave,1
+1-07-C-CFM,Chocolate Factory (Master),Sugar,1
+3-11-C-CFM,Cigar Factory (Mountains),Casket,2
+3-11-C-CFM,Cigar Factory (Mountains),Tobacco,1
+2-08-C-CRI,Coffee Roaster (Islands),Coffee Beans,1
+1-05-C-CFM,Concrete Factory (Master),Cement,1
+1-05-C-CFM,Concrete Factory (Master),Steel,1
+1-00-P-CMM,Copper Mission (Master),Brick,1
+1-00-P-CMM,Copper Mission (Master),Caoutchouc,1
+1-00-P-CMM,Copper Mission (Master),Lemonade,1
+1-00-P-CMM,Copper Mission (Master),Moonshine,1
+1-00-P-CMM,Copper Mission (Master),Overalls,1
+1-00-P-CMM,Copper Mission (Master),Rum,1
+1-00-P-CMM,Copper Mission (Master),Sausages,1
+1-02-O-CMM,Cotton Mill (Master),Cotton,1
+2-02-O-CMI,Cotton Mill (Islands),Cotton,1
+3-11-CJ-CFM,Crockery Factory (Mountains),Glass,1
+1-05-C-CFM,Curdling Factory (Master),Milk,1
+2-00-P-DII,Death Islands (Master),Fish,1
+2-00-P-DII,Death Islands (Master),Steam Engine,1
+2-00-P-DII,Death Islands (Master),Water,1
+3-10-T-DM,Depot (Mountains),Dynamite,1
+3-10-T-DM,Depot (Mountains),Rails,1
+3-10-T-DM,Depot (Mountains),Sleepers,1
+3-10-T-DM,Depot (Mountains),Steam Engine,1
+3-10-T-DFM,Dynamite Factory (Mountains),Salt,2
+3-10-T-DFM,Dynamite Factory (Mountains),Tallow,1
+3-07-NH-FFM,Fastener Factory (Mountains),Steel,1
+1-02-O-FWM,Felt Workshop (Master),Wool,1
+2-02-O-FWI,Felt Workshop (Islands),Wool,1
+3-11-LB-FFM,Filament Factory (Mountains),Coal,1
+3-00-F-FM,Fishery (Mountains),Water,1
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Banana,1
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Cocoa,1
+1-02-O-FFM,Fur Factory (Master),Calico,1
+1-02-O-FFM,Fur Factory (Master),Felt,1
+2-02-O-FFI,Fur Factory (Islands),Calico,1
+2-02-O-FFI,Fur Factory (Islands),Felt,1
+1-02-SB-FM,Furnace (Master),Coal,1
+1-02-SB-FM,Furnace (Master),Iron,1
+3-02-SB-FM,Furnace (Mountains),Coal,1
+3-02-SB-FM,Furnace (Mountains),Iron,1
+4-02-SB-FO,Furnace (Other),Coal,1
+4-02-SB-FO,Furnace (Other),Gold Ore,1
+3-09-SE-GFM,Gear Factory (Mountains),Copper,1
+1-06-G-GFM,Glasses Factory (Master),Copper,2
+1-06-G-GFM,Glasses Factory (Master),Glass,2
+1-03-W-GM,Glassmakers (Master),Sand,1
+3-03-W-GM,Glassmakers (Mountains),Sand,1
+3-08-C-GMM,Gold Mission (Master),Coin,1
+3-08-C-GMM,Gold Mission (Master),Milk Can,1
+3-08-C-GMM,Gold Mission (Master),Nails,1
+3-08-C-GMM,Gold Mission (Master),Steak,1
+3-08-C-GMM,Gold Mission (Master),Steam Engine,1
+3-00-P-GMM,Gold Mission (Mountains),Boiler,1
+1-07-H-HFM,Hat Fabric (Master),Calico,1
+1-07-H-HFM,Hat Fabric (Master),Satin,1
+3-07-H-HFM,Horse Farm (Mountains),Barley,3
+3-07-H-HFM,Horse Farm (Mountains),Water,2
+2-08-H-HKI,Humitas Kitchen (Islands),Corn,1
+2-08-H-HKI,Humitas Kitchen (Islands),Green Pepper,1
+2-08-H-HKI,Humitas Kitchen (Islands),Salt,1
+1-07-KL-KFM,Kerosene Factory (Master),Coal,1
+1-07-KL-KFM,Kerosene Factory (Master),Oil,1
+1-07-KL-KLFM,Kerosene Lamp Factory (Master),Copper Pipes,1
+1-07-KL-KLFM,Kerosene Lamp Factory (Master),Glass,1
+1-07-KL-KLFM,Kerosene Lamp Factory (Master),Kerosene,1
+1-03-V-LWM,Leather Workshop (Master),Tanned Leather,1
+2-07-L-LFI,Lemonade Factory (Islands),Citrus,1
+2-07-L-LFI,Lemonade Factory (Islands),Salt,1
+2-07-L-LFI,Lemonade Factory (Islands),Sugar,1
+2-07-L-LFI,Lemonade Factory (Islands),Water,1
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Filaments,1
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Glass,2
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Limestone,1
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Sand,1
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Water,1
+1-00-P-LMM,Limestone Mission (Master),Rum,1
+1-00-P-LMM,Limestone Mission (Master),Steam Engine,1
+1-05-S-LMM,Linen Mill (Master),Linseed,1
+3-11-C-MWM,Marquetry Workshop (Mountains),Oak Plank,1
+1-06-MP-MPBM,Meat Pie Bakery (Master),Stuffing,1
+1-03-MC-MFM,Milk Farm (Master),Can,1
+1-03-MC-MFM,Milk Farm (Master),Milk,1
+3-03-MC-MFM,Milk Farm (Mountains),Can,1
+3-03-MC-MFM,Milk Farm (Mountains),Milk,1
+1-01-B-MM,Mill (Master),Grain,1
+3-08-C-MM,Mint (Mountains),Gold,1
+1-02-M-MFM,Moonshine Factory (Master),Potato,1
+1-02-M-MFM,Moonshine Factory (Master),Sugar Cane,1
+2-00-P-OII,Oil Islands (Master),Fried Banana,1
+2-00-P-OII,Oil Islands (Master),Poncho,1
+2-00-P-OII,Oil Islands (Master),Steam Engine,1
+2-00-P-OII,Oil Islands (Islands),Brick,1
+1-02-S-PFM,Pig Farm (Master),Grain,2
+1-02-S-PFM,Pig Farm (Master),Water,1
+3-02-S-PFM,Pig Farm (Mountains),Barley,2
+3-02-S-PFM,Pig Farm (Mountains),Water,1
+1-06-SE-PMM,Pipe Mill (Master),Copper,1
+2-06-P-PDI,Poncho Darner (Islands),Alpaca Wool,1
+3-00-S-QM,Quarry (Mountains),Stone,1
+3-10-T-RFM,Rail Factory (Mountains),Steel,1
+3-09-R-RFM,Revolver Factory (Mountains),Ammo,1
+3-09-R-RFM,Revolver Factory (Mountains),Oak Plank,1
+3-09-R-RFM,Revolver Factory (Mountains),Steel,1
+1-04-R-RWM,Rope Workshop (Master),Cotton,1
+2-04-R-RWI,Rope Workshop (Islands),Cotton,1
+1-05-R-RDM,Rum Distillery (Master),Plank,1
+1-05-R-RDM,Rum Distillery (Master),Sugar Cane,1
+2-05-R-RDI,Rum Distillery (Islands),Bamboo,1
+2-05-R-RDI,Rum Distillery (Islands),Sugar Cane,1
+1-04-S-SM,Sailmakers (Master),Cotton,3
+1-04-S-SM,Sailmakers (Master),Rope,1
+2-07-L-SWI,Salt Works (Islands),Water,1
+3-07-L-SWM,Salt Works (Mountains),Water,1
+1-03-W-SMM,Sand Mine (Master),Water,1
+2-03-W-SMI,Sand Mine (Islands),Water,1
+3-03-W-SMM,Sand Mine (Mountains),Water,1
+1-07-H-SFM,Satin Fabric (Master),Linen,1
+1-00-P-SM,Sawmill (Master),Tree,1
+3-00-P-SM,Sawmill (Mountains),Oak,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Boiler,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Cranberry,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Oak Barrel,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Raspberry,1
+1-01-C-SWM,Sewing Workshop (Master),Wool,1
+2-01-C-SWI,Sewing Workshop (Islands),Wool,1
+1-06-SE-SMM,Sheave Manufactory (Master),Copper,1
+1-05-B-SM,Shipyard (Master),Plank,8
+1-05-B-SM,Shipyard (Master),Rope,2
+2-05-B-SI,Shipyard (Islands),Rope,4
+2-05-B-SI,Shipyard (Islands),Timber,12
+3-10-T-SFM,Sleeper Factory (Mountains),Oak,1
+3-08-C-SCM,Sluicing Camp (Mountains),Water,1
+3-11-S-SKM,Soup Kitchen (Mountains),Carrot,1
+3-11-S-SKM,Soup Kitchen (Mountains),Fish,1
+3-11-S-SKM,Soup Kitchen (Mountains),Water,1
+3-07-H-SM,Stable (Mountains),Foal,2
+1-03-SL-SM,Steakhouse (Master),Cow,1
+3-03-SL-SM,Steakhouse (Mountains),Goat,1
+1-06-SE-SEFM,Steam Engine Factory (Master),Boiler,1
+1-06-SE-SEFM,Steam Engine Factory (Master),Caoutchouc,1
+1-06-SE-SEFM,Steam Engine Factory (Master),Sheave,1
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Boiler,1
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Chain,1
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Gear,1
+1-00-P-SMM,Steel Mission (Master),Beer,1
+1-00-P-SMM,Steel Mission (Master),Bread,1
+1-00-P-SMM,Steel Mission (Master),Brick,1
+1-00-P-SMM,Steel Mission (Master),Clothes,1
+1-00-P-SMM,Steel Mission (Master),Steam Engine,1
+1-02-SB-SM,Steelworks (Master),Steel,3
+1-06-MP-SWM,Stuffing Workshop (Master),Cow,1
+1-07-C-SRM,Sugar Refinery (Master),Sugar Cane,1
+2-07-C-SRI,Sugar Refinery (Islands),Sugar Cane,1
+1-05-S-TSM,Tailor's Shop (Master),Calico,1
+1-05-S-TSM,Tailor's Shop (Master),Linen,1
+1-03-V-TM,Tannery (Master),Leather,1
+2-07-T-TKI,Tortilla Kitchen (Islands),Beef,1
+2-07-T-TKI,Tortilla Kitchen (Islands),Corn,1
+3-10-W-WFM,Watch Factory (Mountains),Glass,1
+3-10-W-WFM,Watch Factory (Mountains),Gold,2
+3-07-B-WMM,Water Mill (Mountains),Barley,1
+3-00-W-WM,Well (Mountains),Water,1
+3-10-W-WDM,Whiskey Distillery (Mountains),Barley,1
+3-10-W-WDM,Whiskey Distillery (Mountains),Oak Barrel,1
+1-03-W-WMM,Window Makers (Master),Glass,1
+1-03-W-WMM,Window Makers (Master),Tree,2
+1-04-W-WM,Winery (Master),Glass,1
+1-04-W-WM,Winery (Master),Grapes,1
+1-08-WE-WEM,World Exhibition (Master),Beer,150
+1-08-WE-WEM,World Exhibition (Master),Cheese,75
+1-08-WE-WEM,World Exhibition (Master),Chocolate,50
+1-08-WE-WEM,World Exhibition (Master),Lemonade,75
+1-08-WE-WEM,World Exhibition (Master),Sausages,150
+1-08-WE-WEM,World Exhibition (Master),Steak,100
+1-08-WE-WEM,World Exhibition (Master),Wine,100

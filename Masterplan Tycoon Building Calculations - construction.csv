@@ -1,0 +1,487 @@
+buid,building,build_resource,build_resource_qty
+3-09-R-AFM,Anchor Workshop,Brick,20
+3-06-SE-BFM,Boot Factory,Brick,20
+1-00-P-BMM,Butchery,Brick,6
+3-07-FP-CM,Can Factory,Brick,4
+3-03-MC-CFM,Cannery,Brick,20
+3-11-CJ-CJKM,Cattle Farm,Brick,7
+1-04-CF-CFM,Cement Factory,Brick,20
+1-02-SB-CKM,Cheese Factory,Brick,20
+2-08-C-CRI,Concrete Factory,Brick,22
+2-07-T-CFI,Cotton Mill,Brick,6
+1-02-O-CPM,Cow Farm,Brick,5
+3-11-CJ-CFM,Curdling Factory,Brick,20
+3-07-NH-FFM,Felt Workshop,Brick,6
+2-06-FB-FBKI,Fur Factory,Brick,14
+1-02-O-FFM,Furnace,Brick,6
+1-06-G-GFM,Glassmakers,Brick,4
+1-07-KL-KLFM,Leather Workshop,Brick,20
+1-00-P-LMM,Limestone Quarry,Brick,6
+1-05-C-LQM,Linen Mill,Brick,20
+1-05-S-LMM,Linseed Farm,Brick,7
+1-06-MP-MPBM,Milk Farm,Brick,20
+3-08-C-MM,Moonshine Factory,Brick,12
+3-07-FP-RPM,Red Pepper Farm,Brick,7
+3-09-R-RFM,Rope Workshop,Brick,7
+1-05-R-RDM,Sailmakers,Brick,7
+3-07-L-SWM,Sand Mine,Brick,4
+1-01-C-SFM,Shipyard,Brick,7
+3-07-H-SM,Steakhouse,Brick,4
+1-02-SB-SIMM,Steam Limestone Quarry,Brick,12
+1-00-P-SMM,Steelworks,Brick,14
+1-06-MP-SWM,Sugar Cane Plantation,Brick,6
+1-02-M-SCPM,Sugar Refinery,Brick,20
+3-09-S-SMM,Tailor's Shop,Brick,20
+1-05-S-TSM,Tannery,Brick,4
+2-07-T-TKI,Vineyard,Brick,7
+3-10-W-WDM,Window Makers,Brick,20
+1-03-W-WMM,Winery,Brick,20
+2-06-C-CFI,Caoutchouc Farm (Islands),Brick,2
+2-04-CF-CFI,Cattle Farm (Islands),Brick,7
+2-07-L-CFI,Citrus Farm (Islands),Brick,7
+2-08-C-CPI,Coffee Plantation (Islands),Brick,7
+2-08-C-CRI,Coffee Roaster (Islands),Brick,15
+2-07-T-CFI,Corn Farm (Islands),Brick,7
+2-02-O-CMI,Cotton Mill (Islands),Brick,15
+2-02-O-FWI,Felt Workshop (Islands),Brick,15
+2-02-O-FFI,Fur Factory (Islands),Brick,23
+2-08-H-GPFI,Green Pepper Farm (Islands),Brick,7
+2-08-H-HKI,Humitas Kitchen (Islands),Brick,15
+2-07-L-LFI,Lemonade Factory (Islands),Brick,20
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Brick,14
+2-05-C-LQI,Limestone Quarry (Islands),Brick,7
+2-08-O-OWI,Oil Well (Islands),Brick,7
+2-07-L-SWI,Salt Works (Islands),Brick,7
+2-03-W-SMI,Sand Mine (Islands),Brick,7
+2-01-C-SWI,Sewing Workshop (Islands),Brick,14
+2-01-C-SFI,Sheep Farm (Islands),Brick,7
+2-05-C-SLQI,Steam Limestone Quarry (Islands),Brick,14
+2-07-C-SRI,Sugar Refinery (Islands),Brick,14
+2-07-T-TKI,Tortilla Kitchen (Islands),Brick,14
+3-10-BP-BFM,Boiler Factory,Concrete,22
+1-04-B-BFM,Brass Smeltery,Concrete,20
+1-05-C-CFM,Chocolate Factory,Concrete,22
+1-05-C-CFM,Copper Mine,Concrete,20
+3-09-SE-GFM,Glasses Factory,Concrete,22
+2-08-H-GPFI,Hat Fabric,Concrete,22
+3-02-SB-IMM,Kerosene Factory,Concrete,22
+1-07-KL-KFM,Kerosene Lamp Factory,Concrete,32
+3-11-C-MWM,Meat Pie Bakery,Concrete,20
+1-02-P-PM,Pipe Mill,Concrete,20
+1-04-R-RWM,Rum Distillery,Concrete,22
+3-03-W-SMM,Satin Fabric,Concrete,20
+1-01-C-SWM,Sheave Manufactory,Concrete,22
+1-02-SB-SCMM,Steam Copper Mine,Concrete,40
+1-06-G-SCMM,Steam Engine Factory,Concrete,32
+1-00-S-SM,Stuffing Workshop,Concrete,20
+1-04-W-WM,World Exhibition,Concrete,20
+1-02-M-PFM,Promenade,Kerosene Lamp,60
+3-11-S-SKM,Square,Kerosene Lamp,50
+1-04-W-WM,World Exhibition,Kerosene Lamp,75
+3-12-B-BM,Bank**,Light Bulb,35
+2-08-C-CPI,Coffee Plantation (Islands),Lime Plaster,7
+2-08-C-CRI,Coffee Roaster (Islands),Lime Plaster,15
+2-02-O-CMI,Cotton Mill (Islands),Lime Plaster,15
+2-02-O-FWI,Felt Workshop (Islands),Lime Plaster,15
+2-02-O-FFI,Fur Factory (Islands),Lime Plaster,23
+2-08-H-GPFI,Green Pepper Farm (Islands),Lime Plaster,7
+2-08-H-HKI,Humitas Kitchen (Islands),Lime Plaster,15
+2-08-O-OWI,Oil Well (Islands),Lime Plaster,7
+3-09-R-AFM,Ammo Factory (Mountains),Nails,6
+4-01-B-BO,Bakery***,Nails,8
+3-12-B-BM,Bank (Mountains),Nails,50
+3-09-S-BFM,Barrel Factory (Mountains),Nails,6
+3-10-BP-BFM,Bean Farm (Mountains),Nails,6
+3-02-S-BM,Butchery (Mountains),Nails,6
+3-11-S-CFM,Carrot Farm (Mountains),Nails,8
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Nails,22
+3-11-C-CFM,Cigar Factory (Mountains),Nails,22
+3-11-CJ-CFM,Crockery Factory (Mountains),Nails,10
+3-10-T-DM,Depot (Mountains),Nails,18
+3-10-T-DFM,Dynamite Factory (Mountains),Nails,6
+3-11-LB-FFM,Filament Factory (Mountains),Nails,10
+3-03-W-GM,Glassmakers (Mountains),Nails,8
+3-08-C-GMM,Gold Mine (Mountains),Nails,6
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Nails,22
+3-11-C-MWM,Marquetry Workshop (Mountains),Nails,10
+3-03-MC-MFM,Milk Farm (Mountains),Nails,10
+3-08-C-MM,Mint (Mountains),Nails,10
+3-10-T-RFM,Rail Factory (Mountains),Nails,8
+3-09-R-RFM,Revolver Factory (Mountains),Nails,14
+3-03-W-SMM,Sand Mine (Mountains),Nails,6
+3-09-S-SDM,Schnapps Distillery (Mountains),Nails,14
+3-10-T-SFM,Sleeper Factory (Mountains),Nails,8
+3-11-S-SKM,Soup Kitchen (Mountains),Nails,10
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Nails,10
+3-11-C-TPM,Tobacco Plantation (Mountains),Nails,8
+3-10-W-WFM,Watch Factory (Mountains),Nails,18
+3-10-W-WDM,Whiskey Distillery (Mountains),Nails,8
+3-09-R-AFM,Ammo Factory (Mountains),Oak Plank,8
+3-01-B-BM,Bakery (Mountains),Oak Plank,4
+4-01-B-BO,Bakery***,Oak Plank,10
+3-12-B-BM,Bank (Mountains),Oak Plank,70
+3-07-B-BFM,Barley Farm (Mountains),Oak Plank,2
+3-09-S-BFM,Barrel Factory (Mountains),Oak Plank,8
+3-10-BP-BFM,Bean Farm (Mountains),Oak Plank,8
+3-06-SE-BFM,Boiler Factory (Mountains),Oak Plank,6
+3-06-G-BSM,Brass Smeltery (Mountains),Oak Plank,6
+3-02-S-BM,Butchery (Mountains),Oak Plank,8
+3-07-FP-CM,Cafeteria (Mountains),Oak Plank,4
+3-03-MC-CFM,Can Factory (Mountains),Oak Plank,6
+3-11-S-CFM,Carrot Farm (Mountains),Oak Plank,10
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Oak Plank,24
+3-09-SE-CFM,Chain Factory (Mountains),Oak Plank,6
+3-11-C-CFM,Cigar Factory (Mountains),Oak Plank,24
+3-02-SB-CMM,Coal Mine (Mountains),Oak Plank,2
+3-06-G-CMM,Copper Mine (Mountains),Oak Plank,4
+3-07-FP-CPM,Cranberry Plantation (Mountains),Oak Plank,2
+3-11-CJ-CFM,Crockery Factory (Mountains),Oak Plank,12
+3-10-T-DM,Depot (Mountains),Oak Plank,20
+3-10-T-DFM,Dynamite Factory (Mountains),Oak Plank,8
+3-07-NH-FFM,Fastener Factory (Mountains),Oak Plank,8
+3-11-LB-FFM,Filament Factory (Mountains),Oak Plank,12
+3-00-F-FM,Fishery (Mountains),Oak Plank,1
+3-02-SB-FM,Furnace (Mountains),Oak Plank,4
+4-02-SB-FO,Furnace (Other),Oak Plank,6
+3-09-SE-GFM,Gear Factory (Mountains),Oak Plank,6
+3-03-W-GM,Glassmakers (Mountains),Oak Plank,10
+3-08-S-GFM,Goat Farm (Mountains),Oak Plank,4
+3-08-C-GMM,Gold Mine (Mountains),Oak Plank,8
+3-07-H-HFM,Horse Farm (Mountains),Oak Plank,2
+3-02-SB-IMM,Iron Mine (Mountains),Oak Plank,2
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Oak Plank,24
+3-11-C-MWM,Marquetry Workshop (Mountains),Oak Plank,12
+3-03-MC-MFM,Milk Farm (Mountains),Oak Plank,12
+3-08-C-MM,Mint (Mountains),Oak Plank,12
+3-06-OP-OLCM,Oak Lumber Camp (Mountains),Oak Plank,1
+3-02-S-PFM,Pig Farm (Mountains),Oak Plank,6
+3-00-S-QM,Quarry (Mountains),Oak Plank,1
+3-10-T-RFM,Rail Factory (Mountains),Oak Plank,10
+3-07-FP-RPM,Raspberry Plantation (Mountains),Oak Plank,2
+3-09-R-RFM,Revolver Factory (Mountains),Oak Plank,16
+3-07-L-SWM,Salt Works (Mountains),Oak Plank,6
+3-03-W-SMM,Sand Mine (Mountains),Oak Plank,8
+3-00-P-SM,Sawmill (Mountains),Oak Plank,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Oak Plank,16
+3-10-T-SFM,Sleeper Factory (Mountains),Oak Plank,10
+3-08-C-SCM,Sluicing Camp (Mountains),Oak Plank,4
+3-11-S-SKM,Soup Kitchen (Mountains),Oak Plank,12
+3-07-H-SM,Stable (Mountains),Oak Plank,4
+3-03-SL-SM,Steakhouse (Mountains),Oak Plank,6
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Oak Plank,12
+3-09-S-SMM,Sulfur Mine (Mountains),Oak Plank,6
+3-11-C-TPM,Tobacco Plantation (Mountains),Oak Plank,10
+3-10-W-WFM,Watch Factory (Mountains),Oak Plank,20
+3-07-B-WMM,Water Mill (Mountains),Oak Plank,2
+3-00-W-WM,Well (Mountains),Oak Plank,1
+3-10-W-WDM,Whiskey Distillery (Mountains),Oak Plank,10
+3-09-R-AFM,Anchor Workshop,Plank,16
+1-04-A-AWM,Bakery,Plank,8
+3-06-SE-BFM,Boot Factory,Plank,16
+3-06-G-BSM,Brewery,Plank,4
+1-01-B-BM,Brick Factory,Plank,8
+1-00-P-BMM,Butchery,Plank,12
+3-07-FP-CM,Can Factory,Plank,8
+3-03-MC-CFM,Cannery,Plank,16
+3-11-CJ-CJKM,Cattle Farm,Plank,8
+1-04-CF-CFM,Cement Factory,Plank,16
+3-09-SE-CFM,Charcoal Kiln,Plank,2
+1-02-SB-CKM,Cheese Factory,Plank,16
+2-07-L-CFI,Clay Pit,Plank,4
+1-01-B-CPM,Coal Mine,Plank,6
+2-08-C-CRI,Concrete Factory,Plank,24
+2-07-T-CFI,Cotton Mill,Plank,8
+1-02-O-CMM,Cotton Plantation,Plank,8
+1-02-O-CPM,Cow Farm,Plank,6
+3-11-CJ-CFM,Curdling Factory,Plank,16
+3-10-T-DFM,Farm,Plank,4
+3-07-NH-FFM,Felt Workshop,Plank,8
+3-11-LB-FFM,Fishery,Plank,2
+2-06-FB-FBKI,Fur Factory,Plank,16
+1-02-O-FFM,Furnace,Plank,8
+1-06-G-GFM,Glassmakers,Plank,8
+2-08-H-HKI,Iron Mine,Plank,6
+1-07-KL-KLFM,Leather Workshop,Plank,16
+1-00-P-LMM,Limestone Quarry,Plank,12
+1-05-C-LQM,Linen Mill,Plank,16
+1-05-S-LMM,Linseed Farm,Plank,8
+1-05-S-LFM,Lumber Camp,Plank,2
+1-06-MP-MPBM,Milk Farm,Plank,16
+3-03-MC-MFM,Mill,Plank,4
+3-08-C-MM,Moonshine Factory,Plank,16
+2-08-O-OWI,Pig Farm,Plank,6
+3-02-S-PFM,Pillar,Plank,3
+2-00-P-PI,Potato Farm,Plank,6
+1-02-M-PFM,Promenade,Plank,50
+1-08-P-PM,Quarry,Plank,2
+3-07-FP-RPM,Red Pepper Farm,Plank,8
+3-09-R-RFM,Rope Workshop,Plank,8
+1-05-R-RDM,Sailmakers,Plank,8
+3-07-L-SWM,Sand Mine,Plank,8
+1-07-H-SFM,Sawmill,Plank,2
+3-09-S-SDM,Sewing Workshop,Plank,8
+1-06-SE-SMM,Sheep Farm,Plank,4
+1-01-C-SFM,Shipyard,Plank,8
+3-07-H-SM,Steakhouse,Plank,8
+3-03-SL-SM,Steam Clay Pit,Plank,8
+1-01-B-SCPM,Steam Coal Mine,Plank,12
+3-06-SE-SEFM,Steam Iron Mine,Plank,12
+1-02-SB-SIMM,Steam Limestone Quarry,Plank,32
+1-00-P-SMM,Steelworks,Plank,16
+1-02-SB-SM,Storage,Plank,1
+1-06-MP-SWM,Sugar Cane Plantation,Plank,12
+1-02-M-SCPM,Sugar Refinery,Plank,16
+3-09-S-SMM,Tailor's Shop,Plank,16
+1-05-S-TSM,Tannery,Plank,8
+2-07-T-TKI,Vineyard,Plank,8
+3-07-B-WMM,Well,Plank,2
+3-10-W-WDM,Window Makers,Plank,16
+1-03-W-WMM,Winery,Plank,16
+1-04-W-WM,World Exhibition,Plank,200
+3-03-SL-SM,Steam Clay Pit,Steam Engine,2
+1-01-B-SCPM,Steam Coal Mine,Steam Engine,2
+1-02-SB-SCMM,Steam Copper Mine,Steam Engine,2
+3-06-SE-SEFM,Steam Iron Mine,Steam Engine,2
+1-02-SB-SIMM,Steam Limestone Quarry,Steam Engine,2
+2-01-B-SCPI,Steam Clay Pit (Islands),Steam Engine,2
+2-05-C-SLQI,Steam Limestone Quarry (Islands),Steam Engine,2
+3-09-R-AFM,Anchor Workshop,Steel Beams,12
+3-10-BP-BFM,Boiler Factory,Steel Beams,20
+3-06-SE-BFM,Boot Factory,Steel Beams,12
+1-04-B-BFM,Brass Smeltery,Steel Beams,12
+3-07-FP-CM,Can Factory,Steel Beams,2
+3-03-MC-CFM,Cannery,Steel Beams,12
+1-04-CF-CFM,Cement Factory,Steel Beams,12
+1-02-SB-CKM,Cheese Factory,Steel Beams,12
+1-05-C-CFM,Chocolate Factory,Steel Beams,20
+2-08-C-CRI,Concrete Factory,Steel Beams,20
+1-05-C-CFM,Copper Mine,Steel Beams,12
+3-11-CJ-CFM,Curdling Factory,Steel Beams,12
+3-09-SE-GFM,Glasses Factory,Steel Beams,20
+1-06-G-GFM,Glassmakers,Steel Beams,2
+2-08-H-GPFI,Hat Fabric,Steel Beams,20
+3-02-SB-IMM,Kerosene Factory,Steel Beams,20
+1-07-KL-KFM,Kerosene Lamp Factory,Steel Beams,30
+1-07-KL-KLFM,Leather Workshop,Steel Beams,16
+1-05-C-LQM,Linen Mill,Steel Beams,12
+3-11-C-MWM,Meat Pie Bakery,Steel Beams,12
+1-06-MP-MPBM,Milk Farm,Steel Beams,16
+1-02-P-PM,Pipe Mill,Steel Beams,12
+1-02-M-PFM,Promenade,Steel Beams,30
+1-04-R-RWM,Rum Distillery,Steel Beams,20
+3-03-W-SMM,Satin Fabric,Steel Beams,12
+1-01-C-SWM,Sheave Manufactory,Steel Beams,20
+3-11-S-SKM,Square,Steel Beams,25
+3-07-H-SM,Steakhouse,Steel Beams,2
+1-02-SB-SCMM,Steam Copper Mine,Steel Beams,24
+1-06-G-SCMM,Steam Engine Factory,Steel Beams,30
+1-00-S-SM,Stuffing Workshop,Steel Beams,12
+1-02-M-SCPM,Sugar Refinery,Steel Beams,12
+3-09-S-SMM,Tailor's Shop,Steel Beams,12
+1-05-S-TSM,Tannery,Steel Beams,2
+3-10-W-WDM,Window Makers,Steel Beams,16
+1-03-W-WMM,Winery,Steel Beams,12
+1-04-W-WM,World Exhibition,Steel Beams,30
+2-06-P-AFI,Alpaca Farm (Islands),Stone,3
+3-09-R-AFM,Ammo Factory (Mountains),Stone,9
+1-04-A-AWM,Bakery,Stone,6
+3-06-G-BSM,Brewery,Stone,3
+1-01-B-BM,Brick Factory,Stone,6
+3-07-FP-CM,Can Factory,Stone,4
+3-09-SE-CFM,Charcoal Kiln,Stone,1
+2-07-L-CFI,Clay Pit,Stone,3
+1-01-B-CPM,Coal Mine,Stone,5
+2-07-T-CFI,Cotton Mill,Stone,7
+1-02-O-CMM,Cotton Plantation,Stone,7
+3-10-T-DFM,Farm,Stone,3
+3-07-NH-FFM,Felt Workshop,Stone,7
+2-06-FB-FBKI,Fur Factory,Stone,12
+1-02-O-FFM,Furnace,Stone,7
+1-06-G-GFM,Glassmakers,Stone,4
+2-08-H-HKI,Iron Mine,Stone,5
+1-07-KL-KLFM,Leather Workshop,Stone,14
+1-00-P-LMM,Limestone Quarry,Stone,11
+1-06-MP-MPBM,Milk Farm,Stone,14
+3-03-MC-MFM,Mill,Stone,3
+3-08-C-MM,Moonshine Factory,Stone,14
+2-08-O-OWI,Pig Farm,Stone,5
+3-02-S-PFM,Pillar,Stone,1
+2-00-P-PI,Potato Farm,Stone,5
+1-02-M-PFM,Promenade,Stone,125
+3-07-L-SWM,Sand Mine,Stone,7
+1-07-H-SFM,Sawmill,Stone,1
+3-09-S-SDM,Sewing Workshop,Stone,6
+1-06-SE-SMM,Sheep Farm,Stone,3
+3-11-S-SKM,Square,Stone,225
+3-07-H-SM,Steakhouse,Stone,4
+3-03-SL-SM,Steam Clay Pit,Stone,6
+1-01-B-SCPM,Steam Coal Mine,Stone,10
+3-06-SE-SEFM,Steam Iron Mine,Stone,10
+1-02-SB-SIMM,Steam Limestone Quarry,Stone,22
+1-00-P-SMM,Steelworks,Stone,12
+1-05-S-TSM,Tannery,Stone,4
+1-04-W-WM,World Exhibition,Stone,150
+2-05-T-BFI,Bamboo Factory (Islands),Stone,1
+2-06-FB-BFI,Banana Farm (Islands),Stone,3
+2-01-B-BFI,Brick Factory (Islands),Stone,16
+2-06-C-CFI,Caoutchouc Farm (Islands),Stone,3
+2-04-CF-CFI,Cattle Farm (Islands),Stone,8
+2-07-L-CFI,Citrus Farm (Islands),Stone,8
+2-01-B-CPI,Clay Pit (Islands),Stone,8
+2-06-FB-CPI,Cocoa Plantation (Islands),Stone,3
+2-08-C-CPI,Coffee Plantation (Islands),Stone,8
+2-08-C-CRI,Coffee Roaster (Islands),Stone,16
+2-07-T-CFI,Corn Farm (Islands),Stone,8
+2-02-O-CMI,Cotton Mill (Islands),Stone,16
+2-02-O-CPI,Cotton Plantation (Islands),Stone,8
+2-02-O-FWI,Felt Workshop (Islands),Stone,16
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Stone,8
+2-02-O-FFI,Fur Factory (Islands),Stone,24
+2-08-H-GPFI,Green Pepper Farm (Islands),Stone,8
+2-08-H-HKI,Humitas Kitchen (Islands),Stone,16
+2-07-L-LFI,Lemonade Factory (Islands),Stone,24
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Stone,16
+2-05-C-LQI,Limestone Quarry (Islands),Stone,8
+2-08-O-OWI,Oil Well (Islands),Stone,8
+2-06-P-PDI,Poncho Darner (Islands),Stone,8
+2-04-R-RWI,Rope Workshop (Islands),Stone,4
+2-05-R-RDI,Rum Distillery (Islands),Stone,8
+2-07-L-SWI,Salt Works (Islands),Stone,8
+2-03-W-SMI,Sand Mine (Islands),Stone,8
+2-01-C-SWI,Sewing Workshop (Islands),Stone,16
+2-01-C-SFI,Sheep Farm (Islands),Stone,8
+2-05-B-SI,Shipyard (Islands),Stone,4
+2-01-B-SCPI,Steam Clay Pit (Islands),Stone,16
+2-05-C-SLQI,Steam Limestone Quarry (Islands),Stone,16
+2-02-M-SCPI,Sugar Cane Plantation (Islands),Stone,3
+2-07-C-SRI,Sugar Refinery (Islands),Stone,16
+2-07-T-TKI,Tortilla Kitchen (Islands),Stone,16
+3-01-B-BM,Bakery (Mountains),Stone,6
+4-01-B-BO,Bakery (Other),Stone,11
+3-12-B-BM,Bank (Mountains),Stone,65
+3-07-B-BFM,Barley Farm (Mountains),Stone,3
+3-09-S-BFM,Barrel Factory (Mountains),Stone,9
+3-10-BP-BFM,Bean Farm (Mountains),Stone,9
+3-06-SE-BFM,Boiler Factory (Mountains),Stone,7
+3-06-G-BSM,Brass Smeltery (Mountains),Stone,7
+3-02-S-BM,Butchery (Mountains),Stone,9
+3-07-FP-CM,Cafeteria (Mountains),Stone,6
+3-03-MC-CFM,Can Factory (Mountains),Stone,7
+3-11-S-CFM,Carrot Farm (Mountains),Stone,11
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Stone,26
+3-09-SE-CFM,Chain Factory (Mountains),Stone,7
+3-11-C-CFM,Cigar Factory (Mountains),Stone,26
+3-02-SB-CMM,Coal Mine (Mountains),Stone,3
+3-06-G-CMM,Copper Mine (Mountains),Stone,5
+3-07-FP-CPM,Cranberry Plantation (Mountains),Stone,3
+3-11-CJ-CFM,Crockery Factory (Mountains),Stone,13
+3-10-T-DM,Depot (Mountains),Stone,22
+3-10-T-DFM,Dynamite Factory (Mountains),Stone,9
+3-07-NH-FFM,Fastener Factory (Mountains),Stone,12
+3-11-LB-FFM,Filament Factory (Mountains),Stone,13
+3-02-SB-FM,Furnace (Mountains),Stone,6
+4-02-SB-FO,Furnace (Other),Stone,7
+3-09-SE-GFM,Gear Factory (Mountains),Stone,7
+3-03-W-GM,Glassmakers (Mountains),Stone,11
+3-08-S-GFM,Goat Farm (Mountains),Stone,5
+3-08-C-GMM,Gold Mine (Mountains),Stone,9
+3-07-H-HFM,Horse Farm (Mountains),Stone,3
+3-02-SB-IMM,Iron Mine (Mountains),Stone,3
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Stone,26
+3-11-C-MWM,Marquetry Workshop (Mountains),Stone,13
+3-03-MC-MFM,Milk Farm (Mountains),Stone,14
+3-08-C-MM,Mint (Mountains),Stone,14
+3-02-S-PFM,Pig Farm (Mountains),Stone,7
+3-10-T-RFM,Rail Factory (Mountains),Stone,11
+3-07-FP-RPM,Raspberry Plantation (Mountains),Stone,3
+3-09-R-RFM,Revolver Factory (Mountains),Stone,18
+3-07-L-SWM,Salt Works (Mountains),Stone,7
+3-03-W-SMM,Sand Mine (Mountains),Stone,9
+3-00-P-SM,Sawmill (Mountains),Stone,1
+3-09-S-SDM,Schnapps Distillery (Mountains),Stone,18
+3-10-T-SFM,Sleeper Factory (Mountains),Stone,11
+3-08-C-SCM,Sluicing Camp (Mountains),Stone,5
+3-11-S-SKM,Soup Kitchen (Mountains),Stone,13
+3-07-H-SM,Stable (Mountains),Stone,6
+3-03-SL-SM,Steakhouse (Mountains),Stone,7
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Stone,14
+3-09-S-SMM,Sulfur Mine (Mountains),Stone,7
+3-11-C-TPM,Tobacco Plantation (Mountains),Stone,11
+3-10-W-WFM,Watch Factory (Mountains),Stone,22
+3-07-B-WMM,Water Mill (Mountains),Stone,3
+3-10-W-WDM,Whiskey Distillery (Mountains),Stone,11
+2-06-P-AFI,Alpaca Farm (Islands),Timber,8
+2-05-T-BFI,Bamboo Factory (Islands),Timber,4
+2-05-T-BPI,Bamboo Plantation (Islands),Timber,4
+2-06-FB-BFI,Banana Farm (Islands),Timber,8
+2-01-B-BFI,Brick Factory (Islands),Timber,32
+2-06-C-CFI,Caoutchouc Farm (Islands),Timber,8
+2-04-CF-CFI,Cattle Farm (Islands),Timber,16
+2-07-L-CFI,Citrus Farm (Islands),Timber,16
+2-01-B-CPI,Clay Pit (Islands),Timber,16
+2-06-FB-CPI,Cocoa Plantation (Islands),Timber,8
+2-08-C-CPI,Coffee Plantation (Islands),Timber,16
+2-08-C-CRI,Coffee Roaster (Islands),Timber,32
+2-07-T-CFI,Corn Farm (Islands),Timber,16
+2-02-O-CMI,Cotton Mill (Islands),Timber,32
+2-02-O-CPI,Cotton Plantation (Islands),Timber,16
+2-02-O-FWI,Felt Workshop (Islands),Timber,32
+2-00-F-FI,Fishery (Islands),Timber,4
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Timber,16
+2-02-O-FFI,Fur Factory (Islands),Timber,48
+2-08-H-GPFI,Green Pepper Farm (Islands),Timber,16
+2-08-H-HKI,Humitas Kitchen (Islands),Timber,32
+2-07-L-LFI,Lemonade Factory (Islands),Timber,48
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Timber,32
+2-05-C-LQI,Limestone Quarry (Islands),Timber,16
+2-08-O-OWI,Oil Well (Islands),Timber,16
+2-06-P-PDI,Poncho Darner (Islands),Timber,16
+2-00-S-QI,Quarry (Islands),Timber,4
+2-04-R-RWI,Rope Workshop (Islands),Timber,8
+2-05-R-RDI,Rum Distillery (Islands),Timber,16
+2-07-L-SWI,Salt Works (Islands),Timber,16
+2-03-W-SMI,Sand Mine (Islands),Timber,16
+2-01-C-SWI,Sewing Workshop (Islands),Timber,32
+2-01-C-SFI,Sheep Farm (Islands),Timber,16
+2-05-B-SI,Shipyard (Islands),Timber,8
+2-01-B-SCPI,Steam Clay Pit (Islands),Timber,32
+2-05-C-SLQI,Steam Limestone Quarry (Islands),Timber,32
+2-02-M-SCPI,Sugar Cane Plantation (Islands),Timber,8
+2-07-C-SRI,Sugar Refinery (Islands),Timber,32
+2-07-T-TKI,Tortilla Kitchen (Islands),Timber,32
+2-00-W-WI,Well (Islands),Timber,4
+3-09-R-AFM,Anchor Workshop,Windows,8
+3-10-BP-BFM,Boiler Factory,Windows,18
+3-06-SE-BFM,Boot Factory,Windows,8
+1-04-B-BFM,Brass Smeltery,Windows,8
+3-03-MC-CFM,Cannery,Windows,8
+3-11-CJ-CJKM,Cattle Farm,Windows,4
+1-04-CF-CFM,Cement Factory,Windows,8
+1-02-SB-CKM,Cheese Factory,Windows,8
+1-05-C-CFM,Chocolate Factory,Windows,18
+2-08-C-CRI,Concrete Factory,Windows,18
+1-05-C-CFM,Copper Mine,Windows,8
+3-11-CJ-CFM,Curdling Factory,Windows,8
+3-09-SE-GFM,Glasses Factory,Windows,18
+2-08-H-GPFI,Hat Fabric,Windows,18
+3-02-SB-IMM,Kerosene Factory,Windows,18
+1-07-KL-KFM,Kerosene Lamp Factory,Windows,28
+1-05-C-LQM,Linen Mill,Windows,8
+1-05-S-LMM,Linseed Farm,Windows,4
+3-11-C-MWM,Meat Pie Bakery,Windows,8
+1-02-P-PM,Pipe Mill,Windows,8
+3-07-FP-RPM,Red Pepper Farm,Windows,4
+3-09-R-RFM,Rope Workshop,Windows,4
+1-04-R-RWM,Rum Distillery,Windows,18
+1-05-R-RDM,Sailmakers,Windows,4
+3-03-W-SMM,Satin Fabric,Windows,8
+1-01-C-SWM,Sheave Manufactory,Windows,18
+1-01-C-SFM,Shipyard,Windows,4
+1-02-SB-SCMM,Steam Copper Mine,Windows,16
+1-06-G-SCMM,Steam Engine Factory,Windows,28
+1-00-S-SM,Stuffing Workshop,Windows,8
+1-02-M-SCPM,Sugar Refinery,Windows,8
+3-09-S-SMM,Tailor's Shop,Windows,8
+2-07-T-TKI,Vineyard,Windows,4
+1-03-W-WMM,Winery,Windows,8
+1-04-W-WM,World Exhibition,Windows,20

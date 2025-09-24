@@ -1,0 +1,198 @@
+{% extends "base.html" %}
+
+{% block title %}{{ flow.resource_name }} - Resource Flow - Masterplan Tycoon{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Home</a></li>
+        <li class="breadcrumb-item active">{{ flow.resource_name }} Flow</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <h2 class="mb-0">
+                    <i class="fas fa-project-diagram text-info"></i>
+                    {{ flow.resource_name }} Resource Flow
+                </h2>
+            </div>
+            <div class="card-body">
+                <p class="text-muted">
+                    Complete overview of how <strong>{{ flow.resource_name }}</strong> is produced and consumed across all regions.
+                </p>
+            </div>
+        </div>
+
+        <!-- Producers -->
+        {% if flow.producers %}
+        <div class="card mt-4">
+            <div class="card-header bg-success text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-arrow-up"></i> Producers ({{ flow.producers|length }})
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for producer in flow.producers %}
+                    <div class="col-md-6 mb-3">
+                        <div class="card border-success">
+                            <div class="card-body">
+                                <h6 class="card-title">{{ producer.building_name }}</h6>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="fas fa-map-marker-alt"></i> {{ producer.plan_name }}
+                                    </small>
+                                    <br>
+                                    <strong>Output:</strong> {{ producer.quantity }} per cycle
+                                    {% if producer.production_time %}
+                                    <br>
+                                    <strong>Cycle Time:</strong> {{ producer.production_time }}s
+                                    <br>
+                                    <span class="production-rate">
+                                        <strong>Rate:</strong> {{ "%.2f"|format(producer.rate_per_minute) }}/min
+                                    </span>
+                                    {% endif %}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Consumers -->
+        {% if flow.consumers %}
+        <div class="card mt-4">
+            <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0">
+                    <i class="fas fa-arrow-down"></i> Consumers ({{ flow.consumers|length }})
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for consumer in flow.consumers %}
+                    <div class="col-md-6 mb-3">
+                        <div class="card border-warning">
+                            <div class="card-body">
+                                <h6 class="card-title">{{ consumer.building_name }}</h6>
+                                <p class="card-text">
+                                    <small class="text-muted">
+                                        <i class="fas fa-map-marker-alt"></i> {{ consumer.plan_name }}
+                                    </small>
+                                    <br>
+                                    <strong>Usage:</strong> {{ consumer.quantity }} per 
+                                    {% if consumer.usage_type == 'input' %}
+                                        production cycle
+                                    {% elif consumer.usage_type == 'construction' %}
+                                        building
+                                    {% elif consumer.usage_type == 'maintenance' %}
+                                        maintenance cycle
+                                    {% endif %}
+                                    <br>
+                                    <span class="badge bg-info">{{ consumer.usage_type }}</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        {% if not flow.producers and not flow.consumers %}
+        <div class="alert alert-warning mt-4">
+            <i class="fas fa-exclamation-triangle"></i>
+            No production or consumption data found for <strong>{{ flow.resource_name }}</strong>.
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+        <div class="card sticky-top">
+            <div class="card-header">
+                <h5><i class="fas fa-chart-pie"></i> Resource Analysis</h5>
+            </div>
+            <div class="card-body">
+                {% if flow.producers %}
+                <div class="mb-4">
+                    <h6 class="text-success">Production Summary</h6>
+                    <ul class="list-unstyled small">
+                        <li><strong>Total Producers:</strong> {{ flow.producers|length }}</li>
+                        {% set total_rate = flow.producers|sum(attribute='rate_per_minute') %}
+                        <li><strong>Max Production Rate:</strong> {{ "%.2f"|format(total_rate) }}/min</li>
+                        <li><strong>Regions:</strong> 
+                            {% set regions = flow.producers|map(attribute='plan_name')|unique|list %}
+                            {{ regions|join(', ') }}
+                        </li>
+                    </ul>
+                </div>
+                {% endif %}
+
+                {% if flow.consumers %}
+                <div class="mb-4">
+                    <h6 class="text-warning">Consumption Summary</h6>
+                    <ul class="list-unstyled small">
+                        <li><strong>Total Consumers:</strong> {{ flow.consumers|length }}</li>
+                        {% set input_consumers = flow.consumers|selectattr('usage_type', 'equalto', 'input')|list %}
+                        {% if input_consumers %}
+                        <li><strong>Production Uses:</strong> {{ input_consumers|length }}</li>
+                        {% endif %}
+                        {% set construction_consumers = flow.consumers|selectattr('usage_type', 'equalto', 'construction')|list %}
+                        {% if construction_consumers %}
+                        <li><strong>Construction Uses:</strong> {{ construction_consumers|length }}</li>
+                        {% endif %}
+                        {% set maintenance_consumers = flow.consumers|selectattr('usage_type', 'equalto', 'maintenance')|list %}
+                        {% if maintenance_consumers %}
+                        <li><strong>Maintenance Uses:</strong> {{ maintenance_consumers|length }}</li>
+                        {% endif %}
+                    </ul>
+                </div>
+                {% endif %}
+
+                <div class="mb-3">
+                    <h6>Quick Actions</h6>
+                    <div class="d-grid gap-2">
+                        <button class="btn btn-outline-primary btn-sm" onclick="showOptimalRatios()">
+                            <i class="fas fa-calculator"></i> Calculate Optimal Ratios
+                        </button>
+                        <button class="btn btn-outline-success btn-sm" onclick="exportData()">
+                            <i class="fas fa-download"></i> Export Flow Data
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function showOptimalRatios() {
+    alert('Production ratio calculator coming soon! This will show optimal building ratios for {{ flow.resource_name }}.');
+}
+
+function exportData() {
+    const data = {
+        resource: '{{ flow.resource_name }}',
+        producers: {{ flow.producers|tojson }},
+        consumers: {{ flow.consumers|tojson }}
+    };
+    
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = '{{ flow.resource_name }}_flow_data.json';
+    a.click();
+    URL.revokeObjectURL(url);
+}
+</script>
+{% endblock %}

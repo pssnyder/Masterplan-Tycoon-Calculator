@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+
+{% block title %}Masterplan Tycoon Database - Home{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div class="col-lg-8">
+        <div class="jumbotron bg-light rounded p-4 mb-4">
+            <h1 class="display-4">
+                <i class="fas fa-industry text-primary"></i>
+                Welcome to the Masterplan Tycoon Database
+            </h1>
+            <p class="lead">
+                A comprehensive database and analysis tool for Masterplan Tycoon game data.
+                Compare building specifications, validate data accuracy, and optimize production chains.
+            </p>
+            <hr class="my-4">
+            <p>
+                This tool contains detailed information about all buildings, resources, and production chains 
+                across all game regions. Use it to verify your in-game data and plan efficient setups.
+            </p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-search fa-3x text-primary mb-3"></i>
+                        <h5 class="card-title">Search Buildings</h5>
+                        <p class="card-text">Find buildings by name, category, or function</p>
+                        <a href="{{ url_for('search') }}" class="btn btn-primary">
+                            <i class="fas fa-search"></i> Search Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-calculator fa-3x text-success mb-3"></i>
+                        <h5 class="card-title">Production Calculator</h5>
+                        <p class="card-text">Calculate optimal production chains and ratios</p>
+                        <a href="{{ url_for('calculator') }}" class="btn btn-success">
+                            <i class="fas fa-calculator"></i> Calculate
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-database fa-3x text-info mb-3"></i>
+                        <h5 class="card-title">Browse Data</h5>
+                        <p class="card-text">Explore all buildings organized by region</p>
+                        <div class="dropdown">
+                            <button class="btn btn-info dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <i class="fas fa-database"></i> Browse
+                            </button>
+                            <ul class="dropdown-menu">
+                                {% for plan in plans %}
+                                <li>
+                                    <a class="dropdown-item" href="{{ url_for('plan_buildings', plan_name=plan.name) }}">
+                                        <i class="fas fa-map-marker-alt"></i> {{ plan.name }}
+                                    </a>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card">
+            <div class="card-header">
+                <h5><i class="fas fa-map-marked-alt"></i> Game Regions</h5>
+            </div>
+            <div class="card-body">
+                {% for plan in plans %}
+                <div class="mb-3">
+                    <h6>
+                        <a href="{{ url_for('plan_buildings', plan_name=plan.name) }}" class="text-decoration-none">
+                            <i class="fas fa-map-marker-alt text-primary"></i> {{ plan.name }}
+                        </a>
+                    </h6>
+                    <p class="text-muted small mb-2">{{ plan.description }}</p>
+                    <a href="{{ url_for('plan_buildings', plan_name=plan.name) }}" class="btn btn-sm btn-outline-primary">
+                        View Buildings <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                {% if not loop.last %}<hr>{% endif %}
+                {% endfor %}
+            </div>
+        </div>
+
+        <div class="card mt-4">
+            <div class="card-header">
+                <h5><i class="fas fa-info-circle"></i> Features</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-unstyled">
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Complete building database with all tiers
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Resource production and consumption tracking
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Construction and maintenance requirements
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Dependency chain analysis
+                    </li>
+                    <li class="mb-2">
+                        <i class="fas fa-check text-success"></i>
+                        Cross-region data comparison
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

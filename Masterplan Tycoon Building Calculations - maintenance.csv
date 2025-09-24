@@ -1,0 +1,461 @@
+buid,building,resource,resource_qty
+2-06-P-AFI,Alpaca Farm (Islands),Fish,1
+2-06-P-AFI,Alpaca Farm (Islands),Water,1
+2-05-T-BFI,Bamboo Factory (Islands),None,0
+2-05-T-BPI,Bamboo Plantation (Islands),None,0
+2-06-FB-BFI,Banana Farm (Islands),Fish,1
+2-06-FB-BFI,Banana Farm (Islands),Water,1
+2-01-B-BFI,Brick Factory (Islands),Rum,2
+2-01-B-BFI,Brick Factory (Islands),Fried Banana,2
+2-01-B-BFI,Brick Factory (Islands),Poncho,2
+2-06-C-CFI,Caoutchouc Farm (Islands),Rum,1
+2-06-C-CFI,Caoutchouc Farm (Islands),Fried Banana,1
+2-06-C-CFI,Caoutchouc Farm (Islands),Poncho,1
+2-04-CF-CFI,Cattle Farm (Islands),Rum,1
+2-04-CF-CFI,Cattle Farm (Islands),Fried Banana,1
+2-04-CF-CFI,Cattle Farm (Islands),Poncho,1
+2-07-L-CFI,Citrus Farm (Islands),Rum,1
+2-07-L-CFI,Citrus Farm (Islands),Fried Banana,1
+2-07-L-CFI,Citrus Farm (Islands),Poncho,1
+2-01-B-CPI,Clay Pit (Islands),Rum,1
+2-01-B-CPI,Clay Pit (Islands),Fried Banana,1
+2-01-B-CPI,Clay Pit (Islands),Poncho,1
+2-06-FB-CPI,Cocoa Plantation (Islands),Fish,1
+2-06-FB-CPI,Cocoa Plantation (Islands),Water,1
+2-08-C-CPI,Coffee Plantation (Islands),Clothes,1
+2-08-C-CPI,Coffee Plantation (Islands),Lemonade,1
+2-08-C-CPI,Coffee Plantation (Islands),Tortilla,1
+2-08-C-CRI,Coffee Roaster (Islands),Clothes,2
+2-08-C-CRI,Coffee Roaster (Islands),Lemonade,2
+2-08-C-CRI,Coffee Roaster (Islands),Tortilla,2
+2-07-T-CFI,Corn Farm (Islands),Rum,1
+2-07-T-CFI,Corn Farm (Islands),Fried Banana,1
+2-07-T-CFI,Corn Farm (Islands),Poncho,1
+2-02-O-CMI,Cotton Mill (Islands),Clothes,2
+2-02-O-CMI,Cotton Mill (Islands),Lemonade,2
+2-02-O-CMI,Cotton Mill (Islands),Tortilla,2
+2-02-O-CPI,Cotton Plantation (Islands),Rum,1
+2-02-O-CPI,Cotton Plantation (Islands),Fried Banana,1
+2-02-O-CPI,Cotton Plantation (Islands),Poncho,1
+2-02-O-FWI,Felt Workshop (Islands),Clothes,2
+2-02-O-FWI,Felt Workshop (Islands),Lemonade,2
+2-02-O-FWI,Felt Workshop (Islands),Tortilla,2
+2-00-F-FI,Fishery (Islands),None,0
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Fish,2
+2-06-FB-FBKI,Fried Banana Kitchen (Islands),Water,2
+2-02-O-FFI,Fur Factory (Islands),Clothes,2
+2-02-O-FFI,Fur Factory (Islands),Lemonade,2
+2-02-O-FFI,Fur Factory (Islands),Tortilla,2
+2-08-H-GPFI,Green Pepper Farm (Islands),Clothes,1
+2-08-H-GPFI,Green Pepper Farm (Islands),Lemonade,1
+2-08-H-GPFI,Green Pepper Farm (Islands),Tortilla,1
+2-08-H-HKI,Humitas Kitchen (Islands),Clothes,2
+2-08-H-HKI,Humitas Kitchen (Islands),Lemonade,2
+2-08-H-HKI,Humitas Kitchen (Islands),Tortilla,2
+2-07-L-LFI,Lemonade Factory (Islands),Rum,2
+2-07-L-LFI,Lemonade Factory (Islands),Fried Banana,2
+2-07-L-LFI,Lemonade Factory (Islands),Poncho,2
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Clothes,2
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Lemonade,2
+2-07-LP-LPFI,Lime Plaster Factory (Islands),Tortilla,2
+2-05-C-LQI,Limestone Quarry (Islands),Clothes,1
+2-05-C-LQI,Limestone Quarry (Islands),Lemonade,1
+2-05-C-LQI,Limestone Quarry (Islands),Tortilla,1
+2-08-O-OWI,Oil Well (Islands),Overalls,1
+2-08-O-OWI,Oil Well (Islands),Humatis,1
+2-08-O-OWI,Oil Well (Islands),Coffee,1
+3-02-S-PFM,Pillar (Islands),None,0
+2-06-P-PDI,Poncho Darner (Islands),Fish,2
+2-06-P-PDI,Poncho Darner (Islands),Water,2
+2-00-S-QI,Quarry (Islands),None,0
+2-04-R-RWI,Rope Workshop (Islands),Rum,1
+2-04-R-RWI,Rope Workshop (Islands),Fried Banana,1
+2-04-R-RWI,Rope Workshop (Islands),Poncho,1
+2-05-R-RDI,Rum Distillery (Islands),Fish,2
+2-05-R-RDI,Rum Distillery (Islands),Water,2
+2-07-L-SWI,Salt Works (Islands),Rum,1
+2-07-L-SWI,Salt Works (Islands),Fried Banana,1
+2-07-L-SWI,Salt Works (Islands),Poncho,1
+2-03-W-SMI,Sand Mine (Islands),Clothes,1
+2-03-W-SMI,Sand Mine (Islands),Lemonade,1
+2-03-W-SMI,Sand Mine (Islands),Tortilla,1
+2-01-C-SWI,Sewing Workshop (Islands),Rum,2
+2-01-C-SWI,Sewing Workshop (Islands),Fried Banana,2
+2-01-C-SWI,Sewing Workshop (Islands),Poncho,2
+2-01-C-SFI,Sheep Farm (Islands),Rum,1
+2-01-C-SFI,Sheep Farm (Islands),Fried Banana,1
+2-01-C-SFI,Sheep Farm (Islands),Poncho,1
+2-05-B-SI,Shipyard (Islands),Rum,2
+2-05-B-SI,Shipyard (Islands),Fried Banana,2
+2-05-B-SI,Shipyard (Islands),Poncho,2
+2-01-B-SCPI,Steam Clay Pit (Islands),Steam Engine,1
+2-05-C-SLQI,Steam Limestone Quarry (Islands),Steam Engine,1
+1-02-SB-SM,Storage (Islands),None,0
+2-02-M-SCPI,Sugar Cane Plantation (Islands),Fish,1
+2-02-M-SCPI,Sugar Cane Plantation (Islands),Water,1
+2-07-C-SRI,Sugar Refinery (Islands),Rum,2
+2-07-C-SRI,Sugar Refinery (Islands),Fried Banana,2
+2-07-C-SRI,Sugar Refinery (Islands),Poncho,2
+2-07-T-TKI,Tortilla Kitchen (Islands),Rum,2
+2-07-T-TKI,Tortilla Kitchen (Islands),Fried Banana,2
+2-07-T-TKI,Tortilla Kitchen (Islands),Poncho,2
+2-00-W-WI,Well (Islands),None,0
+3-09-R-AFM,Anchor Workshop,Canned Food,2
+3-09-R-AFM,Anchor Workshop,Wine,2
+3-09-R-AFM,Anchor Workshop,Boots,2
+1-04-A-AWM,Bakery,Fish,2
+1-04-A-AWM,Bakery,Water,2
+3-10-BP-BFM,Boiler Factory,Meat Pie,2
+3-10-BP-BFM,Boiler Factory,Lemonade,2
+3-10-BP-BFM,Boiler Factory,Glasses,2
+3-06-SE-BFM,Boot Factory,Steak,2
+3-06-SE-BFM,Boot Factory,Milk Can,2
+3-06-SE-BFM,Boot Factory,Vest,2
+1-04-B-BFM,Brass Smeltery,Cheese,2
+1-04-B-BFM,Brass Smeltery,Rum,2
+1-04-B-BFM,Brass Smeltery,Suits,2
+3-06-G-BSM,Brewery,Fish,2
+3-06-G-BSM,Brewery,Water,2
+1-01-B-BM,Brick Factory,Bread,2
+1-01-B-BM,Brick Factory,Beer,2
+1-01-B-BM,Brick Factory,Clothes,2
+1-00-P-BMM,Butchery,Bread,2
+1-00-P-BMM,Butchery,Beer,2
+1-00-P-BMM,Butchery,Clothes,2
+3-07-FP-CM,Can Factory,Sausages,2
+3-07-FP-CM,Can Factory,Moonshine,2
+3-07-FP-CM,Can Factory,Overalls,2
+3-03-MC-CFM,Cannery,Steak,2
+3-03-MC-CFM,Cannery,Milk Can,2
+3-03-MC-CFM,Cannery,Vest,2
+3-11-CJ-CJKM,Cattle Farm,Steak,1
+3-11-CJ-CJKM,Cattle Farm,Milk Can,1
+3-11-CJ-CJKM,Cattle Farm,Vest,1
+1-04-CF-CFM,Cement Factory,Cheese,2
+1-04-CF-CFM,Cement Factory,Rum,2
+1-04-CF-CFM,Cement Factory,Suits,2
+3-09-SE-CFM,Charcoal Kiln,None,0
+1-02-SB-CKM,Cheese Factory,Canned Food,2
+1-02-SB-CKM,Cheese Factory,Wine,2
+1-02-SB-CKM,Cheese Factory,Boots,2
+1-05-C-CFM,Chocolate Factory,Meat Pie,2
+1-05-C-CFM,Chocolate Factory,Lemonade,2
+1-05-C-CFM,Chocolate Factory,Glasses,2
+2-07-L-CFI,Clay Pit,Bread,1
+2-07-L-CFI,Clay Pit,Beer,1
+2-07-L-CFI,Clay Pit,Clothes,1
+1-01-B-CPM,Coal Mine,Sausages,1
+1-01-B-CPM,Coal Mine,Moonshine,1
+1-01-B-CPM,Coal Mine,Overalls,1
+2-08-C-CRI,Concrete Factory,Cheese,2
+2-08-C-CRI,Concrete Factory,Rum,2
+2-08-C-CRI,Concrete Factory,Suits,2
+1-05-C-CFM,Copper Mine,Cheese,1
+1-05-C-CFM,Copper Mine,Rum,1
+1-05-C-CFM,Copper Mine,Suits,1
+2-07-T-CFI,Cotton Mill,Bread,2
+2-07-T-CFI,Cotton Mill,Beer,2
+2-07-T-CFI,Cotton Mill,Clothes,2
+1-02-O-CMM,Cotton Plantation,Bread,1
+1-02-O-CMM,Cotton Plantation,Beer,1
+1-02-O-CMM,Cotton Plantation,Clothes,1
+1-02-O-CPM,Cow Farm,Sausages,1
+1-02-O-CPM,Cow Farm,Moonshine,1
+1-02-O-CPM,Cow Farm,Overalls,1
+3-11-CJ-CFM,Curdling Factory,Canned Food,2
+3-11-CJ-CFM,Curdling Factory,Wine,2
+3-11-CJ-CFM,Curdling Factory,Boots,2
+3-10-T-DFM,Farm,Fish,1
+3-10-T-DFM,Farm,Water,1
+3-07-NH-FFM,Felt Workshop,Bread,2
+3-07-NH-FFM,Felt Workshop,Beer,2
+3-07-NH-FFM,Felt Workshop,Clothes,2
+3-11-LB-FFM,Fishery,None,0
+2-06-FB-FBKI,Fur Factory,Bread,3
+2-06-FB-FBKI,Fur Factory,Beer,3
+2-06-FB-FBKI,Fur Factory,Clothes,3
+1-02-O-FFM,Furnace,Sausages,1
+1-02-O-FFM,Furnace,Moonshine,1
+1-02-O-FFM,Furnace,Overalls,1
+3-09-SE-GFM,Glasses Factory,Cheese,3
+3-09-SE-GFM,Glasses Factory,Rum,3
+3-09-SE-GFM,Glasses Factory,Suits,3
+1-06-G-GFM,Glassmakers,Steak,1
+1-06-G-GFM,Glassmakers,Milk Can,1
+1-06-G-GFM,Glassmakers,Vest,1
+2-08-H-GPFI,Hat Fabric,Meat Pie,2
+2-08-H-GPFI,Hat Fabric,Lemonade,2
+2-08-H-GPFI,Hat Fabric,Glasses,2
+2-08-H-HKI,Iron Mine,Sausages,1
+2-08-H-HKI,Iron Mine,Moonshine,1
+2-08-H-HKI,Iron Mine,Overalls,1
+3-02-SB-IMM,Kerosene Factory,Chocolate,1
+3-02-SB-IMM,Kerosene Factory,Coffee,1
+3-02-SB-IMM,Kerosene Factory,Hat,1
+1-07-KL-KFM,Kerosene Lamp Factory,Chocolate,2
+1-07-KL-KFM,Kerosene Lamp Factory,Coffee,2
+1-07-KL-KFM,Kerosene Lamp Factory,Hat,2
+1-07-KL-KLFM,Leather Workshop,Sausages,2
+1-07-KL-KLFM,Leather Workshop,Moonshine,2
+1-07-KL-KLFM,Leather Workshop,Overalls,2
+1-00-P-LMM,Limestone Quarry,Cheese,1
+1-00-P-LMM,Limestone Quarry,Rum,1
+1-00-P-LMM,Limestone Quarry,Suits,1
+1-05-C-LQM,Linen Mill,Canned Food,2
+1-05-C-LQM,Linen Mill,Wine,2
+1-05-C-LQM,Linen Mill,Boots,2
+1-05-S-LMM,Linseed Farm,Canned Food,1
+1-05-S-LMM,Linseed Farm,Wine,1
+1-05-S-LMM,Linseed Farm,Boots,1
+1-05-S-LFM,Lumber Camp,None,0
+3-11-C-MWM,Meat Pie Bakery,Cheese,2
+3-11-C-MWM,Meat Pie Bakery,Rum,2
+3-11-C-MWM,Meat Pie Bakery,Suits,2
+1-06-MP-MPBM,Milk Farm,Sausages,2
+1-06-MP-MPBM,Milk Farm,Moonshine,2
+1-06-MP-MPBM,Milk Farm,Overalls,2
+3-03-MC-MFM,Mill,Fish,2
+3-03-MC-MFM,Mill,Water,2
+3-08-C-MM,Moonshine Factory,Bread,3
+3-08-C-MM,Moonshine Factory,Beer,3
+3-08-C-MM,Moonshine Factory,Clothes,3
+2-08-O-OWI,Pig Farm,Bread,1
+2-08-O-OWI,Pig Farm,Beer,1
+2-08-O-OWI,Pig Farm,Clothes,1
+3-02-S-PFM,Pillar,None,0
+1-02-P-PM,Pipe Mill,Meat Pie,1
+1-02-P-PM,Pipe Mill,Lemonade,1
+1-02-P-PM,Pipe Mill,Glasses,1
+2-00-P-PI,Potato Farm,Bread,1
+2-00-P-PI,Potato Farm,Beer,1
+2-00-P-PI,Potato Farm,Clothes,1
+1-02-M-PFM,Promenade,None,0
+1-08-P-PM,Quarry,None,0
+3-07-FP-RPM,Red Pepper Farm,Steak,1
+3-07-FP-RPM,Red Pepper Farm,Milk Can,1
+3-07-FP-RPM,Red Pepper Farm,Vest,1
+3-09-R-RFM,Rope Workshop,Canned Food,1
+3-09-R-RFM,Rope Workshop,Wine,1
+3-09-R-RFM,Rope Workshop,Boots,1
+1-04-R-RWM,Rum Distillery,Canned Food,2
+1-04-R-RWM,Rum Distillery,Wine,2
+1-04-R-RWM,Rum Distillery,Boots,2
+1-05-R-RDM,Sailmakers,Canned Food,2
+1-05-R-RDM,Sailmakers,Wine,2
+1-05-R-RDM,Sailmakers,Boots,2
+3-07-L-SWM,Sand Mine,Steak,1
+3-07-L-SWM,Sand Mine,Milk Can,1
+3-07-L-SWM,Sand Mine,Vest,1
+3-03-W-SMM,Satin Fabric,Meat Pie,1
+3-03-W-SMM,Satin Fabric,Lemonade,1
+3-03-W-SMM,Satin Fabric,Glasses,1
+1-07-H-SFM,Sawmill,None,0
+3-09-S-SDM,Sewing Workshop,Fish,2
+3-09-S-SDM,Sewing Workshop,Water,2
+1-01-C-SWM,Sheave Manufactory,Meat Pie,2
+1-01-C-SWM,Sheave Manufactory,Lemonade,2
+1-01-C-SWM,Sheave Manufactory,Glasses,2
+1-06-SE-SMM,Sheep Farm,Fish,1
+1-06-SE-SMM,Sheep Farm,Water,1
+1-01-C-SFM,Shipyard,None,0
+3-11-S-SKM,Square,None,0
+3-07-H-SM,Steakhouse,Sausages,2
+3-07-H-SM,Steakhouse,Moonshine,2
+3-07-H-SM,Steakhouse,Overalls,2
+3-03-SL-SM,Steam Clay Pit,Steam Engine,1
+1-01-B-SCPM,Steam Coal Mine,Steam Engine,1
+1-02-SB-SCMM,Steam Copper Mine,Steam Engine,1
+1-06-G-SCMM,Steam Engine Factory,Meat Pie,2
+1-06-G-SCMM,Steam Engine Factory,Lemonade,2
+1-06-G-SCMM,Steam Engine Factory,Glasses,2
+3-06-SE-SEFM,Steam Iron Mine,Steam Engine,1
+1-02-SB-SIMM,Steam Limestone Quarry,Steam Engine,1
+1-00-P-SMM,Steelworks,Sausages,2
+1-00-P-SMM,Steelworks,Moonshine,2
+1-00-P-SMM,Steelworks,Overalls,2
+1-02-SB-SM,Storage,None,0
+1-00-S-SM,Stuffing Workshop,Cheese,2
+1-00-S-SM,Stuffing Workshop,Rum,2
+1-00-S-SM,Stuffing Workshop,Suits,2
+1-06-MP-SWM,Sugar Cane Plantation,Bread,1
+1-06-MP-SWM,Sugar Cane Plantation,Beer,1
+1-06-MP-SWM,Sugar Cane Plantation,Clothes,1
+1-02-M-SCPM,Sugar Refinery,Meat Pie,1
+1-02-M-SCPM,Sugar Refinery,Lemonade,1
+1-02-M-SCPM,Sugar Refinery,Glasses,1
+3-09-S-SMM,Tailor's Shop,Canned Food,2
+3-09-S-SMM,Tailor's Shop,Wine,2
+3-09-S-SMM,Tailor's Shop,Boots,2
+1-05-S-TSM,Tannery,Sausages,1
+1-05-S-TSM,Tannery,Moonshine,1
+1-05-S-TSM,Tannery,Overalls,1
+2-07-T-TKI,Vineyard,Steak,1
+2-07-T-TKI,Vineyard,Milk Can,1
+2-07-T-TKI,Vineyard,Vest,1
+3-07-B-WMM,Well,None,0
+3-10-W-WDM,Window Makers,Steak,2
+3-10-W-WDM,Window Makers,Milk Can,2
+3-10-W-WDM,Window Makers,Vest,2
+1-03-W-WMM,Winery,Steak,2
+1-03-W-WMM,Winery,Milk Can,2
+1-03-W-WMM,Winery,Vest,2
+1-04-W-WM,World Exhibition,None,0
+3-09-R-AFM,Ammo Factory (Mountains),Steak,1
+3-09-R-AFM,Ammo Factory (Mountains),Milk Can,1
+3-09-R-AFM,Ammo Factory (Mountains),Coin,1
+3-01-B-BM,Bakery (Mountains),Fish,2
+3-01-B-BM,Bakery (Mountains),Water,2
+1-04-A-AWM,Bakery  (Other),Sausages,2
+1-04-A-AWM,Bakery  (Other),Schnapps,2
+1-04-A-AWM,Bakery  (Other),Revolver,2
+3-12-B-BM,Bank (Mountains),None,0
+3-07-B-BFM,Barley Farm (Mountains),Fish,1
+3-07-B-BFM,Barley Farm (Mountains),Water,1
+3-09-S-BFM,Barrel Factory (Mountains),Steak,1
+3-09-S-BFM,Barrel Factory (Mountains),Milk Can,1
+3-09-S-BFM,Barrel Factory (Mountains),Coin,1
+3-10-BP-BFM,Bean Farm (Mountains),Sausages,1
+3-10-BP-BFM,Bean Farm (Mountains),Schnapps,1
+3-10-BP-BFM,Bean Farm (Mountains),Revolver,1
+3-06-SE-BFM,Boiler Factory (Mountains),Steak,1
+3-06-SE-BFM,Boiler Factory (Mountains),Milk Can,1
+3-06-SE-BFM,Boiler Factory (Mountains),Coin,1
+3-06-G-BSM,Brass Smeltery (Mountains),Steak,1
+3-06-G-BSM,Brass Smeltery (Mountains),Milk Can,1
+3-06-G-BSM,Brass Smeltery (Mountains),Coin,1
+3-02-S-BM,Butchery (Mountains),Steak,2
+3-02-S-BM,Butchery (Mountains),Milk Can,2
+3-02-S-BM,Butchery (Mountains),Coin,2
+3-07-FP-CM,Cafeteria (Mountains),Fish,2
+3-07-FP-CM,Cafeteria (Mountains),Water,2
+3-03-MC-CFM,Can Factory (Mountains),Bread,2
+3-03-MC-CFM,Can Factory (Mountains),Fruit Punch,2
+3-03-MC-CFM,Can Factory (Mountains),Horse,2
+3-11-S-CFM,Carrot Farm (Mountains),Bean Pie,1
+3-11-S-CFM,Carrot Farm (Mountains),Whiskey,1
+3-11-S-CFM,Carrot Farm (Mountains),Watch,1
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Bean Pie,2
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Whiskey,2
+3-11-CJ-CJKM,Carrot Juice Kitchen (Mountains),Watch,2
+3-09-SE-CFM,Chain Factory (Mountains),Sausages,1
+3-09-SE-CFM,Chain Factory (Mountains),Schnapps,1
+3-09-SE-CFM,Chain Factory (Mountains),Revolver,1
+3-11-C-CFM,Cigar Factory (Mountains),Bean Pie,2
+3-11-C-CFM,Cigar Factory (Mountains),Whiskey,2
+3-11-C-CFM,Cigar Factory (Mountains),Watch,2
+3-02-SB-CMM,Coal Mine (Mountains),Bread,1
+3-02-SB-CMM,Coal Mine (Mountains),Fruit Punch,1
+3-02-SB-CMM,Coal Mine (Mountains),Horse,1
+3-06-G-CMM,Copper Mine (Mountains),Steak,1
+3-06-G-CMM,Copper Mine (Mountains),Milk Can,1
+3-06-G-CMM,Copper Mine (Mountains),Coin,1
+3-07-FP-CPM,Cranberry Plantation (Mountains),Fish,1
+3-07-FP-CPM,Cranberry Plantation (Mountains),Water,1
+3-11-CJ-CFM,Crockery Factory (Mountains),Bean Pie,1
+3-11-CJ-CFM,Crockery Factory (Mountains),Whiskey,1
+3-11-CJ-CFM,Crockery Factory (Mountains),Watch,1
+3-10-T-DM,Depot (Mountains),Bean Pie,3
+3-10-T-DM,Depot (Mountains),Whiskey,3
+3-10-T-DM,Depot (Mountains),Watch,3
+3-10-T-DFM,Dynamite Factory (Mountains),Bean Pie,2
+3-10-T-DFM,Dynamite Factory (Mountains),Whiskey,2
+3-10-T-DFM,Dynamite Factory (Mountains),Watch,2
+3-07-NH-FFM,Fastener Factory (Mountains),Bread,2
+3-07-NH-FFM,Fastener Factory (Mountains),Fruit Punch,2
+3-07-NH-FFM,Fastener Factory (Mountains),Horse,2
+3-11-LB-FFM,Filament Factory (Mountains),Soup,2
+3-11-LB-FFM,Filament Factory (Mountains),Carrot Juice,2
+3-11-LB-FFM,Filament Factory (Mountains),Cigar,2
+3-00-F-FM,Fishery (Mountains),None,0
+3-02-SB-FM,Furnace (Mountains),Bread,1
+3-02-SB-FM,Furnace (Mountains),Fruit Punch,1
+3-02-SB-FM,Furnace (Mountains),Horse,1
+1-02-O-FFM,Furnace  (Other),Bread,1
+1-02-O-FFM,Furnace  (Other),Fruit Punch,1
+1-02-O-FFM,Furnace  (Other),Horse,1
+3-09-SE-GFM,Gear Factory (Mountains),Sausages,1
+3-09-SE-GFM,Gear Factory (Mountains),Schnapps,1
+3-09-SE-GFM,Gear Factory (Mountains),Revolver,1
+3-03-W-GM,Glassmakers (Mountains),Sausages,1
+3-03-W-GM,Glassmakers (Mountains),Schnapps,1
+3-03-W-GM,Glassmakers (Mountains),Revolver,1
+3-08-S-GFM,Goat Farm (Mountains),Bread,1
+3-08-S-GFM,Goat Farm (Mountains),Fruit Punch,1
+3-08-S-GFM,Goat Farm (Mountains),Horse,1
+3-08-C-GMM,Gold Mine (Mountains),Sausages,1
+3-08-C-GMM,Gold Mine (Mountains),Schnapps,1
+3-08-C-GMM,Gold Mine (Mountains),Revolver,1
+3-07-H-HFM,Horse Farm (Mountains),Fish,1
+3-07-H-HFM,Horse Farm (Mountains),Water,1
+3-02-SB-IMM,Iron Mine (Mountains),Bread,1
+3-02-SB-IMM,Iron Mine (Mountains),Fruit Punch,1
+3-02-SB-IMM,Iron Mine (Mountains),Horse,1
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Soup,3
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Carrot Juice,3
+3-11-LB-LBFM,Light Bulb Factory (Mountains),Cigar,3
+3-11-C-MWM,Marquetry Workshop (Mountains),Bean Pie,1
+3-11-C-MWM,Marquetry Workshop (Mountains),Whiskey,1
+3-11-C-MWM,Marquetry Workshop (Mountains),Watch,1
+3-03-MC-MFM,Milk Farm (Mountains),Bread,2
+3-03-MC-MFM,Milk Farm (Mountains),Fruit Punch,2
+3-03-MC-MFM,Milk Farm (Mountains),Horse,2
+3-08-C-MM,Mint (Mountains),Bread,2
+3-08-C-MM,Mint (Mountains),Fruit Punch,2
+3-08-C-MM,Mint (Mountains),Horse,2
+3-06-OP-OLCM,Oak Lumber Camp (Mountains),None,0
+3-02-S-PFM,Pig Farm (Mountains),Steak,1
+3-02-S-PFM,Pig Farm (Mountains),Milk Can,1
+3-02-S-PFM,Pig Farm (Mountains),Coin,1
+1-02-P-PM,Pillar (Mountains),None,0
+3-00-S-QM,Quarry (Mountains),None,0
+3-10-T-RFM,Rail Factory (Mountains),Bean Pie,2
+3-10-T-RFM,Rail Factory (Mountains),Whiskey,2
+3-10-T-RFM,Rail Factory (Mountains),Watch,2
+3-07-FP-RPM,Raspberry Plantation (Mountains),Fish,1
+3-07-FP-RPM,Raspberry Plantation (Mountains),Water,1
+3-09-R-RFM,Revolver Factory (Mountains),Steak,2
+3-09-R-RFM,Revolver Factory (Mountains),Milk Can,2
+3-09-R-RFM,Revolver Factory (Mountains),Coin,2
+3-07-L-SWM,Salt Works (Mountains),Bean Pie,1
+3-07-L-SWM,Salt Works (Mountains),Whiskey,1
+3-07-L-SWM,Salt Works (Mountains),Watch,1
+3-03-W-SMM,Sand Mine (Mountains),Sausages,1
+3-03-W-SMM,Sand Mine (Mountains),Schnapps,1
+3-03-W-SMM,Sand Mine (Mountains),Revolver,1
+3-00-P-SM,Sawmill (Mountains),None,0
+3-09-S-SDM,Schnapps Distillery (Mountains),Steak,2
+3-09-S-SDM,Schnapps Distillery (Mountains),Milk Can,2
+3-09-S-SDM,Schnapps Distillery (Mountains),Coin,2
+3-10-T-SFM,Sleeper Factory (Mountains),Bean Pie,2
+3-10-T-SFM,Sleeper Factory (Mountains),Whiskey,2
+3-10-T-SFM,Sleeper Factory (Mountains),Watch,2
+3-08-C-SCM,Sluicing Camp (Mountains),Bread,1
+3-08-C-SCM,Sluicing Camp (Mountains),Fruit Punch,1
+3-08-C-SCM,Sluicing Camp (Mountains),Horse,1
+3-11-S-SKM,Soup Kitchen (Mountains),Bean Pie,2
+3-11-S-SKM,Soup Kitchen (Mountains),Whiskey,2
+3-11-S-SKM,Soup Kitchen (Mountains),Watch,2
+3-07-H-SM,Stable (Mountains),Fish,2
+3-07-H-SM,Stable (Mountains),Water,2
+3-03-SL-SM,Steakhouse (Mountains),Bread,2
+3-03-SL-SM,Steakhouse (Mountains),Fruit Punch,2
+3-03-SL-SM,Steakhouse (Mountains),Horse,2
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Steak,3
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Milk Can,3
+3-06-SE-SEFM,Steam Engine Factory (Mountains),Coin,3
+1-00-S-SM,Storage (Mountains),None,0
+3-09-S-SMM,Sulfur Mine (Mountains),Steak,1
+3-09-S-SMM,Sulfur Mine (Mountains),Milk Can,1
+3-09-S-SMM,Sulfur Mine (Mountains),Coin,1
+3-11-C-TPM,Tobacco Plantation (Mountains),Bean Pie,1
+3-11-C-TPM,Tobacco Plantation (Mountains),Whiskey,1
+3-11-C-TPM,Tobacco Plantation (Mountains),Watch,1
+3-10-W-WFM,Watch Factory (Mountains),Sausages,2
+3-10-W-WFM,Watch Factory (Mountains),Schnapps,2
+3-10-W-WFM,Watch Factory (Mountains),Revolver,2
+3-07-B-WMM,Water Mill (Mountains),Fish,1
+3-07-B-WMM,Water Mill (Mountains),Water,1
+3-00-W-WM,Well (Mountains),None,0
+3-10-W-WDM,Whiskey Distillery (Mountains),Sausages,2
+3-10-W-WDM,Whiskey Distillery (Mountains),Schnapps,2
+3-10-W-WDM,Whiskey Distillery (Mountains),Revolver,2

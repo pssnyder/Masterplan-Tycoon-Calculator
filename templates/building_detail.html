@@ -1,0 +1,331 @@
+{% extends "base.html" %}
+
+{% block title %}{{ building.name }} - {{ building.plan_name }} - Masterplan Tycoon{% endblock %}
+
+{% block content %}
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="{{ url_for('index') }}">Home</a></li>
+        <li class="breadcrumb-item"><a href="{{ url_for('plan_buildings', plan_name=building.plan_name) }}">{{ building.plan_name }}</a></li>
+        <li class="breadcrumb-item active">{{ building.name }}</li>
+    </ol>
+</nav>
+
+<div class="row">
+    <div class="col-lg-8">
+        <div class="card">
+            <div class="card-header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="mb-0">
+                        <i class="fas fa-industry text-primary"></i>
+                        {{ building.name }}
+                    </h2>
+                    <span class="badge bg-primary fs-6">Tier {{ building.tier }}</span>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <p><strong>Region:</strong> {{ building.plan_name }}</p>
+                        <p><strong>Building ID:</strong> <code>{{ building.building_id }}</code></p>
+                        {% if building.category_name %}
+                        <p><strong>Category:</strong> {{ building.category_name }}</p>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-6">
+                        {% if building.production_time %}
+                        <p class="production-rate">
+                            <strong>Production Time:</strong> {{ building.production_time }} seconds
+                        </p>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Resource Flows -->
+        <div class="row mt-4">
+            <!-- Outputs -->
+            {% if building.outputs %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">
+                            <i class="fas fa-arrow-up"></i> Outputs
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        {% for output in building.outputs %}
+                        <div class="resource-card card mb-2">
+                            <div class="card-body py-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>{{ output.resource_name }}</strong>
+                                        <br>
+                                        <small class="text-muted">Quantity: {{ output.quantity }}</small>
+                                    </div>
+                                    <div class="text-end">
+                                        {% if output.production_time and output.production_time > 0 %}
+                                        <div class="production-rate">
+                                            {{ "%.2f"|format((output.quantity * 60 / output.production_time)) }}/min
+                                        </div>
+                                        <small class="text-muted">{{ output.production_time }}s cycle</small>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Inputs -->
+            {% if building.inputs %}
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0">
+                            <i class="fas fa-arrow-down"></i> Inputs
+                        </h5>
+                    </div>
+                    <div class="card-body">
+                        {% for input in building.inputs %}
+                        <div class="resource-card card mb-2">
+                            <div class="card-body py-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>{{ input.resource_name }}</strong>
+                                        <br>
+                                        <small class="text-muted">Quantity: {{ input.quantity }}</small>
+                                    </div>
+                                    {% if input.dependency_building %}
+                                    <div class="text-end">
+                                        <a href="#" class="dependency-link">
+                                            <small>{{ input.dependency_building }}</small>
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+
+        <!-- Construction Requirements -->
+        {% if building.construction %}
+        <div class="card mt-4">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-hammer"></i> Construction Requirements
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for req in building.construction %}
+                    <div class="col-md-4 mb-2">
+                        <div class="resource-card card">
+                            <div class="card-body py-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>{{ req.resource_name }}</strong>
+                                        <br>
+                                        <small class="text-muted">{{ req.quantity }}</small>
+                                    </div>
+                                    {% if req.dependency_building %}
+                                    <div>
+                                        <a href="#" class="dependency-link">
+                                            <small>{{ req.dependency_building }}</small>
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Maintenance Requirements -->
+        {% if building.maintenance %}
+        <div class="card mt-4">
+            <div class="card-header bg-info text-white">
+                <h5 class="mb-0">
+                    <i class="fas fa-tools"></i> Maintenance Requirements
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    {% for maint in building.maintenance %}
+                    <div class="col-md-4 mb-2">
+                        <div class="resource-card card">
+                            <div class="card-body py-2">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <strong>{{ maint.resource_name }}</strong>
+                                        <br>
+                                        <small class="text-muted">{{ maint.quantity }}</small>
+                                    </div>
+                                    {% if maint.dependency_building %}
+                                    <div>
+                                        <a href="#" class="dependency-link">
+                                            <small>{{ maint.dependency_building }}</small>
+                                        </a>
+                                    </div>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <!-- Sidebar -->
+    <div class="col-lg-4">
+        <div class="card sticky-top">
+            <div class="card-header">
+                <h5><i class="fas fa-clipboard-check"></i> Validation Checklist</h5>
+            </div>
+            <div class="card-body">
+                <p class="small text-muted mb-3">
+                    Use this checklist to compare with in-game building specifications:
+                </p>
+                
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkName">
+                    <label class="form-check-label small" for="checkName">
+                        Building name matches
+                    </label>
+                </div>
+                
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkTier">
+                    <label class="form-check-label small" for="checkTier">
+                        Tier level correct ({{ building.tier }})
+                    </label>
+                </div>
+                
+                {% if building.production_time %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkProdTime">
+                    <label class="form-check-label small" for="checkProdTime">
+                        Production time correct ({{ building.production_time }}s)
+                    </label>
+                </div>
+                {% endif %}
+                
+                {% if building.outputs %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkOutputs">
+                    <label class="form-check-label small" for="checkOutputs">
+                        Output resources and quantities match
+                    </label>
+                </div>
+                {% endif %}
+                
+                {% if building.inputs %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkInputs">
+                    <label class="form-check-label small" for="checkInputs">
+                        Input requirements match
+                    </label>
+                </div>
+                {% endif %}
+                
+                {% if building.construction %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkConstruction">
+                    <label class="form-check-label small" for="checkConstruction">
+                        Construction costs match
+                    </label>
+                </div>
+                {% endif %}
+                
+                {% if building.maintenance %}
+                <div class="form-check mb-2">
+                    <input class="form-check-input" type="checkbox" id="checkMaintenance">
+                    <label class="form-check-label small" for="checkMaintenance">
+                        Maintenance requirements match
+                    </label>
+                </div>
+                {% endif %}
+                
+                <hr>
+                <button class="btn btn-success btn-sm w-100" id="markValidated">
+                    <i class="fas fa-check"></i> Mark as Validated
+                </button>
+            </div>
+        </div>
+
+        <div class="card mt-3">
+            <div class="card-header">
+                <h6><i class="fas fa-link"></i> Related</h6>
+            </div>
+            <div class="card-body">
+                <a href="{{ url_for('plan_buildings', plan_name=building.plan_name) }}" class="btn btn-outline-primary btn-sm w-100 mb-2">
+                    <i class="fas fa-list"></i> All {{ building.plan_name }} Buildings
+                </a>
+                {% if building.outputs %}
+                    {% for output in building.outputs %}
+                    <a href="{{ url_for('resource_flow', resource_name=output.resource_name) }}" class="btn btn-outline-info btn-sm w-100 mb-1">
+                        <i class="fas fa-project-diagram"></i> {{ output.resource_name }} Flow
+                    </a>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="mt-4">
+    <a href="{{ url_for('plan_buildings', plan_name=building.plan_name) }}" class="btn btn-secondary">
+        <i class="fas fa-arrow-left"></i> Back to {{ building.plan_name }}
+    </a>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const markValidatedBtn = document.getElementById('markValidated');
+    const checkboxes = document.querySelectorAll('.form-check-input');
+    
+    // Update button state based on checkboxes
+    function updateButtonState() {
+        const checkedCount = Array.from(checkboxes).filter(cb => cb.checked).length;
+        const totalCount = checkboxes.length;
+        
+        if (checkedCount === totalCount && totalCount > 0) {
+            markValidatedBtn.classList.remove('btn-success');
+            markValidatedBtn.classList.add('btn-success');
+            markValidatedBtn.innerHTML = '<i class="fas fa-check"></i> Fully Validated!';
+        } else {
+            markValidatedBtn.innerHTML = `<i class="fas fa-check"></i> ${checkedCount}/${totalCount} Validated`;
+        }
+    }
+    
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', updateButtonState);
+    });
+    
+    updateButtonState();
+    
+    markValidatedBtn.addEventListener('click', function() {
+        // Here you could implement saving validation state to local storage or server
+        alert('Building marked as validated! This data can be used for accuracy tracking.');
+    });
+});
+</script>
+{% endblock %}

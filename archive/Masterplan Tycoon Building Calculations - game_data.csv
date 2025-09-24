@@ -1,0 +1,1463 @@
+buid,Plan,Building,Tier,Category,Production Time,Resource Type,Resource,Resource Quantity,Resource Dependency
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,31,Output Resource,Alpaca Wool*,2,N/A
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,N/A,Build Resource,Stone*,3,Quarry*
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,N/A,Maintenance Resource,Fish*,1,Fishery*
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,N/A,Maintenance Resource,Water*,1,Well*
+2-06-P-AFI,Islands,Alpaca Farm (Islands),6,Poncho,N/A,Input Resource,None,1,None
+2-05-T-BFI,Islands,Bamboo Factory (Islands),5,Timber,N/A,Input Resource,Bamboo*,2,Bamboo Plantation*
+2-05-T-BFI,Islands,Bamboo Factory (Islands),5,Timber,N/A,Build Resource,Stone*,1,Quarry*
+2-05-T-BFI,Islands,Bamboo Factory (Islands),5,Timber,N/A,Build Resource,Timber*,4,Bamboo Factory*
+2-05-T-BFI,Islands,Bamboo Factory (Islands),5,Timber,N/A,Maintenance Resource,None,0,None
+2-05-T-BFI,Islands,Bamboo Factory (Islands),5,Timber,30,Output Resource,Timber*,4,N/A
+2-05-T-BPI,Islands,Bamboo Plantation (Islands),5,Timber,30,Output Resource,Bamboo*,2,N/A
+2-05-T-BPI,Islands,Bamboo Plantation (Islands),5,Timber,N/A,Build Resource,Timber*,4,Bamboo Factory*
+2-05-T-BPI,Islands,Bamboo Plantation (Islands),5,Timber,N/A,Maintenance Resource,None,0,None
+2-05-T-BPI,Islands,Bamboo Plantation (Islands),5,Timber,N/A,Input Resource,None,1,None
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,31,Output Resource,Banana*,2,N/A
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,N/A,Build Resource,Stone*,3,Quarry*
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,N/A,Maintenance Resource,Fish*,1,Fishery*
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,N/A,Maintenance Resource,Water*,1,Well*
+2-06-FB-BFI,Islands,Banana Farm (Islands),6,Fried Banana,N/A,Input Resource,None,1,None
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,45,Output Resource,Brick*,2,N/A
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Input Resource,Clay*,2,Clay Pit
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Build Resource,Stone*,16,Quarry*
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-01-B-BFI,Islands,Brick Factory (Islands),6,Brick,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,31,Output Resource,Caoutchouc*,2,N/A
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Build Resource,Stone*,3,Quarry*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Build Resource,Brick*,2,Brick Factory*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-06-C-CFI,Islands,Caoutchouc Farm (Islands),6,Caoutchouc,N/A,Input Resource,None,1,None
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,31,Output Resource,Beef*,2,N/A
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Build Resource,Stone*,8,Quarry*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Build Resource,Brick*,7,Brick Factory*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-04-CF-CFI,Islands,Cattle Farm (Islands),7,Canned Food,N/A,Input Resource,None,1,None
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,31,Output Resource,Citrus*,2,N/A
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Build Resource,Stone*,8,Quarry*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Build Resource,Brick*,7,Brick Factory*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-07-L-CFI,Islands,Citrus Farm (Islands),7,Lemonade,N/A,Input Resource,None,1,None
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,60,Output Resource,Clay*,1,N/A
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Build Resource,Stone*,8,Quarry*
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-01-B-CPI,Islands,Clay Pit (Islands),6,Brick,N/A,Input Resource,None,1,None
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,31,Output Resource,Cocoa*,2,N/A
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,N/A,Build Resource,Stone*,3,Quarry*
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,N/A,Maintenance Resource,Fish*,1,Fishery*
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,N/A,Maintenance Resource,Water*,1,Well*
+2-06-FB-CPI,Islands,Cocoa Plantation (Islands),6,Fried Banana,N/A,Input Resource,None,1,None
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,31,Output Resource,Coffee Beans*,2,N/A
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Build Resource,Stone*,8,Quarry*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Build Resource,Brick*,7,Brick Factory*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Build Resource,Lime Plaster*,7,Lime Plaster Factory*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Maintenance Resource,Clothes*,1,Sewing Workshop*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Maintenance Resource,Lemonade*,1,Lemonade Factory*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Maintenance Resource,Tortilla*,1,Tortilla Kitchen*
+2-08-C-CPI,Islands,Coffee Plantation (Islands),8,Coffee,N/A,Input Resource,None,1,None
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Input Resource,Coffee Beans*,1,Coffee Plantation*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,45,Output Resource,Coffee*,2,N/A
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Build Resource,Stone*,16,Quarry*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Build Resource,Brick*,15,Brick Factory*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Build Resource,Lime Plaster*,15,Lime Plaster Factory*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-08-C-CRI,Islands,Coffee Roaster (Islands),8,Coffee,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,31,Output Resource,Corn*,2,N/A
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Build Resource,Stone*,8,Quarry*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Build Resource,Brick*,7,Brick Factory*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-07-T-CFI,Islands,Corn Farm (Islands),7,Tortilla,N/A,Input Resource,None,1,None
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,30,Output Resource,Calico*,2,N/A
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Input Resource,Cotton*,1,Cotton Plantation*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Build Resource,Stone*,16,Quarry*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Build Resource,Brick*,15,Brick Factory*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Build Resource,Lime Plaster*,15,Lime Plaster Factory*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-02-O-CMI,Islands,Cotton Mill (Islands),8,Overalls,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,31,Output Resource,Cotton*,2,N/A
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Build Resource,Stone*,8,Quarry*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-02-O-CPI,Islands,Cotton Plantation (Islands),6,Overalls,N/A,Input Resource,None,1,None
+1-05-C-CFM,Islands,Death Island,0,Port,0,Output Resource,Brick*,1,N/A
+1-05-C-CFM,Islands,Death Island,0,Port,N/A,Input Resource,Fish*,1,Fishery*
+1-05-C-CFM,Islands,Death Island,0,Port,N/A,Input Resource,Steam Engine*,1,Steam Engine Factory*
+1-05-C-CFM,Islands,Death Island,0,Port,N/A,Input Resource,Water*,1,Well*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,30,Output Resource,Felt*,2,N/A
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Build Resource,Stone*,16,Quarry*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Build Resource,Brick*,15,Brick Factory*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Build Resource,Lime Plaster*,15,Lime Plaster Factory*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-02-O-FWI,Islands,Felt Workshop (Islands),8,Overalls,N/A,Input Resource,Wool*,1,Sheep Farm*
+2-00-F-FI,Islands,Fishery (Islands),5,Fish,N/A,Build Resource,Timber*,4,Bamboo Factory*
+2-00-F-FI,Islands,Fishery (Islands),5,Fish,N/A,Maintenance Resource,None,0,None
+2-00-F-FI,Islands,Fishery (Islands),5,Fish,30,Output Resource,Fish*,1,N/A
+2-00-F-FI,Islands,Fishery (Islands),5,Fish,N/A,Input Resource,None,1,None
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Input Resource,Banana*,1,Banana Farm*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Input Resource,Cocoa*,1,Cocoa Plantation*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Build Resource,Stone*,8,Quarry*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Maintenance Resource,Fish*,2,Fishery*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,N/A,Maintenance Resource,Water*,2,Well*
+2-06-FB-FBKI,Islands,Fried Banana Kitchen (Islands),6,Fried Banana,45,Output Resource,Fried Banana*,3,N/A
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Input Resource,Calico*,1,Cotton Mill*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Input Resource,Felt*,1,Felt Workshop*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Build Resource,Stone*,24,Quarry*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Build Resource,Brick*,23,Brick Factory*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Build Resource,Timber*,48,Bamboo Factory*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Build Resource,Lime Plaster*,23,Lime Plaster Factory*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-02-O-FFI,Islands,Fur Factory (Islands),8,Overalls,45,Output Resource,Overalls*,3,N/A
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,31,Output Resource,Green Pepper*,2,N/A
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Build Resource,Stone*,8,Quarry*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Build Resource,Brick*,7,Brick Factory*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Build Resource,Lime Plaster*,7,Lime Plaster Factory*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Maintenance Resource,Clothes*,1,Sewing Workshop*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Maintenance Resource,Lemonade*,1,Lemonade Factory*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Maintenance Resource,Tortilla*,1,Tortilla Kitchen*
+2-08-H-GPFI,Islands,Green Pepper Farm (Islands),8,Humatis,N/A,Input Resource,None,1,None
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Input Resource,Corn*,1,Corn Farm*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Input Resource,Green Pepper*,1,Green Pepper Farm*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,45,Output Resource,Humatis*,2,N/A
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Build Resource,Stone*,16,Quarry*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Build Resource,Brick*,15,Brick Factory*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Build Resource,Lime Plaster*,15,Lime Plaster Factory*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-08-H-HKI,Islands,Humitas Kitchen (Islands),8,Humatis,N/A,Input Resource,Salt*,1,Salt Works*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Input Resource,Citrus*,1,Citrus Farm*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Build Resource,Stone*,24,Quarry*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Build Resource,Brick*,20,Brick Factory*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Build Resource,Timber*,48,Bamboo Factory*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,45,Output Resource,Lemonade*,2,N/A
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Input Resource,Salt*,1,Salt Works*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Input Resource,Sugar*,1,Sugar Refinery*
+2-07-L-LFI,Islands,Lemonade Factory (Islands),7,Lemonade,N/A,Input Resource,Water*,1,Well*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Input Resource,Limestone*,1,Limestone Quarry*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Build Resource,Stone*,16,Quarry*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Build Resource,Brick*,14,Brick Factory*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Maintenance Resource,Clothes*,2,Sewing Workshop*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Maintenance Resource,Lemonade*,2,Lemonade Factory*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Maintenance Resource,Tortilla*,2,Tortilla Kitchen*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,45,Output Resource,Lime Plaster*,2,N/A
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Input Resource,Sand*,1,Sand Mine*
+2-07-LP-LPFI,Islands,Lime Plaster Factory (Islands),7,Lime Plaster,N/A,Input Resource,Water*,1,Well*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Stone*,8,Quarry*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Brick*,7,Brick Factory*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Maintenance Resource,Clothes*,1,Sewing Workshop*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Maintenance Resource,Lemonade*,1,Lemonade Factory*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Maintenance Resource,Tortilla*,1,Tortilla Kitchen*
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,60,Output Resource,Limestone*,1,N/A
+2-05-C-LQI,Islands,Limestone Quarry (Islands),7,Concrete,N/A,Input Resource,None,1,None
+3-06-OP-OLCM,Islands,Oil Island,0,Port,N/A,Input Resource,Brick*,1,Brick Factory*
+3-06-OP-OLCM,Islands,Oil Island,0,Port,N/A,Input Resource,Fried Banana*,1,Fried Banana Kitchen*
+3-06-OP-OLCM,Islands,Oil Island,0,Port,0,Output Resource,Oil*,1,Oil Well*
+3-06-OP-OLCM,Islands,Oil Island,0,Port,N/A,Input Resource,Poncho*,1,Poncho Darner*
+3-06-OP-OLCM,Islands,Oil Island,0,Port,N/A,Input Resource,Steam Engine*,1,Steam Engine Factory*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Build Resource,Stone*,8,Quarry*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Build Resource,Brick*,7,Brick Factory*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Build Resource,Lime Plaster*,7,Lime Plaster Factory*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Maintenance Resource,Overalls*,1,Fur Factory*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Maintenance Resource,Humatis*,1,Humitas Kitchen*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Maintenance Resource,Coffee*,1,Coffee Roaster*
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,N/A,Input Resource,None,1,None
+2-08-O-OWI,Islands,Oil Well (Islands),8,Oil,31,Output Resource,Oil*,1,N/A
+3-02-S-PFM,Islands,Pillar (Islands),5,Pillar,N/A,Input Resource,Any*,1,None
+3-02-S-PFM,Islands,Pillar (Islands),5,Pillar,2,Output Resource,Any*,1,N/A
+3-02-S-PFM,Islands,Pillar (Islands),5,Pillar,N/A,Build Resource,Stone*,1,Quarry*
+3-02-S-PFM,Islands,Pillar (Islands),5,Pillar,N/A,Build Resource,Timber*,3,Bamboo Factory*
+3-02-S-PFM,Islands,Pillar (Islands),5,Pillar,N/A,Maintenance Resource,None,0,None
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,N/A,Input Resource,Alpaca Wool*,1,Alpaca Farm*
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,N/A,Build Resource,Stone*,8,Quarry*
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,N/A,Maintenance Resource,Fish*,2,Fishery*
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,N/A,Maintenance Resource,Water*,2,Well*
+2-06-P-PDI,Islands,Poncho Darner (Islands),6,Poncho,45,Output Resource,Poncho*,2,N/A
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Caoutchouc*,1,Caoutchouc Farm*
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Cocoa*,1,Cocoa Plantation*
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Coffee*,1,Coffee Roaster*
+2-06-P-PDI,Islands,Port,0,Port,0,Output Resource,Cotton*,1,N/A
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Lemonade*,1,Lemonade Factory*
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Oil*,1,Oil Well*
+2-06-P-PDI,Islands,Port,0,Port,N/A,Input Resource,Rum*,1,Rum Distillery*
+2-06-P-PDI,Islands,Port,0,Port,0,Output Resource,Steam Engine*,1,N/A
+2-00-S-QI,Islands,Quarry (Islands),5,Stone,N/A,Build Resource,Timber*,4,Bamboo Factory*
+2-00-S-QI,Islands,Quarry (Islands),5,Stone,N/A,Maintenance Resource,None,0,None
+2-00-S-QI,Islands,Quarry (Islands),5,Stone,N/A,Input Resource,None,1,None
+2-00-S-QI,Islands,Quarry (Islands),5,Stone,75,Output Resource,Stone*,1,N/A
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Input Resource,Cotton*,1,Cotton Plantation*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Build Resource,Stone*,4,Quarry*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-04-R-RWI,Islands,Rope Workshop (Islands),6,Rope,30,Output Resource,Rope*,1,N/A
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Input Resource,Bamboo*,1,Bamboo Plantation*
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Build Resource,Stone*,8,Quarry*
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Maintenance Resource,Fish*,2,Fishery*
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Maintenance Resource,Water*,2,Well*
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,45,Output Resource,Rum*,3,N/A
+2-05-R-RDI,Islands,Rum Distillery (Islands),6,Rum,N/A,Input Resource,Sugar Cane*,1,Sugar Cane Plantation*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Build Resource,Stone*,8,Quarry*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Build Resource,Brick*,7,Brick Factory*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,30,Output Resource,Salt*,1,N/A
+2-07-L-SWI,Islands,Salt Works (Islands),7,Lemonade,N/A,Input Resource,Water*,1,Well*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Build Resource,Stone*,8,Quarry*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Build Resource,Brick*,7,Brick Factory*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Maintenance Resource,Clothes*,1,Sewing Workshop*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Maintenance Resource,Lemonade*,1,Lemonade Factory*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Maintenance Resource,Tortilla*,1,Tortilla Kitchen*
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,30,Output Resource,Sand*,1,N/A
+2-03-W-SMI,Islands,Sand Mine (Islands),7,Windows,N/A,Input Resource,Water*,1,Well*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,45,Output Resource,Clothes*,2,N/A
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Build Resource,Stone*,16,Quarry*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Build Resource,Brick*,14,Brick Factory*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-01-C-SWI,Islands,Sewing Workshop (Islands),7,Clothes,N/A,Input Resource,Wool*,1,Sheep Farm*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Build Resource,Stone*,8,Quarry*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Build Resource,Brick*,7,Brick Factory*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Build Resource,Timber*,16,Bamboo Factory*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Maintenance Resource,Rum*,1,Rum Distillery*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Maintenance Resource,Fried Banana*,1,Fried Banana Kitchen*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Maintenance Resource,Poncho*,1,Poncho Darner*
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,N/A,Input Resource,None,1,None
+2-01-C-SFI,Islands,Sheep Farm (Islands),7,Clothes,31,Output Resource,Wool*,2,N/A
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,30,Output Resource,Boat*,1,N/A
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Build Resource,Stone*,4,Quarry*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Input Resource,Rope*,4,Rope Workshop*
+2-05-B-SI,Islands,Shipyard (Islands),6,Boat,N/A,Input Resource,Timber*,12,Bamboo Factory*
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,60,Output Resource,Clay*,2,N/A
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,N/A,Build Resource,Stone*,16,Quarry*
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,N/A,Build Resource,Steam Engine*,2,Steam Engine Factory
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,N/A,Maintenance Resource,Steam Engine*,1,Steam Engine Factory
+2-01-B-SCPI,Islands,Steam Clay Pit (Islands),6,Brick,N/A,Input Resource,None,1,None
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Stone*,16,Quarry*
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Brick*,14,Brick Factory*
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Build Resource,Steam Engine*,2,Steam Engine Factory
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Maintenance Resource,Steam Engine*,1,Steam Engine Factory
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,60,Output Resource,Limestone*,2,N/A
+2-05-C-SLQI,Islands,Steam Limestone Quarry (Islands),7,Concrete,N/A,Input Resource,None,1,None
+1-02-SB-SM,Islands,Storage (Islands),5,Storage,N/A,Input Resource,Any*,1,None
+1-02-SB-SM,Islands,Storage (Islands),5,Storage,0,Output Resource,Any*,1,N/A
+1-02-SB-SM,Islands,Storage (Islands),5,Storage,N/A,Build Resource,Stone*,4,Quarry*
+1-02-SB-SM,Islands,Storage (Islands),5,Storage,N/A,Build Resource,Timber*,4,Bamboo Factory*
+1-02-SB-SM,Islands,Storage (Islands),5,Storage,N/A,Maintenance Resource,None,0,None
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,N/A,Build Resource,Stone*,3,Quarry*
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,N/A,Build Resource,Timber*,8,Bamboo Factory*
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,N/A,Maintenance Resource,Fish*,1,Fishery*
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,N/A,Maintenance Resource,Water*,1,Well*
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,N/A,Input Resource,None,1,None
+2-02-M-SCPI,Islands,Sugar Cane Plantation (Islands),6,Moonshine,31,Output Resource,Sugar Cane*,2,N/A
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Build Resource,Stone*,16,Quarry*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Build Resource,Brick*,14,Brick Factory*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,30,Output Resource,Sugar*,1,N/A
+2-07-C-SRI,Islands,Sugar Refinery (Islands),7,Chocolate,N/A,Input Resource,Sugar Cane*,1,Sugar Cane Plantation*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Input Resource,Beef*,1,Cattle Farm*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Input Resource,Corn*,1,Corn Farm*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Build Resource,Stone*,16,Quarry*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Build Resource,Brick*,14,Brick Factory*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Build Resource,Timber*,32,Bamboo Factory*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Maintenance Resource,Rum*,2,Rum Distillery*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Maintenance Resource,Fried Banana*,2,Fried Banana Kitchen*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,N/A,Maintenance Resource,Poncho*,2,Poncho Darner*
+2-07-T-TKI,Islands,Tortilla Kitchen (Islands),7,Tortilla,45,Output Resource,Tortilla*,2,N/A
+2-00-W-WI,Islands,Well (Islands),5,Water,N/A,Build Resource,Timber*,4,Bamboo Factory*
+2-00-W-WI,Islands,Well (Islands),5,Water,N/A,Maintenance Resource,None,0,None
+2-00-W-WI,Islands,Well (Islands),5,Water,N/A,Input Resource,None,1,None
+2-00-W-WI,Islands,Well (Islands),5,Water,15,Output Resource,Water*,1,N/A
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,45,Output Resource,Anchor,1,N/A
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Build Resource,Plank,16,Sawmill
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Build Resource,Brick,20,Brick Factory
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Build Resource,Steel Beams,12,Steelworks
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Build Resource,Windows,8,Window Makers
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Maintenance Resource,Canned Food,2,Cannery
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Maintenance Resource,Wine,2,Winery
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Maintenance Resource,Boots,2,Boot Factory
+3-09-R-AFM,Master,Anchor Workshop,4,Anchor,N/A,Input Resource,Steel Beams,1,Steelworks
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Build Resource,Plank,8,Sawmill
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Build Resource,Stone,6,Quarry
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Maintenance Resource,Fish,2,Fishery
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Maintenance Resource,Water,2,Well
+1-04-A-AWM,Master,Bakery,1,Bread,45,Output Resource,Bread,3,N/A
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Input Resource,Meal,2,Mill
+1-04-A-AWM,Master,Bakery,1,Bread,N/A,Input Resource,Water,1,Well
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,30,Output Resource,Boiler,1,N/A
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Input Resource,Copper Pipes,1,Pipe Mill
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Build Resource,Steel Beams,20,Steelworks
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Build Resource,Windows,18,Window Makers
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Build Resource,Concrete,22,Concrete Factory
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Maintenance Resource,Meat Pie,2,Meat Pie Bakery
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Maintenance Resource,Lemonade,2,Lemonade Factory*
+3-10-BP-BFM,Master,Boiler Factory,6,Steam Engine,N/A,Maintenance Resource,Glasses,2,Glasses Factory
+3-06-SE-BFM,Master,Boot Factory,4,Boots,45,Output Resource,Boots,1,N/A
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Build Resource,Plank,16,Sawmill
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Build Resource,Brick,20,Brick Factory
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Build Resource,Steel Beams,12,Steelworks
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Build Resource,Windows,8,Window Makers
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Maintenance Resource,Steak,2,Steakhouse
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Maintenance Resource,Milk Can,2,Milk Farm
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Maintenance Resource,Vest,2,Leather Workshop
+3-06-SE-BFM,Master,Boot Factory,4,Boots,N/A,Input Resource,Tanned Leather,1,Tannery
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Input Resource,Copper Ore,1,Copper Mine
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,30,Output Resource,Copper,2,N/A
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Build Resource,Steel Beams,12,Steelworks
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Build Resource,Windows,8,Window Makers
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Build Resource,Concrete,20,Concrete Factory
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Maintenance Resource,Cheese,2,Cheese Factory
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Maintenance Resource,Rum,2,Rum Distillery
+1-04-B-BFM,Master,Brass Smeltery,6,Glasses,N/A,Maintenance Resource,Suits,2,Tailor's Shop
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Build Resource,Plank,4,Sawmill
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Build Resource,Stone,3,Quarry
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Maintenance Resource,Fish,2,Fishery
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Maintenance Resource,Water,2,Well
+3-06-G-BSM,Master,Brewery,1,Beer,45,Output Resource,Beer,2,N/A
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Input Resource,Grain,1,Farm
+3-06-G-BSM,Master,Brewery,1,Beer,N/A,Input Resource,Water,1,Well
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Build Resource,Plank,8,Sawmill
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Build Resource,Stone,6,Quarry
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Maintenance Resource,Bread,2,Bakery
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Maintenance Resource,Beer,2,Brewery
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Maintenance Resource,Clothes,2,Sewing Workshop
+1-01-B-BM,Master,Brick Factory,1,Brick,45,Output Resource,Brick,2,N/A
+1-01-B-BM,Master,Brick Factory,1,Brick,N/A,Input Resource,Clay,2,Clay Pit
+1-01-B-BFM,Master,Brick Mission,0,Port,N/A,Input Resource,Bread,1,Bakery
+1-01-B-BFM,Master,Brick Mission,0,Port,0,Output Resource,Brick,1,N/A
+1-01-B-BFM,Master,Brick Mission,0,Port,N/A,Input Resource,Steam Engine,1,Steam Engine Factory
+1-01-B-BFM,Master,Brick Mission,0,Port,N/A,Input Resource,Stone,1,Quarry
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Build Resource,Plank,12,Sawmill
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Build Resource,Brick,6,Brick Factory
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Maintenance Resource,Bread,2,Bakery
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Maintenance Resource,Beer,2,Brewery
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Maintenance Resource,Clothes,2,Sewing Workshop
+1-00-P-BMM,Master,Butchery,2,Sausages,N/A,Input Resource,Pig,1,Pig Farm
+1-00-P-BMM,Master,Butchery,2,Sausages,45,Output Resource,Sausages,3,N/A
+3-07-FP-CM,Master,Can Factory,3,Milk Can,30,Output Resource,Can,2,N/A
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Build Resource,Plank,8,Sawmill
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Build Resource,Stone,4,Quarry
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Build Resource,Brick,4,Brick Factory
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Build Resource,Steel Beams,2,Steelworks
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Maintenance Resource,Sausages,2,Butchery
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Maintenance Resource,Moonshine,2,Moonshine Factory
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Maintenance Resource,Overalls,2,Fur Factory
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Input Resource,Coal,1,Coal Mine
+3-07-FP-CM,Master,Can Factory,3,Milk Can,N/A,Input Resource,Steel,1,Furnace
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Input Resource,Beef,1,Cattle Farm
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Input Resource,Can,1,Can Factory
+3-03-MC-CFM,Master,Cannery,4,Canned Food,45,Output Resource,Canned Food,2,N/A
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Build Resource,Plank,16,Sawmill
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Build Resource,Brick,20,Brick Factory
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Build Resource,Steel Beams,12,Steelworks
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Build Resource,Windows,8,Window Makers
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Maintenance Resource,Steak,2,Steakhouse
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Maintenance Resource,Milk Can,2,Milk Farm
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Maintenance Resource,Vest,2,Leather Workshop
+3-03-MC-CFM,Master,Cannery,4,Canned Food,N/A,Input Resource,Red Pepper,1,Red Pepper Farm
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,31,Output Resource,Beef,2,N/A
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Build Resource,Plank,8,Sawmill
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Build Resource,Brick,7,Brick Factory
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Build Resource,Windows,4,Window Makers
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Maintenance Resource,Steak,1,Steakhouse
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Maintenance Resource,Milk Can,1,Milk Farm
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Maintenance Resource,Vest,1,Leather Workshop
+3-11-CJ-CJKM,Master,Cattle Farm,4,Canned Food,N/A,Input Resource,None,1,None
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,30,Output Resource,Cement,1,N/A
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Build Resource,Plank,16,Sawmill
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Build Resource,Brick,20,Brick Factory
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Build Resource,Steel Beams,12,Steelworks
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Build Resource,Windows,8,Window Makers
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Maintenance Resource,Cheese,2,Cheese Factory
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Maintenance Resource,Rum,2,Rum Distillery
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Maintenance Resource,Suits,2,Tailor's Shop
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Input Resource,Limestone,1,Limestone Quarry
+1-04-CF-CFM,Master,Cement Factory,5,Concrete,N/A,Input Resource,Water,1,Well
+3-09-SE-CFM,Master,Charcoal Kiln,2,Steel Beams,N/A,Build Resource,Plank,2,Sawmill
+3-09-SE-CFM,Master,Charcoal Kiln,2,Steel Beams,N/A,Build Resource,Stone,1,Quarry
+3-09-SE-CFM,Master,Charcoal Kiln,2,Steel Beams,N/A,Maintenance Resource,None,0,None
+3-09-SE-CFM,Master,Charcoal Kiln,2,Steel Beams,45,Output Resource,Coal,1,N/A
+3-09-SE-CFM,Master,Charcoal Kiln,2,Steel Beams,N/A,Input Resource,Tree,2,Lumber Camp
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,45,Output Resource,Cheese,2,N/A
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Build Resource,Plank,16,Sawmill
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Build Resource,Brick,20,Brick Factory
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Build Resource,Steel Beams,12,Steelworks
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Build Resource,Windows,8,Window Makers
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Maintenance Resource,Canned Food,2,Cannery
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Maintenance Resource,Wine,2,Winery
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Maintenance Resource,Boots,2,Boot Factory
+1-02-SB-CKM,Master,Cheese Factory,5,Cheese,N/A,Input Resource,Curdling,1,Curdling Factory
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,45,Output Resource,Chocolate,2,N/A
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Build Resource,Steel Beams,20,Steelworks
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Build Resource,Windows,18,Window Makers
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Build Resource,Concrete,22,Concrete Factory
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Maintenance Resource,Meat Pie,2,Meat Pie Bakery
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Maintenance Resource,Lemonade,2,Lemonade Factory*
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Maintenance Resource,Glasses,2,Glasses Factory
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Input Resource,Sheave,1,Sheave Manufactory
+1-05-C-CFM,Master,Chocolate Factory,7,Chocolate,N/A,Input Resource,Sugar,1,Sugar Refinery
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Build Resource,Plank,4,Sawmill
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Build Resource,Stone,3,Quarry
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Maintenance Resource,Bread,1,Bakery
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Maintenance Resource,Beer,1,Brewery
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Maintenance Resource,Clothes,1,Sewing Workshop
+2-07-L-CFI,Master,Clay Pit,1,Brick,60,Output Resource,Clay,1,N/A
+2-07-L-CFI,Master,Clay Pit,1,Brick,N/A,Input Resource,None,1,None
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Build Resource,Plank,6,Sawmill
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Build Resource,Stone,5,Quarry
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Maintenance Resource,Sausages,1,Butchery
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Maintenance Resource,Moonshine,1,Moonshine Factory
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Maintenance Resource,Overalls,1,Fur Factory
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,60,Output Resource,Coal,1,N/A
+1-01-B-CPM,Master,Coal Mine,2,Steel Beams,N/A,Input Resource,None,1,None
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Input Resource,Cement,1,Cement Factory
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Build Resource,Plank,24,Sawmill
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Build Resource,Brick,22,Brick Factory
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Build Resource,Steel Beams,20,Steelworks
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Build Resource,Windows,18,Window Makers
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Maintenance Resource,Cheese,2,Cheese Factory
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Maintenance Resource,Rum,2,Rum Distillery
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Maintenance Resource,Suits,2,Tailor's Shop
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,45,Output Resource,Concrete,1,N/A
+2-08-C-CRI,Master,Concrete Factory,5,Concrete,N/A,Input Resource,Steel,1,Furnace
+1-05-C-CFM,Master,Copper Mine,6,Glasses,60,Output Resource,Copper Ore,1,N/A
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Build Resource,Steel Beams,12,Steelworks
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Build Resource,Windows,8,Window Makers
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Build Resource,Concrete,20,Concrete Factory
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Maintenance Resource,Cheese,1,Cheese Factory
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Maintenance Resource,Rum,1,Rum Distillery
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Maintenance Resource,Suits,1,Tailor's Shop
+1-05-C-CFM,Master,Copper Mine,6,Glasses,N/A,Input Resource,None,1,None
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Brick,1,Brick Factory
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Caoutchouc,1,Caoutchouc Farm*
+3-06-G-CMM,Master,Copper Mission,0,Port,0,Output Resource,Concrete,1,N/A
+3-06-G-CMM,Master,Copper Mission,0,Port,0,Output Resource,Copper,1,N/A
+3-06-G-CMM,Master,Copper Mission,0,Port,0,Output Resource,Glasses,1,N/A
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Lemonade,1,Lemonade Factory*
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Moonshine,1,Moonshine Factory
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Overalls,1,Fur Factory
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Rum,1,Rum Distillery
+3-06-G-CMM,Master,Copper Mission,0,Port,N/A,Input Resource,Sausages,1,Butchery
+3-06-G-CMM,Master,Copper Mission,0,Port,0,Output Resource,Steam Engine,1,N/A
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Build Resource,Plank,8,Sawmill
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Build Resource,Stone,7,Quarry
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Build Resource,Brick,6,Brick Factory
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Maintenance Resource,Bread,2,Bakery
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Maintenance Resource,Beer,2,Brewery
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Maintenance Resource,Clothes,2,Sewing Workshop
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,30,Output Resource,Calico,2,N/A
+2-07-T-CFI,Master,Cotton Mill,2,Overalls,N/A,Input Resource,Cotton,1,Cotton Plantation
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Build Resource,Plank,8,Sawmill
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Build Resource,Stone,7,Quarry
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Maintenance Resource,Bread,1,Bakery
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Maintenance Resource,Beer,1,Brewery
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Maintenance Resource,Clothes,1,Sewing Workshop
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,31,Output Resource,Cotton,2,N/A
+1-02-O-CMM,Master,Cotton Plantation,2,Overalls,N/A,Input Resource,None,1,None
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Build Resource,Plank,6,Sawmill
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Build Resource,Brick,5,Brick Factory
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Maintenance Resource,Sausages,1,Butchery
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Maintenance Resource,Moonshine,1,Moonshine Factory
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Maintenance Resource,Overalls,1,Fur Factory
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,N/A,Input Resource,None,0,None
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,31,Output Resource,Cow,2,N/A
+1-02-O-CPM,Master,Cow Farm,3,Steak & Leather,31,Output Resource,Milk,2,N/A
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Build Resource,Plank,16,Sawmill
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Build Resource,Brick,20,Brick Factory
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Build Resource,Steel Beams,12,Steelworks
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Build Resource,Windows,8,Window Makers
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Maintenance Resource,Canned Food,2,Cannery
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Maintenance Resource,Wine,2,Winery
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Maintenance Resource,Boots,2,Boot Factory
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,30,Output Resource,Curdling,1,N/A
+3-11-CJ-CFM,Master,Curdling Factory,5,Cheese,N/A,Input Resource,Milk,1,Cow Farm
+3-10-T-DFM,Master,Farm,1,Bread,N/A,Build Resource,Plank,4,Sawmill
+3-10-T-DFM,Master,Farm,1,Bread,N/A,Build Resource,Stone,3,Quarry
+3-10-T-DFM,Master,Farm,1,Bread,N/A,Maintenance Resource,Fish,1,Fishery
+3-10-T-DFM,Master,Farm,1,Bread,N/A,Maintenance Resource,Water,1,Well
+3-10-T-DFM,Master,Farm,1,Bread,31,Output Resource,Grain,2,N/A
+3-10-T-DFM,Master,Farm,1,Bread,N/A,Input Resource,None,1,None
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Build Resource,Plank,8,Sawmill
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Build Resource,Stone,7,Quarry
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Build Resource,Brick,6,Brick Factory
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Maintenance Resource,Bread,2,Bakery
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Maintenance Resource,Beer,2,Brewery
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Maintenance Resource,Clothes,2,Sewing Workshop
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,30,Output Resource,Felt,2,N/A
+3-07-NH-FFM,Master,Felt Workshop,2,Overalls,N/A,Input Resource,Wool,1,Sheep Farm
+3-11-LB-FFM,Master,Fishery,0,Fish,N/A,Build Resource,Plank,2,Sawmill
+3-11-LB-FFM,Master,Fishery,0,Fish,N/A,Maintenance Resource,None,0,None
+3-11-LB-FFM,Master,Fishery,0,Fish,30,Output Resource,Fish,1,N/A
+3-11-LB-FFM,Master,Fishery,0,Fish,N/A,Input Resource,None,1,None
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Build Resource,Plank,16,Sawmill
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Build Resource,Stone,12,Quarry
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Build Resource,Brick,14,Brick Factory
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Maintenance Resource,Bread,3,Bakery
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Maintenance Resource,Beer,3,Brewery
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Maintenance Resource,Clothes,3,Sewing Workshop
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Input Resource,Calico,1,Cotton Mill
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,N/A,Input Resource,Felt,1,Felt Workshop
+2-06-FB-FBKI,Master,Fur Factory,2,Overalls,45,Output Resource,Overalls,3,N/A
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Build Resource,Plank,8,Sawmill
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Build Resource,Stone,7,Quarry
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Build Resource,Brick,6,Brick Factory
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Maintenance Resource,Sausages,1,Butchery
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Maintenance Resource,Moonshine,1,Moonshine Factory
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Maintenance Resource,Overalls,1,Fur Factory
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Input Resource,Coal,1,Coal Mine
+1-02-O-FFM,Master,Furnace,2,Steel Beams,N/A,Input Resource,Iron,1,Iron Mine
+1-02-O-FFM,Master,Furnace,2,Steel Beams,30,Output Resource,Steel,2,N/A
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Input Resource,Copper,2,Brass Smeltery
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Input Resource,Glass,2,Glassmakers
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Build Resource,Steel Beams,20,Steelworks
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Build Resource,Windows,18,Window Makers
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Build Resource,Concrete,22,Concrete Factory
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Maintenance Resource,Cheese,3,Cheese Factory
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Maintenance Resource,Rum,3,Rum Distillery
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,N/A,Maintenance Resource,Suits,3,Tailor's Shop
+3-09-SE-GFM,Master,Glasses Factory,6,Glasses,30,Output Resource,Glasses,3,N/A
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Build Resource,Plank,8,Sawmill
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Build Resource,Stone,4,Quarry
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Build Resource,Brick,4,Brick Factory
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Build Resource,Steel Beams,2,Steelworks
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Maintenance Resource,Steak,1,Steakhouse
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Maintenance Resource,Milk Can,1,Milk Farm
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Maintenance Resource,Vest,1,Leather Workshop
+1-06-G-GFM,Master,Glassmakers,3,Windows,30,Output Resource,Glass,1,N/A
+1-06-G-GFM,Master,Glassmakers,3,Windows,N/A,Input Resource,Sand,1,Sand Mine
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Input Resource,Calico,1,Cotton Mill
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Build Resource,Steel Beams,20,Steelworks
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Build Resource,Windows,18,Window Makers
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Build Resource,Concrete,22,Concrete Factory
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Maintenance Resource,Meat Pie,2,Meat Pie Bakery
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Maintenance Resource,Lemonade,2,Lemonade Factory*
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Maintenance Resource,Glasses,2,Glasses Factory
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,75,Output Resource,Hat,2,N/A
+2-08-H-GPFI,Master,Hat Fabric,7,Hat,N/A,Input Resource,Satin,1,Satin Fabric
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Build Resource,Plank,6,Sawmill
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Build Resource,Stone,5,Quarry
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Maintenance Resource,Sausages,1,Butchery
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Maintenance Resource,Moonshine,1,Moonshine Factory
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Maintenance Resource,Overalls,1,Fur Factory
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,60,Output Resource,Iron,1,N/A
+2-08-H-HKI,Master,Iron Mine,2,Steel Beams,N/A,Input Resource,None,1,None
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Input Resource,Coal,1,Coal Mine
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Build Resource,Steel Beams,20,Steelworks
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Build Resource,Windows,18,Window Makers
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Build Resource,Concrete,22,Concrete Factory
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Chocolate,1,Chocolate Factory
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Coffee,1,Coffee Plantation*
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Hat,1,Hat Fabric
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,30,Output Resource,Kerosene,1,N/A
+3-02-SB-IMM,Master,Kerosene Factory,7,Kerosene Lamp,N/A,Input Resource,Oil,1,Oil Well
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Input Resource,Copper Pipes,1,Pipe Mill
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Input Resource,Glass,1,Glassmakers
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Input Resource,Kerosene,1,Kerosene Factory
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Build Resource,Steel Beams,30,Steelworks
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Build Resource,Windows,28,Window Makers
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Build Resource,Concrete,32,Concrete Factory
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Chocolate,2,Chocolate Factory
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Coffee,2,Coffee Plantation*
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,N/A,Maintenance Resource,Hat,2,Hat Fabric
+1-07-KL-KFM,Master,Kerosene Lamp Factory,7,Kerosene Lamp,45,Output Resource,Kerosene Lamp,2,N/A
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Build Resource,Plank,16,Sawmill
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Build Resource,Stone,14,Quarry
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Build Resource,Brick,20,Brick Factory
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Build Resource,Steel Beams,16,Steelworks
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Maintenance Resource,Sausages,2,Butchery
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Maintenance Resource,Moonshine,2,Moonshine Factory
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Maintenance Resource,Overalls,2,Fur Factory
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,N/A,Input Resource,Tanned Leather,1,Tannery
+1-07-KL-KLFM,Master,Leather Workshop,3,Vest,45,Output Resource,Vest,2,N/A
+2-07-LP-LPFI,Master,Limestone Mission,0,Port,0,Output Resource,Concrete,1,N/A
+2-07-LP-LPFI,Master,Limestone Mission,0,Port,N/A,Input Resource,Rum,1,Rum Distillery
+2-07-LP-LPFI,Master,Limestone Mission,0,Port,N/A,Input Resource,Steam Engine,1,Steam Engine Factory
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Build Resource,Plank,12,Sawmill
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Build Resource,Stone,11,Quarry
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Build Resource,Brick,6,Brick Factory
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Maintenance Resource,Cheese,1,Cheese Factory
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Maintenance Resource,Rum,1,Rum Distillery
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Maintenance Resource,Suits,1,Tailor's Shop
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,60,Output Resource,Limestone,1,N/A
+1-00-P-LMM,Master,Limestone Quarry,5,Concrete,N/A,Input Resource,None,1,None
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Build Resource,Plank,16,Sawmill
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Build Resource,Brick,20,Brick Factory
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Build Resource,Steel Beams,12,Steelworks
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Build Resource,Windows,8,Window Makers
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Maintenance Resource,Canned Food,2,Cannery
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Maintenance Resource,Wine,2,Winery
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Maintenance Resource,Boots,2,Boot Factory
+1-05-C-LQM,Master,Linen Mill,5,Suits,N/A,Input Resource,Linseed,1,Linseed Farm
+1-05-C-LQM,Master,Linen Mill,5,Suits,30,Output Resource,Linen,1,N/A
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Build Resource,Plank,8,Sawmill
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Build Resource,Brick,7,Brick Factory
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Build Resource,Windows,4,Window Makers
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Maintenance Resource,Canned Food,1,Cannery
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Maintenance Resource,Wine,1,Winery
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Maintenance Resource,Boots,1,Boot Factory
+1-05-S-LMM,Master,Linseed Farm,5,Suits,N/A,Input Resource,None,1,None
+1-05-S-LMM,Master,Linseed Farm,5,Suits,31,Output Resource,Linseed,2,N/A
+1-05-S-LFM,Master,Lumber Camp,0,Plank,N/A,Build Resource,Plank,2,Sawmill
+1-05-S-LFM,Master,Lumber Camp,0,Plank,N/A,Maintenance Resource,None,0,None
+1-05-S-LFM,Master,Lumber Camp,0,Plank,N/A,Input Resource,None,1,None
+1-05-S-LFM,Master,Lumber Camp,0,Plank,60,Output Resource,Tree,2,N/A
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Build Resource,Steel Beams,12,Steelworks
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Build Resource,Windows,8,Window Makers
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Build Resource,Concrete,20,Concrete Factory
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Maintenance Resource,Cheese,2,Cheese Factory
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Maintenance Resource,Rum,2,Rum Distillery
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Maintenance Resource,Suits,2,Tailor's Shop
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,45,Output Resource,Meat Pie,1,N/A
+3-11-C-MWM,Master,Meat Pie Bakery,6,Meat Pie,N/A,Input Resource,Stuffing,1,Stuffing Workshop
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Input Resource,Can,1,Can Factory
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Build Resource,Plank,16,Sawmill
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Build Resource,Stone,14,Quarry
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Build Resource,Brick,20,Brick Factory
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Build Resource,Steel Beams,16,Steelworks
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Maintenance Resource,Sausages,2,Butchery
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Maintenance Resource,Moonshine,2,Moonshine Factory
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Maintenance Resource,Overalls,2,Fur Factory
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,N/A,Input Resource,Milk,1,Cow Farm
+1-06-MP-MPBM,Master,Milk Farm,3,Milk Can,45,Output Resource,Milk Can,2,N/A
+3-03-MC-MFM,Master,Mill,1,Bread,N/A,Build Resource,Plank,4,Sawmill
+3-03-MC-MFM,Master,Mill,1,Bread,N/A,Build Resource,Stone,3,Quarry
+3-03-MC-MFM,Master,Mill,1,Bread,N/A,Maintenance Resource,Fish,2,Fishery
+3-03-MC-MFM,Master,Mill,1,Bread,N/A,Maintenance Resource,Water,2,Well
+3-03-MC-MFM,Master,Mill,1,Bread,N/A,Input Resource,Grain,1,Farm
+3-03-MC-MFM,Master,Mill,1,Bread,30,Output Resource,Meal,2,N/A
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Build Resource,Plank,16,Sawmill
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Build Resource,Stone,14,Quarry
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Build Resource,Brick,12,Brick Factory
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Maintenance Resource,Bread,3,Bakery
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Maintenance Resource,Beer,3,Brewery
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Maintenance Resource,Clothes,3,Sewing Workshop
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,45,Output Resource,Moonshine,3,N/A
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Input Resource,Potato,1,Potato Farm
+3-08-C-MM,Master,Moonshine Factory,2,Moonshine,N/A,Input Resource,Sugar Cane,1,Sugar Cane Plantation
+1-02-M-MFM,Master,Mountains,0,Port,0,Output Resource,Train,1,N/A
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Build Resource,Plank,6,Sawmill
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Build Resource,Stone,5,Quarry
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Maintenance Resource,Bread,1,Bakery
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Maintenance Resource,Beer,1,Brewery
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Maintenance Resource,Clothes,1,Sewing Workshop
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Input Resource,Grain,2,Farm
+2-08-O-OWI,Master,Pig Farm,2,Sausages,30,Output Resource,Pig,1,N/A
+2-08-O-OWI,Master,Pig Farm,2,Sausages,N/A,Input Resource,Water,1,Well
+3-02-S-PFM,Master,Pillar,2,Pillar,N/A,Input Resource,Any,1,None
+3-02-S-PFM,Master,Pillar,2,Pillar,2,Output Resource,Any,1,N/A
+3-02-S-PFM,Master,Pillar,2,Pillar,N/A,Build Resource,Plank,3,Sawmill
+3-02-S-PFM,Master,Pillar,2,Pillar,N/A,Build Resource,Stone,1,Quarry
+3-02-S-PFM,Master,Pillar,2,Pillar,N/A,Maintenance Resource,None,0,None
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Input Resource,Copper,1,Brass Smeltery
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,30,Output Resource,Copper Pipes,1,N/A
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Build Resource,Steel Beams,12,Steelworks
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Build Resource,Windows,8,Window Makers
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Build Resource,Concrete,20,Concrete Factory
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Maintenance Resource,Meat Pie,1,Meat Pie Bakery
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Maintenance Resource,Lemonade,1,Lemonade Factory*
+1-02-P-PM,Master,Pipe Mill,6,Steam Engine,N/A,Maintenance Resource,Glasses,1,Glasses Factory
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Caoutchouc,1,N/A
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Cocoa,1,N/A
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Coffee,1,N/A
+2-06-P-PDI,Master,Port,0,Port,N/A,Input Resource,Cotton,1,Cotton Plantation
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Lemonade,1,N/A
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Oil,1,N/A
+2-06-P-PDI,Master,Port,0,Port,0,Output Resource,Rum,1,N/A
+2-06-P-PDI,Master,Port,0,Port,N/A,Input Resource,Steam Engine,1,Steam Engine Factory
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Build Resource,Plank,6,Sawmill
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Build Resource,Stone,5,Quarry
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Maintenance Resource,Bread,1,Bakery
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Maintenance Resource,Beer,1,Brewery
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Maintenance Resource,Clothes,1,Sewing Workshop
+2-00-P-PI,Master,Potato Farm,2,Moonshine,N/A,Input Resource,None,1,None
+2-00-P-PI,Master,Potato Farm,2,Moonshine,31,Output Resource,Potato,2,N/A
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Build Resource,Plank,50,Sawmill
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Build Resource,Stone,125,Quarry
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Build Resource,Steel Beams,30,Steelworks
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Build Resource,Kerosene Lamp,60,Kerosene Lamp Factory
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Maintenance Resource,None,0,None
+1-02-M-PFM,Master,Promenade,8,Promenade,0,Output Resource,None,0,N/A
+1-02-M-PFM,Master,Promenade,8,Promenade,N/A,Input Resource,None,0,None
+1-08-P-PM,Master,Quarry,0,Stone,N/A,Build Resource,Plank,2,Sawmill
+1-08-P-PM,Master,Quarry,0,Stone,N/A,Maintenance Resource,None,0,None
+1-08-P-PM,Master,Quarry,0,Stone,N/A,Input Resource,None,1,None
+1-08-P-PM,Master,Quarry,0,Stone,75,Output Resource,Stone,1,N/A
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Build Resource,Plank,8,Sawmill
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Build Resource,Brick,7,Brick Factory
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Build Resource,Windows,4,Window Makers
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Maintenance Resource,Steak,1,Steakhouse
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Maintenance Resource,Milk Can,1,Milk Farm
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Maintenance Resource,Vest,1,Leather Workshop
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,N/A,Input Resource,None,1,None
+3-07-FP-RPM,Master,Red Pepper Farm,4,Canned Food,31,Output Resource,Red Pepper,2,N/A
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Build Resource,Plank,8,Sawmill
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Build Resource,Brick,7,Brick Factory
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Build Resource,Windows,4,Window Makers
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Maintenance Resource,Canned Food,1,Cannery
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Maintenance Resource,Wine,1,Winery
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Maintenance Resource,Boots,1,Boot Factory
+3-09-R-RFM,Master,Rope Workshop,4,Rope,N/A,Input Resource,Cotton,1,Cotton Plantation
+3-09-R-RFM,Master,Rope Workshop,4,Rope,30,Output Resource,Rope,1,N/A
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Build Resource,Steel Beams,20,Steelworks
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Build Resource,Windows,18,Window Makers
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Build Resource,Concrete,22,Concrete Factory
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Maintenance Resource,Canned Food,2,Cannery
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Maintenance Resource,Wine,2,Winery
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Maintenance Resource,Boots,2,Boot Factory
+1-04-R-RWM,Master,Rum Distillery,5,Rum,45,Output Resource,Rum,3,N/A
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Input Resource,Plank,1,Sawmill
+1-04-R-RWM,Master,Rum Distillery,5,Rum,N/A,Input Resource,Sugar Cane,1,Sugar Cane Plantation
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Build Resource,Plank,8,Sawmill
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Build Resource,Brick,7,Brick Factory
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Build Resource,Windows,4,Window Makers
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Maintenance Resource,Canned Food,2,Cannery
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Maintenance Resource,Wine,2,Winery
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Maintenance Resource,Boots,2,Boot Factory
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Input Resource,Cotton,3,Cotton Plantation
+1-05-R-RDM,Master,Sailmakers,4,Sails,30,Output Resource,Sails,1,N/A
+1-05-R-RDM,Master,Sailmakers,4,Sails,N/A,Input Resource,Rope,1,Rope Workshop
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Build Resource,Plank,8,Sawmill
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Build Resource,Stone,7,Quarry
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Build Resource,Brick,4,Brick Factory
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Maintenance Resource,Steak,1,Steakhouse
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Maintenance Resource,Milk Can,1,Milk Farm
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Maintenance Resource,Vest,1,Leather Workshop
+3-07-L-SWM,Master,Sand Mine,3,Windows,30,Output Resource,Sand,1,N/A
+3-07-L-SWM,Master,Sand Mine,3,Windows,N/A,Input Resource,Water,1,Well
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Build Resource,Steel Beams,12,Steelworks
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Build Resource,Windows,8,Window Makers
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Build Resource,Concrete,20,Concrete Factory
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Maintenance Resource,Meat Pie,1,Meat Pie Bakery
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Maintenance Resource,Lemonade,1,Lemonade Factory*
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Maintenance Resource,Glasses,1,Glasses Factory
+3-03-W-SMM,Master,Satin Fabric,7,Hat,N/A,Input Resource,Linen,1,Linen Mill
+3-03-W-SMM,Master,Satin Fabric,7,Hat,30,Output Resource,Satin,1,N/A
+1-07-H-SFM,Master,Sawmill,0,Plank,N/A,Build Resource,Plank,2,Sawmill
+1-07-H-SFM,Master,Sawmill,0,Plank,N/A,Build Resource,Stone,1,Quarry
+1-07-H-SFM,Master,Sawmill,0,Plank,N/A,Maintenance Resource,None,0,None
+1-07-H-SFM,Master,Sawmill,0,Plank,30,Output Resource,Plank,2,N/A
+1-07-H-SFM,Master,Sawmill,0,Plank,N/A,Input Resource,Tree,1,Lumber Camp
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,N/A,Build Resource,Plank,8,Sawmill
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,N/A,Build Resource,Stone,6,Quarry
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,N/A,Maintenance Resource,Fish,2,Fishery
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,N/A,Maintenance Resource,Water,2,Well
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,45,Output Resource,Clothes,2,N/A
+3-09-S-SDM,Master,Sewing Workshop,1,Clothes,N/A,Input Resource,Wool,1,Sheep Farm
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Input Resource,Copper,1,Brass Smeltery
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Build Resource,Steel Beams,20,Steelworks
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Build Resource,Windows,18,Window Makers
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Build Resource,Concrete,22,Concrete Factory
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Maintenance Resource,Meat Pie,2,Meat Pie Bakery
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Maintenance Resource,Lemonade,2,Lemonade Factory*
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,N/A,Maintenance Resource,Glasses,2,Glasses Factory
+1-01-C-SWM,Master,Sheave Manufactory,6,Steam Engine,30,Output Resource,Sheave,1,N/A
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,N/A,Build Resource,Plank,4,Sawmill
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,N/A,Build Resource,Stone,3,Quarry
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,N/A,Maintenance Resource,Fish,1,Fishery
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,N/A,Maintenance Resource,Water,1,Well
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,N/A,Input Resource,None,1,None
+1-06-SE-SMM,Master,Sheep Farm,1,Clothes,31,Output Resource,Wool,2,N/A
+1-01-C-SFM,Master,Shipyard,5,Boat,30,Output Resource,Boat,1,N/A
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Build Resource,Plank,8,Sawmill
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Build Resource,Brick,7,Brick Factory
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Build Resource,Windows,4,Window Makers
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Maintenance Resource,None,0,None
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Input Resource,Plank,8,Sawmill
+1-01-C-SFM,Master,Shipyard,5,Boat,N/A,Input Resource,Rope,2,Rope Workshop
+3-11-S-SKM,Master,Square,8,Square,N/A,Build Resource,Stone,225,Quarry
+3-11-S-SKM,Master,Square,8,Square,N/A,Build Resource,Steel Beams,25,Steelworks
+3-11-S-SKM,Master,Square,8,Square,N/A,Build Resource,Kerosene Lamp,50,Kerosene Lamp Factory
+3-11-S-SKM,Master,Square,8,Square,N/A,Maintenance Resource,None,0,None
+3-11-S-SKM,Master,Square,8,Square,0,Output Resource,None,0,N/A
+3-11-S-SKM,Master,Square,8,Square,N/A,Input Resource,None,0,None
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Build Resource,Plank,8,Sawmill
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Build Resource,Stone,4,Quarry
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Build Resource,Brick,4,Brick Factory
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Build Resource,Steel Beams,2,Steelworks
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Maintenance Resource,Sausages,2,Butchery
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Maintenance Resource,Moonshine,2,Moonshine Factory
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Maintenance Resource,Overalls,2,Fur Factory
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,N/A,Input Resource,Cow,1,Cow Farm
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,45,Output Resource,Leather,2,N/A
+3-07-H-SM,Master,Steakhouse,3,Steak & Leather,45,Output Resource,Steak,2,N/A
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,N/A,Build Resource,Plank,8,Sawmill
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,N/A,Build Resource,Stone,6,Quarry
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,N/A,Build Resource,Steam Engine,2,Steam Engine Factory
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,N/A,Maintenance Resource,Steam Engine,1,Steam Engine Factory
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,60,Output Resource,Clay,2,N/A
+3-03-SL-SM,Master,Steam Clay Pit,1,Brick,N/A,Input Resource,None,1,None
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,N/A,Build Resource,Plank,12,Sawmill
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,N/A,Build Resource,Stone,10,Quarry
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,N/A,Build Resource,Steam Engine,2,Steam Engine Factory
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,N/A,Maintenance Resource,Steam Engine,1,Steam Engine Factory
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,60,Output Resource,Coal,2,N/A
+1-01-B-SCPM,Master,Steam Coal Mine,2,Steel Beams,N/A,Input Resource,None,1,None
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,60,Output Resource,Copper Ore,2,N/A
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Build Resource,Steel Beams,24,Steelworks
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Build Resource,Windows,16,Window Makers
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Build Resource,Concrete,40,Concrete Factory
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Build Resource,Steam Engine,2,Steam Engine Factory
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Maintenance Resource,Steam Engine,1,Steam Engine Factory
+1-02-SB-SCMM,Master,Steam Copper Mine,6,Glasses,N/A,Input Resource,None,1,None
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Input Resource,Boiler,1,Boiler Factory
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Input Resource,Caoutchouc,1,Caoutchouc Farm
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Build Resource,Steel Beams,30,Steelworks
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Build Resource,Windows,28,Window Makers
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Build Resource,Concrete,32,Concrete Factory
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Maintenance Resource,Meat Pie,2,Meat Pie Bakery
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Maintenance Resource,Lemonade,2,Lemonade Factory*
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Maintenance Resource,Glasses,2,Glasses Factory
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,N/A,Input Resource,Sheave,1,Sheave Manufactory
+1-06-G-SCMM,Master,Steam Engine Factory,6,Steam Engine,45,Output Resource,Steam Engine,1,N/A
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,N/A,Build Resource,Plank,12,Sawmill
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,N/A,Build Resource,Stone,10,Quarry
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,N/A,Build Resource,Steam Engine,2,Steam Engine Factory
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,N/A,Maintenance Resource,Steam Engine,1,Steam Engine Factory
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,60,Output Resource,Iron,2,N/A
+3-06-SE-SEFM,Master,Steam Iron Mine,2,Steel Beams,N/A,Input Resource,None,1,None
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Build Resource,Plank,32,Sawmill
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Build Resource,Stone,22,Quarry
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Build Resource,Brick,12,Brick Factory
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Build Resource,Steam Engine,2,Steam Engine Factory
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Maintenance Resource,Steam Engine,1,Steam Engine Factory
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,60,Output Resource,Limestone,2,N/A
+1-02-SB-SIMM,Master,Steam Limestone Quarry,5,Concrete,N/A,Input Resource,None,1,None
+3-00-P-SMM,Master,Steel Mission,0,Port,N/A,Input Resource,Beer,1,Brewery
+3-00-P-SMM,Master,Steel Mission,0,Port,N/A,Input Resource,Bread,1,Bakery
+3-00-P-SMM,Master,Steel Mission,0,Port,N/A,Input Resource,Brick,1,Brick Mission
+3-00-P-SMM,Master,Steel Mission,0,Port,N/A,Input Resource,Clothes,1,Sewing Workshop
+3-00-P-SMM,Master,Steel Mission,0,Port,0,Output Resource,Coal,1,N/A
+3-00-P-SMM,Master,Steel Mission,0,Port,N/A,Input Resource,Steam Engine,1,Steam Engine Factory
+3-00-P-SMM,Master,Steel Mission,0,Port,0,Output Resource,Steel,1,N/A
+3-00-P-SMM,Master,Steel Mission,0,Port,0,Output Resource,Steel Beams,1,N/A
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Build Resource,Plank,16,Sawmill
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Build Resource,Stone,12,Quarry
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Build Resource,Brick,14,Brick Factory
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Maintenance Resource,Sausages,2,Butchery
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Maintenance Resource,Moonshine,2,Moonshine Factory
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Maintenance Resource,Overalls,2,Fur Factory
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,N/A,Input Resource,Steel,3,Furnace
+1-00-P-SMM,Master,Steelworks,2,Steel Beams,45,Output Resource,Steel Beams,2,N/A
+1-02-SB-SM,Master,Storage,0,Storage,0,Build Resource,Plank,1,Sawmill
+1-02-SB-SM,Master,Storage,0,Storage,N/A,Maintenance Resource,None,0,None
+1-02-SB-SM,Master,Storage,0,Storage,N/A,Input Resource,Any,1,None
+1-02-SB-SM,Master,Storage,0,Storage,0,Output Resource,Any,1,N/A
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Input Resource,Cow,1,Cow Farm
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Build Resource,Steel Beams,12,Steelworks
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Build Resource,Windows,8,Window Makers
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Build Resource,Concrete,20,Concrete Factory
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Maintenance Resource,Cheese,2,Cheese Factory
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Maintenance Resource,Rum,2,Rum Distillery
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,N/A,Maintenance Resource,Suits,2,Tailor's Shop
+1-00-S-SM,Master,Stuffing Workshop,6,Meat Pie,30,Output Resource,Stuffing,1,N/A
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Build Resource,Plank,12,Sawmill
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Build Resource,Brick,6,Brick Factory
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Maintenance Resource,Bread,1,Bakery
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Maintenance Resource,Beer,1,Brewery
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Maintenance Resource,Clothes,1,Sewing Workshop
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,N/A,Input Resource,None,1,None
+1-06-MP-SWM,Master,Sugar Cane Plantation,2,Moonshine,31,Output Resource,Sugar Cane,2,N/A
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Build Resource,Plank,16,Sawmill
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Build Resource,Brick,20,Brick Factory
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Build Resource,Steel Beams,12,Steelworks
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Build Resource,Windows,8,Window Makers
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Maintenance Resource,Meat Pie,1,Meat Pie Bakery
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Maintenance Resource,Lemonade,1,Lemonade Factory*
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Maintenance Resource,Glasses,1,Glasses Factory
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,30,Output Resource,Sugar,1,N/A
+1-02-M-SCPM,Master,Sugar Refinery,7,Chocolate,N/A,Input Resource,Sugar Cane,1,Sugar Cane Plantation
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Input Resource,Calico,1,Cotton Mill
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Build Resource,Plank,16,Sawmill
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Build Resource,Brick,20,Brick Factory
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Build Resource,Steel Beams,12,Steelworks
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Build Resource,Windows,8,Window Makers
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Maintenance Resource,Canned Food,2,Cannery
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Maintenance Resource,Wine,2,Winery
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Maintenance Resource,Boots,2,Boot Factory
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,N/A,Input Resource,Linen,1,Linen Mill
+3-09-S-SMM,Master,Tailor's Shop,5,Suits,45,Output Resource,Suits,2,N/A
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Build Resource,Plank,8,Sawmill
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Build Resource,Stone,4,Quarry
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Build Resource,Brick,4,Brick Factory
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Build Resource,Steel Beams,2,Steelworks
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Maintenance Resource,Sausages,1,Butchery
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Maintenance Resource,Moonshine,1,Moonshine Factory
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Maintenance Resource,Overalls,1,Fur Factory
+1-05-S-TSM,Master,Tannery,3,Vest,N/A,Input Resource,Leather,1,Steakhouse
+1-05-S-TSM,Master,Tannery,3,Vest,30,Output Resource,Tanned Leather,1,N/A
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Build Resource,Plank,8,Sawmill
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Build Resource,Brick,7,Brick Factory
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Build Resource,Windows,4,Window Makers
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Maintenance Resource,Steak,1,Steakhouse
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Maintenance Resource,Milk Can,1,Milk Farm
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Maintenance Resource,Vest,1,Leather Workshop
+2-07-T-TKI,Master,Vineyard,4,Wine,31,Output Resource,Grapes,2,N/A
+2-07-T-TKI,Master,Vineyard,4,Wine,N/A,Input Resource,None,1,None
+3-07-B-WMM,Master,Well,0,Water,N/A,Build Resource,Plank,2,Sawmill
+3-07-B-WMM,Master,Well,0,Water,N/A,Maintenance Resource,None,0,None
+3-07-B-WMM,Master,Well,0,Water,N/A,Input Resource,None,1,None
+3-07-B-WMM,Master,Well,0,Water,15,Output Resource,Water,1,N/A
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Build Resource,Plank,16,Sawmill
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Build Resource,Brick,20,Brick Factory
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Build Resource,Steel Beams,16,Steelworks
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Maintenance Resource,Steak,2,Steakhouse
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Maintenance Resource,Milk Can,2,Milk Farm
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Maintenance Resource,Vest,2,Leather Workshop
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Input Resource,Glass,1,Glassmakers
+3-10-W-WDM,Master,Window Makers,3,Windows,N/A,Input Resource,Tree,2,Lumber Camp
+3-10-W-WDM,Master,Window Makers,3,Windows,45,Output Resource,Windows,2,N/A
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Build Resource,Plank,16,Sawmill
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Build Resource,Brick,20,Brick Factory
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Build Resource,Steel Beams,12,Steelworks
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Build Resource,Windows,8,Window Makers
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Maintenance Resource,Steak,2,Steakhouse
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Maintenance Resource,Milk Can,2,Milk Farm
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Maintenance Resource,Vest,2,Leather Workshop
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Input Resource,Glass,1,Glassmakers
+1-03-W-WMM,Master,Winery,4,Wine,N/A,Input Resource,Grapes,1,Vineyard
+1-03-W-WMM,Master,Winery,4,Wine,45,Output Resource,Wine,2,N/A
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Beer,150,Brewery
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Cheese,75,Cheese Factory
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Chocolate,50,Chocolate Factory
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Lemonade,75,Lemonade Factory
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Plank,200,Sawmill
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Stone,150,Quarry
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Steel Beams,30,Steelworks
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Windows,20,Window Makers
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Concrete,20,Concrete Factory
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Build Resource,Kerosene Lamp,75,Kerosene Lamp Factory
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Maintenance Resource,None,0,None
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Sausages,150,Butchery
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Steak,100,Steakhouse
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,0,Output Resource,Win,1,N/A
+1-04-W-WM,Master,World Exhibition,8,World Exhibition,N/A,Input Resource,Wine,100,Winery
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,30,Output Resource,Ammo**,2,N/A
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Input Resource,Coal**,1,Coal Mine**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Input Resource,None,1,None
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Build Resource,Stone**,9,Quarry**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-09-R-AFM,Mountains,Ammo Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Coin**,1,Mint**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Input Resource,Barley Meal**,2,Water Mill**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,45,Output Resource,Bread**,3,N/A
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Build Resource,Stone**,6,Quarry**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Maintenance Resource,Fish**,2,Fishery**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Maintenance Resource,Water**,2,Well**
+3-01-B-BM,Mountains,Bakery (Mountains),7,Bread,N/A,Input Resource,Water**,1,Well**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,45,Output Resource,Bean Pie**,2,N/A
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Input Resource,Bean**,1,Bean Farm**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Build Resource,Stone**,11,Quarry**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Build Resource,Oak Plank**,10,Sawmill**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Build Resource,Nails**,8,Fastener Factory**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Maintenance Resource,Sausages**,2,Butchery**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Maintenance Resource,Schnapps**,2,Schnapps Distillery**
+1-04-A-AWM,Mountains,Bakery  (Other),10,Bread,N/A,Maintenance Resource,Revolver**,2,Revolver Factory**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Input Resource,Coin**,150,Mint**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Build Resource,Stone**,65,Quarry**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Build Resource,Oak Plank**,70,Sawmill**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Build Resource,Nails**,50,Fastener Factory**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Build Resource,Light Bulb**,35,Light Bulb Factory**
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,N/A,Maintenance Resource,None,0,None
+3-12-B-BM,Mountains,Bank (Mountains),12,Bank,0,Output Resource,Win**,1,N/A
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,31,Output Resource,Barley**,2,N/A
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,N/A,Build Resource,Stone**,3,Quarry**
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,N/A,Maintenance Resource,Fish**,1,Fishery**
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,N/A,Maintenance Resource,Water**,1,Well**
+3-07-B-BFM,Mountains,Barley Farm (Mountains),7,Bread,N/A,Input Resource,None,1,None
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Input Resource,Hoop**,1,Fastener Factory**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,30,Output Resource,Oak Barrel**,2,N/A
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Input Resource,Oak**,1,Oak Lumber Camp**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Build Resource,Stone**,9,Quarry**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-09-S-BFM,Mountains,Barrel Factory (Mountains),9,Schnapps,N/A,Maintenance Resource,Coin**,1,Mint**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,31,Output Resource,Bean**,2,N/A
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Input Resource,None,1,None
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Build Resource,Stone**,9,Quarry**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-10-BP-BFM,Mountains,Bean Farm (Mountains),10,Bean Pie,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,30,Output Resource,Boiler**,1,N/A
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Input Resource,Copper**,1,Brass Smeltery**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Build Resource,Stone**,7,Quarry**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Maintenance Resource,Coin**,1,Mint**
+3-06-SE-BFM,Mountains,Boiler Factory (Mountains),8,Steam Engine,N/A,Input Resource,Water**,3,Well**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Input Resource,Coal**,1,Coal Mine**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Input Resource,Copper Ore**,1,Copper Mine**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,30,Output Resource,Copper**,3,N/A
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Build Resource,Stone**,7,Quarry**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-06-G-BSM,Mountains,Brass Smeltery (Mountains),8,Glasses,N/A,Maintenance Resource,Coin**,1,Mint**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Build Resource,Stone**,9,Quarry**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Maintenance Resource,Steak**,2,Steakhouse**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Maintenance Resource,Milk Can**,2,Milk Farm**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Maintenance Resource,Coin**,2,Mint**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,N/A,Input Resource,Pig**,1,Pig Farm**
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,45,Output Resource,Sausages**,3,N/A
+3-02-S-BM,Mountains,Butchery (Mountains),9,Sausages,45,Output Resource,Tallow**,3,N/A
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Input Resource,Cranberry**,1,Cranberry Plantation**
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,45,Output Resource,Fruit Punch**,3,N/A
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Build Resource,Stone**,6,Quarry**
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Fish**,2,Fishery**
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Water**,2,Well**
+3-07-FP-CM,Mountains,Cafeteria (Mountains),7,Fruit Punch,N/A,Input Resource,Raspberry**,1,Raspberry Plantation**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,30,Output Resource,Can**,2,N/A
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Input Resource,Coal**,1,Coal Mine**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Build Resource,Stone**,7,Quarry**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Maintenance Resource,Bread**,2,Bakery**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Maintenance Resource,Fruit Punch**,2,Cafeteria**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Maintenance Resource,Horse**,2,Stable**
+3-03-MC-CFM,Mountains,Can Factory (Mountains),8,Milk Can,N/A,Input Resource,Steel**,1,Furnace**
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,31,Output Resource,Carrot**,2,N/A
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Input Resource,None,1,None
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Build Resource,Stone**,11,Quarry**
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Maintenance Resource,Bean Pie**,1,Bakery***
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Maintenance Resource,Whiskey**,1,Whiskey Distillery**
+3-11-S-CFM,Mountains,Carrot Farm (Mountains),11,Soup,N/A,Maintenance Resource,Watch**,1,Watch Factory**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Input Resource,Carrot**,1,Carrot Farm**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,45,Output Resource,Carrot Juice**,2,N/A
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Input Resource,Glass Cup**,1,Crockery Factory**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Build Resource,Stone**,26,Quarry**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Build Resource,Oak Plank**,24,Sawmill**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Build Resource,Nails**,22,Fastener Factory**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-11-CJ-CJKM,Mountains,Carrot Juice Kitchen (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Input Resource,Barley**,2,Barley Farm**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,30,Output Resource,Chain**,1,N/A
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Input Resource,Copper**,1,Brass Smeltery**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Build Resource,Stone**,7,Quarry**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-09-SE-CFM,Mountains,Chain Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Input Resource,Casket**,2,Marquetry Workshop**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,45,Output Resource,Cigar**,2,N/A
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Build Resource,Stone**,26,Quarry**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Build Resource,Oak Plank**,24,Sawmill**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Build Resource,Nails**,22,Fastener Factory**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-11-C-CFM,Mountains,Cigar Factory (Mountains),11,Cigars,N/A,Input Resource,Tobacco**,1,Tobacco Plantation**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,60,Output Resource,Coal**,1,N/A
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Build Resource,Stone**,3,Quarry**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Bread**,1,Bakery**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Horse**,1,Stable**
+3-02-SB-CMM,Mountains,Coal Mine (Mountains),7,Steel Beams,N/A,Input Resource,None,1,None
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,60,Output Resource,Copper Ore**,1,N/A
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Input Resource,None,1,None
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Build Resource,Stone**,5,Quarry**
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-06-G-CMM,Mountains,Copper Mine (Mountains),8,Glasses,N/A,Maintenance Resource,Coin**,1,Mint**
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,31,Output Resource,Cranberry**,2,N/A
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,N/A,Build Resource,Stone**,3,Quarry**
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Fish**,1,Fishery**
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Water**,1,Well**
+3-07-FP-CPM,Mountains,Cranberry Plantation (Mountains),7,Fruit Punch,N/A,Input Resource,None,1,None
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Input Resource,Glass**,1,Glassmakers**
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,21,Output Resource,Glass Cup**,1,N/A
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Build Resource,Stone**,13,Quarry**
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Bean Pie**,1,Bakery***
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Whiskey**,1,Whiskey Distillery**
+3-11-CJ-CFM,Mountains,Crockery Factory (Mountains),11,Carrot Juice,N/A,Maintenance Resource,Watch**,1,Watch Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Input Resource,Dynamite**,1,Dynamite Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Input Resource,Rails**,1,Rail Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Input Resource,Sleepers**,1,Sleeper Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Input Resource,Steam Engine**,1,Steam Engine Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Build Resource,Stone**,22,Quarry**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Build Resource,Oak Plank**,20,Sawmill**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Build Resource,Nails**,18,Fastener Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Maintenance Resource,Bean Pie**,3,Bakery***
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Maintenance Resource,Whiskey**,3,Whiskey Distillery**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,N/A,Maintenance Resource,Watch**,3,Watch Factory**
+3-10-T-DM,Mountains,Depot (Mountains),10,Train,45,Output Resource,Train**,1,N/A
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,45,Output Resource,Dynamite**,2,N/A
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Input Resource,Salt**,2,Salt Works**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Build Resource,Stone**,9,Quarry**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-10-T-DFM,Mountains,Dynamite Factory (Mountains),10,Train,N/A,Input Resource,Tallow**,1,Butchery**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",45,Output Resource,Hoop**,1,N/A
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",45,Output Resource,Nails**,3,N/A
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Build Resource,Stone**,12,Quarry**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Maintenance Resource,Bread**,2,Bakery**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Maintenance Resource,Fruit Punch**,2,Cafeteria**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Maintenance Resource,Horse**,2,Stable**
+3-07-NH-FFM,Mountains,Fastener Factory (Mountains),7,"Nails, Hoop",N/A,Input Resource,Steel**,1,Furnace**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Input Resource,Coal**,1,Coal Mine**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,30,Output Resource,Filament**,1,N/A
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Build Resource,Stone**,13,Quarry**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Soup**,2,Soup Kitchen**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Carrot Juice**,2,Carrot Juice Kitchen**
+3-11-LB-FFM,Mountains,Filament Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Cigar**,2,Cigar Factory**
+3-00-F-FM,Mountains,Fishery (Mountains),6,Fish,30,Output Resource,Fish**,1,N/A
+3-00-F-FM,Mountains,Fishery (Mountains),6,Fish,N/A,Build Resource,Oak Plank**,1,Sawmill**
+3-00-F-FM,Mountains,Fishery (Mountains),6,Fish,N/A,Maintenance Resource,None,0,None
+3-00-F-FM,Mountains,Fishery (Mountains),6,Fish,N/A,Input Resource,Water**,1,Well**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Input Resource,Coal**,1,Coal Mine**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Input Resource,Iron**,1,Iron Mine**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Build Resource,Stone**,6,Quarry**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Maintenance Resource,Bread**,1,Bakery**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,N/A,Maintenance Resource,Horse**,1,Stable**
+3-02-SB-FM,Mountains,Furnace (Mountains),7,Steel Beams,30,Output Resource,Steel**,2,N/A
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Input Resource,Coal**,1,Coal Mine**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Input Resource,Gold Ore**,1,Sluicing Camp**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,30,Output Resource,Gold**,1,N/A
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Build Resource,Stone**,7,Quarry**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Build Resource,Oak Plank**,6,Sawmill**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Maintenance Resource,Bread**,1,Bakery**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+1-02-O-FFM,Mountains,Furnace  (Other),8,Steel Beams,N/A,Maintenance Resource,Horse**,1,Stable**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Input Resource,Copper**,1,Brass Smeltery**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,30,Output Resource,Gear**,1,N/A
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Build Resource,Stone**,7,Quarry**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-09-SE-GFM,Mountains,Gear Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,30,Output Resource,Glass**,1,N/A
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Input Resource,Sand**,1,Sand Mine**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Build Resource,Stone**,11,Quarry**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-03-W-GM,Mountains,Glassmakers (Mountains),10,Windows,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,31,Output Resource,Goat**,2,N/A
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,31,Output Resource,Milk**,2,N/A
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Build Resource,Stone**,5,Quarry**
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Input Resource,None,1,None
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Maintenance Resource,Bread**,1,Bakery**
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+3-08-S-GFM,Mountains,Goat Farm (Mountains),8,Steak,N/A,Maintenance Resource,Horse**,1,Stable**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,60,Output Resource,Gold Ore**,1,N/A
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Input Resource,None,1,None
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Build Resource,Stone**,9,Quarry**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-08-C-GMM,Mountains,Gold Mine (Mountains),8,Coin,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Boiler**,1,Boiler Factory**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Coin**,1,Mint**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,0,Output Resource,Gold Ore**,1,N/A
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Milk Can**,1,Milk Farm**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Nails**,1,Fastener Factory**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Steak**,1,Steakhouse**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,N/A,Input Resource,Steam Engine**,1,Steam Engine Factory**
+3-08-C-GMM,Mountains,Gold Mission,0,Port,0,Output Resource,Train**,1,N/A
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Input Resource,Barley**,3,Barley Farm**
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,30,Output Resource,Foal**,3,N/A
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Build Resource,Stone**,3,Quarry**
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Maintenance Resource,Fish**,1,Fishery**
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Maintenance Resource,Water**,1,Well**
+3-07-H-HFM,Mountains,Horse Farm (Mountains),7,Horse,N/A,Input Resource,Water**,2,Well**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,60,Output Resource,Iron**,1,N/A
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Build Resource,Stone**,3,Quarry**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Bread**,1,Bakery**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Maintenance Resource,Horse**,1,Stable**
+3-02-SB-IMM,Mountains,Iron Mine (Mountains),7,Steel Beams,N/A,Input Resource,None,1,None
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Input Resource,Filaments**,1,Filament Factory**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Input Resource,Glass**,2,Glassmakers**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,45,Output Resource,Light Bulb**,2,N/A
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Build Resource,Stone**,26,Quarry**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Build Resource,Oak Plank**,24,Sawmill**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Build Resource,Nails**,22,Fastener Factory**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Soup**,3,Soup Kitchen**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Carrot Juice**,3,Carrot Juice Kitchen**
+3-11-LB-LBFM,Mountains,Light Bulb Factory (Mountains),11,Light Bulb,N/A,Maintenance Resource,Cigar**,3,Cigar Factory**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,30,Output Resource,Casket**,1,N/A
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Input Resource,Oak Plank**,1,Sawmill**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Build Resource,Stone**,13,Quarry**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Maintenance Resource,Bean Pie**,1,Bakery***
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Maintenance Resource,Whiskey**,1,Whiskey Distillery**
+3-11-C-MWM,Mountains,Marquetry Workshop (Mountains),11,Cigars,N/A,Maintenance Resource,Watch**,1,Watch Factory**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Input Resource,Can**,1,Can Factory**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Input Resource,Milk**,1,Goat Farm**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,45,Output Resource,Milk Can**,2,N/A
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Build Resource,Stone**,14,Quarry**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Maintenance Resource,Bread**,2,Bakery**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Maintenance Resource,Fruit Punch**,2,Cafeteria**
+3-03-MC-MFM,Mountains,Milk Farm (Mountains),8,Milk Can,N/A,Maintenance Resource,Horse**,2,Stable**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,45,Output Resource,Coin**,2,N/A
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Input Resource,Gold**,1,Furnace***
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Build Resource,Stone**,14,Quarry**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Maintenance Resource,Bread**,2,Bakery**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Maintenance Resource,Fruit Punch**,2,Cafeteria**
+3-08-C-MM,Mountains,Mint (Mountains),8,Coin,N/A,Maintenance Resource,Horse**,2,Stable**
+3-06-OP-OLCM,Mountains,Oak Lumber Camp (Mountains),6,Oak Plank,N/A,Build Resource,Oak Plank**,1,Sawmill**
+3-06-OP-OLCM,Mountains,Oak Lumber Camp (Mountains),6,Oak Plank,N/A,Maintenance Resource,None,0,None
+3-06-OP-OLCM,Mountains,Oak Lumber Camp (Mountains),6,Oak Plank,120,Output Resource,Oak**,2,N/A
+3-06-OP-OLCM,Mountains,Oak Lumber Camp (Mountains),6,Oak Plank,N/A,Input Resource,None,1,None
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Input Resource,Barley**,2,Barley Farm**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,30,Output Resource,Pig**,1,N/A
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Build Resource,Stone**,7,Quarry**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Maintenance Resource,Coin**,1,Mint**
+3-02-S-PFM,Mountains,Pig Farm (Mountains),9,Sausages,N/A,Input Resource,Water**,1,Well**
+1-02-P-PM,Mountains,Pillar (Mountains),6,Pillar,N/A,Input Resource,Any**,1,None
+1-02-P-PM,Mountains,Pillar (Mountains),6,Pillar,2,Output Resource,Any**,1,N/A
+1-02-P-PM,Mountains,Pillar (Mountains),6,Pillar,N/A,Build Resource,Stone**,1,Quarry**
+1-02-P-PM,Mountains,Pillar (Mountains),6,Pillar,N/A,Build Resource,Oak Plank**,1,Sawmill**
+1-02-P-PM,Mountains,Pillar (Mountains),6,Pillar,N/A,Maintenance Resource,None,0,None
+3-00-S-QM,Mountains,Quarry (Mountains),6,Stone,N/A,Build Resource,Oak Plank**,1,Sawmill**
+3-00-S-QM,Mountains,Quarry (Mountains),6,Stone,N/A,Maintenance Resource,None,0,None
+3-00-S-QM,Mountains,Quarry (Mountains),6,Stone,75,Output Resource,Stone**,1,N/A
+3-00-S-QM,Mountains,Quarry (Mountains),6,Stone,N/A,Input Resource,Stone**,1,Quarry**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,30,Output Resource,Rails**,1,N/A
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Build Resource,Stone**,11,Quarry**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-10-T-RFM,Mountains,Rail Factory (Mountains),10,Train,N/A,Input Resource,Steel**,1,Furnace**
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,N/A,Build Resource,Stone**,3,Quarry**
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Fish**,1,Fishery**
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,N/A,Maintenance Resource,Water**,1,Well**
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,N/A,Input Resource,None,1,None
+3-07-FP-RPM,Mountains,Raspberry Plantation (Mountains),7,Fruit Punch,31,Output Resource,Raspberry**,2,N/A
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Input Resource,Ammo**,1,Ammo Factory**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,45,Output Resource,Revolver**,3,N/A
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Input Resource,Oak Plank**,1,Sawmill**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Build Resource,Stone**,18,Quarry**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Build Resource,Oak Plank**,16,Sawmill**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Build Resource,Nails**,14,Fastener Factory**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Steak**,2,Steakhouse**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Milk Can**,2,Milk Farm**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Maintenance Resource,Coin**,2,Mint**
+3-09-R-RFM,Mountains,Revolver Factory (Mountains),9,Revolver,N/A,Input Resource,Steel**,1,Furnace**
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,30,Output Resource,Salt**,1,N/A
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Build Resource,Stone**,7,Quarry**
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Maintenance Resource,Bean Pie**,1,Bakery***
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Maintenance Resource,Whiskey**,1,Whiskey Distillery**
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Maintenance Resource,Watch**,1,Watch Factory**
+3-07-L-SWM,Mountains,Salt Works (Mountains),10,Lemonade,N/A,Input Resource,Water**,1,Well**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,30,Output Resource,Sand**,1,N/A
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Build Resource,Stone**,9,Quarry**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Build Resource,Oak Plank**,8,Sawmill**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Build Resource,Nails**,6,Fastener Factory**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Maintenance Resource,Sausages**,1,Butchery**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Maintenance Resource,Schnapps**,1,Schnapps Distillery**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Maintenance Resource,Revolver**,1,Revolver Factory**
+3-03-W-SMM,Mountains,Sand Mine (Mountains),10,Windows,N/A,Input Resource,Water**,1,Well**
+3-00-P-SM,Mountains,Sawmill (Mountains),6,Plank,N/A,Build Resource,Stone**,1,Quarry**
+3-00-P-SM,Mountains,Sawmill (Mountains),6,Plank,N/A,Build Resource,Oak Plank**,1,Sawmill**
+3-00-P-SM,Mountains,Sawmill (Mountains),6,Plank,N/A,Maintenance Resource,None,0,None
+3-00-P-SM,Mountains,Sawmill (Mountains),6,Plank,30,Output Resource,Oak Plank**,4,N/A
+3-00-P-SM,Mountains,Sawmill (Mountains),6,Plank,N/A,Input Resource,Oak**,1,Oak Lumber Camp**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Input Resource,Boiler**,1,Boiler Factory**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Input Resource,Cranberry**,1,Cranberry Plantation**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Input Resource,Oak Barrel**,1,Barrel Factory**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Build Resource,Stone**,18,Quarry**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Build Resource,Oak Plank**,16,Sawmill**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Build Resource,Nails**,14,Fastener Factory**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Maintenance Resource,Steak**,2,Steakhouse**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Maintenance Resource,Milk Can**,2,Milk Farm**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Maintenance Resource,Coin**,2,Mint**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,N/A,Input Resource,Raspberry**,1,Raspberry Plantation**
+3-09-S-SDM,Mountains,Schnapps Distillery (Mountains),9,Schnapps,45,Output Resource,Schnapps**,3,N/A
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Input Resource,Oak**,1,Oak Lumber Camp**
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,30,Output Resource,Sleepers**,1,N/A
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Build Resource,Stone**,11,Quarry**
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-10-T-SFM,Mountains,Sleeper Factory (Mountains),10,Train,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,30,Output Resource,Gold Ore**,1,N/A
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Build Resource,Stone**,5,Quarry**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Maintenance Resource,Bread**,1,Bakery**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Maintenance Resource,Fruit Punch**,1,Cafeteria**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Maintenance Resource,Horse**,1,Stable**
+3-08-C-SCM,Mountains,Sluicing Camp (Mountains),8,Coin,N/A,Input Resource,Water**,1,Well**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Input Resource,Carrot**,1,Carrot Farm**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Input Resource,Fish**,1,Fishery**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,45,Output Resource,Soup**,2,N/A
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Build Resource,Stone**,13,Quarry**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Maintenance Resource,Bean Pie**,2,Bakery***
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Maintenance Resource,Whiskey**,2,Whiskey Distillery**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Maintenance Resource,Watch**,2,Watch Factory**
+3-11-S-SKM,Mountains,Soup Kitchen (Mountains),11,Soup,N/A,Input Resource,Water**,1,Well**
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,N/A,Input Resource,Foal**,2,Horse Farm**
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,45,Output Resource,Horse**,2,N/A
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,N/A,Build Resource,Stone**,6,Quarry**
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,N/A,Build Resource,Oak Plank**,4,Sawmill**
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,N/A,Maintenance Resource,Fish**,2,Fishery**
+3-07-H-SM,Mountains,Stable (Mountains),7,Horse,N/A,Maintenance Resource,Water**,2,Well**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Input Resource,Goat**,1,Goat Farm**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Build Resource,Stone**,7,Quarry**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Maintenance Resource,Bread**,2,Bakery**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Maintenance Resource,Fruit Punch**,2,Cafeteria**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,N/A,Maintenance Resource,Horse**,2,Stable**
+3-03-SL-SM,Mountains,Steakhouse (Mountains),8,Steak & Leather,45,Output Resource,Steak**,2,N/A
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Input Resource,Boiler**,1,Boiler Factory**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Input Resource,Chain**,1,Chain Factory**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Input Resource,Gear**,1,Gear Factory**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Build Resource,Stone**,14,Quarry**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Build Resource,Oak Plank**,12,Sawmill**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Build Resource,Nails**,10,Fastener Factory**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Steak**,3,Steakhouse**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Milk Can**,3,Milk Farm**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,N/A,Maintenance Resource,Coin**,3,Mint**
+3-06-SE-SEFM,Mountains,Steam Engine Factory (Mountains),9,Steam Engine,45,Output Resource,Steam Engine**,1,N/A
+1-05-C-SLQM,Mountains,Steam Mission,0,Port,0,Output Resource,Boiler**,1,N/A
+1-05-C-SLQM,Mountains,Steam Mission,0,Port,0,Output Resource,Copper**,1,N/A
+1-00-S-SM,Mountains,Storage (Mountains),6,Storage,N/A,Input Resource,Any**,1,None
+1-00-S-SM,Mountains,Storage (Mountains),6,Storage,0,Output Resource,Any**,1,N/A
+1-00-S-SM,Mountains,Storage (Mountains),6,Storage,N/A,Build Resource,Stone**,4,Quarry**
+1-00-S-SM,Mountains,Storage (Mountains),6,Storage,N/A,Build Resource,Oak Plank**,2,Sawmill**
+1-00-S-SM,Mountains,Storage (Mountains),6,Storage,N/A,Maintenance Resource,None,0,None
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Input Resource,None,1,None
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Build Resource,Stone**,7,Quarry**
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Build Resource,Oak Plank**,6,Sawmill**
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Maintenance Resource,Steak**,1,Steakhouse**
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Maintenance Resource,Milk Can**,1,Milk Farm**
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,N/A,Maintenance Resource,Coin**,1,Mint**
+3-09-S-SMM,Mountains,Sulfur Mine (Mountains),9,Sulfur,42,Output Resource,Sulfer**,2,N/A
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Input Resource,None,1,None
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Build Resource,Stone**,11,Quarry**
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Maintenance Resource,Bean Pie**,1,Bakery***
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Maintenance Resource,Whiskey**,1,Whiskey Distillery**
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,N/A,Maintenance Resource,Watch**,1,Watch Factory**
+3-11-C-TPM,Mountains,Tobacco Plantation (Mountains),11,Cigars,45,Output Resource,Tobacco**,1,N/A
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Input Resource,Glass**,1,Glassmakers**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Input Resource,Gold**,2,Furnace***
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Build Resource,Stone**,22,Quarry**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Build Resource,Oak Plank**,20,Sawmill**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Build Resource,Nails**,18,Fastener Factory**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Maintenance Resource,Sausages**,2,Butchery**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Maintenance Resource,Schnapps**,2,Schnapps Distillery**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,N/A,Maintenance Resource,Revolver**,2,Revolver Factory**
+3-10-W-WFM,Mountains,Watch Factory (Mountains),10,Watch,45,Output Resource,Watch**,2,N/A
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,N/A,Input Resource,Barley**,1,Barley Farm**
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,30,Output Resource,Barley Meal**,2,N/A
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,N/A,Build Resource,Stone**,3,Quarry**
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,N/A,Build Resource,Oak Plank**,2,Sawmill**
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,N/A,Maintenance Resource,Fish**,1,Fishery**
+3-07-B-WMM,Mountains,Water Mill (Mountains),7,Bread,N/A,Maintenance Resource,Water**,1,Well**
+3-00-W-WM,Mountains,Well (Mountains),6,Water,N/A,Build Resource,Oak Plank**,1,Sawmill**
+3-00-W-WM,Mountains,Well (Mountains),6,Water,N/A,Maintenance Resource,None,0,None
+3-00-W-WM,Mountains,Well (Mountains),6,Water,N/A,Input Resource,Water**,1,Well**
+3-00-W-WM,Mountains,Well (Mountains),6,Water,15,Output Resource,Water**,1,N/A
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Input Resource,Barley**,1,Barley Farm**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Input Resource,Oak Barrel**,1,Barrel Factory**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Build Resource,Stone**,11,Quarry**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Build Resource,Oak Plank**,10,Sawmill**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Build Resource,Nails**,8,Fastener Factory**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Maintenance Resource,Sausages**,2,Butchery**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Maintenance Resource,Schnapps**,2,Schnapps Distillery**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,N/A,Maintenance Resource,Revolver**,2,Revolver Factory**
+3-10-W-WDM,Mountains,Whiskey Distillery (Mountains),10,Whiskey,45,Output Resource,Whiskey**,2,N/A
