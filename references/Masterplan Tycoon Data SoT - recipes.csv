@@ -1,0 +1,190 @@
+recipe_name,tier,building_name,map_name
+Poncho,06,Alpaca Farm,Islands
+Revolver,09,Ammo Factory,Mountains
+Anchor,04,Anchor Workshop,Master
+Bread,01,Bakery,Master
+Bread,01,Bakery,Mountains
+Bread,01,Bakery,Other
+Timber,05,Bamboo Factory,Islands
+Timber,05,Bamboo Plantation,Islands
+Fried Banana,06,Banana Farm,Islands
+Bank,12,Bank,Mountains
+Bread,07,Barley Farm,Mountains
+Schnapps,09,Barrel Factory,Mountains
+Bean Pie,10,Bean Farm,Mountains
+Steam Engine,06,Boiler Factory,Master
+Steam Engine,06,Boiler Factory,Mountains
+Boots,04,Boot Factory,Master
+Glasses,06,Brass Smeltery,Master
+Glasses,06,Brass Smeltery,Mountains
+Beer,01,Brewery,Master
+Brick,01,Brick Factory,Islands
+Brick,01,Brick Factory,Master
+Port,00,Brick Mission,Master
+Sausages,02,Butchery,Master
+Sausages,02,Butchery,Mountains
+Fruit Punch,07,Cafeteria,Mountains
+Milk Can,03,Can Factory,Master
+Milk Can,03,Can Factory,Mountains
+Canned Food,04,Cannery,Master
+Caoutchouc,06,Caoutchouc Farm,Islands
+Soup,11,Carrot Farm,Mountains
+Carrot Juice,11,Carrot Juice Kitchen,Mountains
+Canned Food,04,Cattle Farm,Islands
+Canned Food,04,Cattle Farm,Master
+Concrete,05,Cement Factory,Master
+Steam Engine,09,Chain Factory,Mountains
+Steel Beams,02,Charcoal Kiln,Master
+Cheese,05,Cheese Factory,Master
+Chocolate,07,Chocolate Factory,Master
+Cigars,11,Cigar Factory,Mountains
+Lemonade,07,Citrus Farm,Islands
+Brick,01,Clay Pit,Islands
+Brick,01,Clay Pit,Master
+Steel Beams,02,Coal Mine,Master
+Steel Beams,02,Coal Mine,Mountains
+Fried Banana,06,Cocoa Plantation,Islands
+Coffee,08,Coffee Plantation,Islands
+Coffee,08,Coffee Roaster,Islands
+Concrete,05,Concrete Factory,Master
+Glasses,06,Copper Mine,Master
+Glasses,06,Copper Mine,Mountains
+Port,00,Copper Mission,Master
+Tortilla,07,Corn Farm,Islands
+Overalls,02,Cotton Mill,Islands
+Overalls,02,Cotton Mill,Master
+Overalls,02,Cotton Plantation,Islands
+Overalls,02,Cotton Plantation,Master
+Steak & Leather,03,Cow Farm,Master
+Fruit Punch,07,Cranberry Plantation,Mountains
+Carrot Juice,11,Crockery Factory,Mountains
+Cheese,05,Curdling Factory,Master
+Port,00,Death Islands,Islands
+Train,10,Depot,Mountains
+Train,10,Dynamite Factory,Mountains
+Bread,01,Farm,Master
+"Nails, Hoop",07,Fastener Factory,Mountains
+Overalls,02,Felt Workshop,Islands
+Overalls,02,Felt Workshop,Master
+Light Bulb,11,Filament Factory,Mountains
+Fish,00,Fishery,Islands
+Fish,00,Fishery,Master
+Fish,00,Fishery,Mountains
+Fried Banana,06,Fried Banana Kitchen,Islands
+Overalls,02,Fur Factory,Islands
+Overalls,02,Fur Factory,Master
+Steel Beams,02,Furnace,Master
+Steel Beams,02,Furnace,Mountains
+Steel Beams,02,Furnace,Other
+Steam Engine,09,Gear Factory,Mountains
+Glasses,06,Glasses Factory,Master
+Windows,03,Glassmakers,Master
+Windows,03,Glassmakers,Mountains
+Steak,08,Goat Farm,Mountains
+Coin,08,Gold Mine,Mountains
+Port,00,Gold Mission,Mountains
+Humatis,08,Green Pepper Farm,Islands
+Hat,07,Hat Fabric,Master
+Horse,07,Horse Farm,Mountains
+Humatis,08,Humitas Kitchen,Islands
+Steel Beams,02,Iron Mine,Master
+Steel Beams,02,Iron Mine,Mountains
+Kerosene Lamp,07,Kerosene Factory,Master
+Kerosene Lamp,07,Kerosene Lamp Factory,Master
+Vest,03,Leather Workshop,Master
+Lemonade,07,Lemonade Factory,Islands
+Light Bulb,11,Light Bulb Factory,Mountains
+Lime Plaster,07,Lime Plaster Factory,Islands
+Port,00,Limestone Mission,Master
+Concrete,05,Limestone Quarry,Islands
+Concrete,05,Limestone Quarry,Master
+Suits,05,Linen Mill,Master
+Suits,05,Linseed Farm,Master
+Plank,00,Lumber Camp,Master
+Cigars,11,Marquetry Workshop,Mountains
+Meat Pie,06,Meat Pie Bakery,Master
+Milk Can,03,Milk Farm,Master
+Milk Can,03,Milk Farm,Mountains
+Bread,01,Mill,Master
+Coin,08,Mint,Mountains
+Moonshine,02,Moonshine Factory,Master
+Port,00,Mountains,Mountains
+Oak Plank,06,Oak Lumber Camp,Mountains
+Port,00,Oil Islands,Islands
+Oil,08,Oil Well,Islands
+Sausages,02,Pig Farm,Master
+Sausages,02,Pig Farm,Mountains
+Pillar,02,Pillar,Master
+Steam Engine,06,Pipe Mill,Master
+Poncho,06,Poncho Darner,Islands
+Port,00,Port,Islands
+Moonshine,02,Potato Farm,Master
+Promenade,08,Promenade,Master
+Stone,00,Quarry,Islands
+Stone,00,Quarry,Master
+Stone,00,Quarry,Mountains
+Train,10,Rail Factory,Mountains
+Fruit Punch,07,Raspberry Plantation,Mountains
+Canned Food,04,Red Pepper Farm,Master
+Revolver,09,Revolver Factory,Mountains
+Rope,04,Rope Workshop,Islands
+Rope,04,Rope Workshop,Master
+Rum,05,Rum Distillery,Islands
+Rum,05,Rum Distillery,Master
+Sails,04,Sailmakers,Master
+Lemonade,07,Salt Works,Islands
+Lemonade,07,Salt Works,Mountains
+Windows,03,Sand Mine,Islands
+Windows,03,Sand Mine,Master
+Windows,03,Sand Mine,Mountains
+Hat,07,Satin Fabric,Master
+Plank,00,Sawmill,Master
+Plank,00,Sawmill,Mountains
+Schnapps,09,Schnapps Distillery,Mountains
+Clothes,01,Sewing Workshop,Islands
+Clothes,01,Sewing Workshop,Master
+Steam Engine,06,Sheave Manufactory,Master
+Clothes,01,Sheep Farm,Islands
+Clothes,01,Sheep Farm,Master
+Boat,05,Shipyard,Islands
+Boat,05,Shipyard,Master
+Train,10,Sleeper Factory,Mountains
+Coin,08,Sluicing Camp,Mountains
+Soup,11,Soup Kitchen,Mountains
+Square,08,Square,Master
+Horse,07,Stable,Mountains
+Steak & Leather,03,Steakhouse,Master
+Steak & Leather,03,Steakhouse,Mountains
+Brick,01,Steam Clay Pit,Islands
+Brick,01,Steam Clay Pit,Master
+Steel Beams,02,Steam Coal Mine,Master
+Glasses,06,Steam Copper Mine,Master
+Steam Engine,06,Steam Engine Factory,Master
+Steam Engine,06,Steam Engine Factory,Mountains
+Steel Beams,02,Steam Iron Mine,Master
+Concrete,05,Steam Limestone Quarry,Islands
+Concrete,05,Steam Limestone Quarry,Master
+Port,00,Steam Mission,Mountains
+Port,00,Steel Mission,Master
+Steel Beams,02,Steelworks,Master
+Storage,00,Storage,Master
+Meat Pie,06,Stuffing Workshop,Master
+Moonshine,02,Sugar Cane Plantation,Islands
+Moonshine,02,Sugar Cane Plantation,Master
+Chocolate,07,Sugar Refinery,Islands
+Chocolate,07,Sugar Refinery,Master
+Sulfur,09,Sulfur Mine,Mountains
+Suits,05,Tailor's Shop,Master
+Vest,03,Tannery,Master
+Cigars,11,Tobacco Plantation,Mountains
+Tortilla,07,Tortilla Kitchen,Islands
+Wine,04,Vineyard,Master
+Watch,10,Watch Factory,Mountains
+Bread,07,Water Mill,Mountains
+Water,00,Well,Islands
+Water,00,Well,Master
+Water,00,Well,Mountains
+Whiskey,10,Whiskey Distillery,Mountains
+Windows,03,Window Makers,Master
+Wine,04,Winery,Master
+World Exhibition,08,World Exhibition,Master

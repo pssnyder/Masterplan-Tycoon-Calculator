@@ -1,0 +1,487 @@
+building_name,map_name,construction_resource,construction_resource_qty
+Alpaca Farm,Islands,Stone,3
+Alpaca Farm,Islands,Timber,8
+Ammo Factory,Mountains,Nails,6
+Ammo Factory,Mountains,Oak Plank,8
+Ammo Factory,Mountains,Stone,9
+Anchor Workshop,Master,Brick,20
+Anchor Workshop,Master,Plank,16
+Anchor Workshop,Master,Steel Beams,12
+Anchor Workshop,Master,Windows,8
+Bakery,Master,Plank,8
+Bakery,Master,Stone,6
+Bakery,Mountains,Oak Plank,4
+Bakery,Mountains,Stone,6
+Bakery,Other,Stone,11
+Bakery,Master,Nails,8
+Bakery,Master,Oak Plank,10
+Bamboo Factory,Islands,Stone,1
+Bamboo Factory,Islands,Timber,4
+Bamboo Plantation,Islands,Timber,4
+Banana Farm,Islands,Stone,3
+Banana Farm,Islands,Timber,8
+Bank,Mountains,Nails,50
+Bank,Mountains,Oak Plank,70
+Bank,Mountains,Stone,65
+Bank**,Master,Light Bulb,35
+Barley Farm,Mountains,Oak Plank,2
+Barley Farm,Mountains,Stone,3
+Barrel Factory,Mountains,Nails,6
+Barrel Factory,Mountains,Oak Plank,8
+Barrel Factory,Mountains,Stone,9
+Bean Farm,Mountains,Nails,6
+Bean Farm,Mountains,Oak Plank,8
+Bean Farm,Mountains,Stone,9
+Boiler Factory,Master,Concrete,22
+Boiler Factory,Master,Steel Beams,20
+Boiler Factory,Master,Windows,18
+Boiler Factory,Mountains,Oak Plank,6
+Boiler Factory,Mountains,Stone,7
+Boot Factory,Master,Brick,20
+Boot Factory,Master,Plank,16
+Boot Factory,Master,Steel Beams,12
+Boot Factory,Master,Windows,8
+Brass Smeltery,Master,Concrete,20
+Brass Smeltery,Master,Steel Beams,12
+Brass Smeltery,Master,Windows,8
+Brass Smeltery,Mountains,Oak Plank,6
+Brass Smeltery,Mountains,Stone,7
+Brewery,Master,Plank,4
+Brewery,Master,Stone,3
+Brick Factory,Islands,Stone,16
+Brick Factory,Islands,Timber,32
+Brick Factory,Master,Plank,8
+Brick Factory,Master,Stone,6
+Butchery,Master,Brick,6
+Butchery,Master,Plank,12
+Butchery,Mountains,Nails,6
+Butchery,Mountains,Oak Plank,8
+Butchery,Mountains,Stone,9
+Cafeteria,Mountains,Oak Plank,4
+Cafeteria,Mountains,Stone,6
+Can Factory,Master,Brick,4
+Can Factory,Master,Plank,8
+Can Factory,Master,Steel Beams,2
+Can Factory,Master,Stone,4
+Can Factory,Mountains,Oak Plank,6
+Can Factory,Mountains,Stone,7
+Cannery,Master,Brick,20
+Cannery,Master,Plank,16
+Cannery,Master,Steel Beams,12
+Cannery,Master,Windows,8
+Caoutchouc Farm,Islands,Brick,2
+Caoutchouc Farm,Islands,Stone,3
+Caoutchouc Farm,Islands,Timber,8
+Carrot Farm,Mountains,Nails,8
+Carrot Farm,Mountains,Oak Plank,10
+Carrot Farm,Mountains,Stone,11
+Carrot Juice Kitchen,Mountains,Nails,22
+Carrot Juice Kitchen,Mountains,Oak Plank,24
+Carrot Juice Kitchen,Mountains,Stone,26
+Cattle Farm,Islands,Brick,7
+Cattle Farm,Islands,Stone,8
+Cattle Farm,Islands,Timber,16
+Cattle Farm,Master,Brick,7
+Cattle Farm,Master,Plank,8
+Cattle Farm,Master,Windows,4
+Cement Factory,Master,Brick,20
+Cement Factory,Master,Plank,16
+Cement Factory,Master,Steel Beams,12
+Cement Factory,Master,Windows,8
+Chain Factory,Mountains,Oak Plank,6
+Chain Factory,Mountains,Stone,7
+Charcoal Kiln,Master,Plank,2
+Charcoal Kiln,Master,Stone,1
+Cheese Factory,Master,Brick,20
+Cheese Factory,Master,Plank,16
+Cheese Factory,Master,Steel Beams,12
+Cheese Factory,Master,Windows,8
+Chocolate Factory,Master,Concrete,22
+Chocolate Factory,Master,Steel Beams,20
+Chocolate Factory,Master,Windows,18
+Cigar Factory,Mountains,Nails,22
+Cigar Factory,Mountains,Oak Plank,24
+Cigar Factory,Mountains,Stone,26
+Citrus Farm,Islands,Brick,7
+Citrus Farm,Islands,Stone,8
+Citrus Farm,Islands,Timber,16
+Clay Pit,Islands,Stone,8
+Clay Pit,Islands,Timber,16
+Clay Pit,Master,Plank,4
+Clay Pit,Master,Stone,3
+Coal Mine,Master,Plank,6
+Coal Mine,Master,Stone,5
+Coal Mine,Mountains,Oak Plank,2
+Coal Mine,Mountains,Stone,3
+Cocoa Plantation,Islands,Stone,3
+Cocoa Plantation,Islands,Timber,8
+Coffee Plantation,Islands,Brick,7
+Coffee Plantation,Islands,Lime Plaster,7
+Coffee Plantation,Islands,Stone,8
+Coffee Plantation,Islands,Timber,16
+Coffee Roaster,Islands,Brick,15
+Coffee Roaster,Islands,Lime Plaster,15
+Coffee Roaster,Islands,Stone,16
+Coffee Roaster,Islands,Timber,32
+Concrete Factory,Master,Brick,22
+Concrete Factory,Master,Plank,24
+Concrete Factory,Master,Steel Beams,20
+Concrete Factory,Master,Windows,18
+Copper Mine,Master,Concrete,20
+Copper Mine,Master,Steel Beams,12
+Copper Mine,Master,Windows,8
+Copper Mine,Mountains,Oak Plank,4
+Copper Mine,Mountains,Stone,5
+Corn Farm,Islands,Brick,7
+Corn Farm,Islands,Stone,8
+Corn Farm,Islands,Timber,16
+Cotton Mill,Islands,Brick,15
+Cotton Mill,Islands,Lime Plaster,15
+Cotton Mill,Islands,Stone,16
+Cotton Mill,Islands,Timber,32
+Cotton Mill,Master,Brick,6
+Cotton Mill,Master,Plank,8
+Cotton Mill,Master,Stone,7
+Cotton Plantation,Islands,Stone,8
+Cotton Plantation,Islands,Timber,16
+Cotton Plantation,Master,Plank,8
+Cotton Plantation,Master,Stone,7
+Cow Farm,Master,Brick,5
+Cow Farm,Master,Plank,6
+Cranberry Plantation,Mountains,Oak Plank,2
+Cranberry Plantation,Mountains,Stone,3
+Crockery Factory,Mountains,Nails,10
+Crockery Factory,Mountains,Oak Plank,12
+Crockery Factory,Mountains,Stone,13
+Curdling Factory,Master,Brick,20
+Curdling Factory,Master,Plank,16
+Curdling Factory,Master,Steel Beams,12
+Curdling Factory,Master,Windows,8
+Depot,Mountains,Nails,18
+Depot,Mountains,Oak Plank,20
+Depot,Mountains,Stone,22
+Dynamite Factory,Mountains,Nails,6
+Dynamite Factory,Mountains,Oak Plank,8
+Dynamite Factory,Mountains,Stone,9
+Farm,Master,Plank,4
+Farm,Master,Stone,3
+Fastener Factory,Mountains,Oak Plank,8
+Fastener Factory,Mountains,Stone,12
+Felt Workshop,Islands,Brick,15
+Felt Workshop,Islands,Lime Plaster,15
+Felt Workshop,Islands,Stone,16
+Felt Workshop,Islands,Timber,32
+Felt Workshop,Master,Brick,6
+Felt Workshop,Master,Plank,8
+Felt Workshop,Master,Stone,7
+Filament Factory,Mountains,Nails,10
+Filament Factory,Mountains,Oak Plank,12
+Filament Factory,Mountains,Stone,13
+Fishery,Islands,Timber,4
+Fishery,Master,Plank,2
+Fishery,Mountains,Oak Plank,1
+Fried Banana Kitchen,Islands,Stone,8
+Fried Banana Kitchen,Islands,Timber,16
+Fur Factory,Islands,Brick,23
+Fur Factory,Islands,Lime Plaster,23
+Fur Factory,Islands,Stone,24
+Fur Factory,Islands,Timber,48
+Fur Factory,Master,Brick,14
+Fur Factory,Master,Plank,16
+Fur Factory,Master,Stone,12
+Furnace,Master,Brick,6
+Furnace,Master,Plank,8
+Furnace,Master,Stone,7
+Furnace,Mountains,Oak Plank,4
+Furnace,Mountains,Stone,6
+Furnace,Other,Oak Plank,6
+Furnace,Other,Stone,7
+Gear Factory,Mountains,Oak Plank,6
+Gear Factory,Mountains,Stone,7
+Glasses Factory,Master,Concrete,22
+Glasses Factory,Master,Steel Beams,20
+Glasses Factory,Master,Windows,18
+Glassmakers,Master,Brick,4
+Glassmakers,Master,Plank,8
+Glassmakers,Master,Steel Beams,2
+Glassmakers,Master,Stone,4
+Glassmakers,Mountains,Nails,8
+Glassmakers,Mountains,Oak Plank,10
+Glassmakers,Mountains,Stone,11
+Goat Farm,Mountains,Oak Plank,4
+Goat Farm,Mountains,Stone,5
+Gold Mine,Mountains,Nails,6
+Gold Mine,Mountains,Oak Plank,8
+Gold Mine,Mountains,Stone,9
+Green Pepper Farm,Islands,Brick,7
+Green Pepper Farm,Islands,Lime Plaster,7
+Green Pepper Farm,Islands,Stone,8
+Green Pepper Farm,Islands,Timber,16
+Hat Fabric,Master,Concrete,22
+Hat Fabric,Master,Steel Beams,20
+Hat Fabric,Master,Windows,18
+Horse Farm,Mountains,Oak Plank,2
+Horse Farm,Mountains,Stone,3
+Humitas Kitchen,Islands,Brick,15
+Humitas Kitchen,Islands,Lime Plaster,15
+Humitas Kitchen,Islands,Stone,16
+Humitas Kitchen,Islands,Timber,32
+Iron Mine,Master,Plank,6
+Iron Mine,Master,Stone,5
+Iron Mine,Mountains,Oak Plank,2
+Iron Mine,Mountains,Stone,3
+Kerosene Factory,Master,Concrete,22
+Kerosene Factory,Master,Steel Beams,20
+Kerosene Factory,Master,Windows,18
+Kerosene Lamp Factory,Master,Concrete,32
+Kerosene Lamp Factory,Master,Steel Beams,30
+Kerosene Lamp Factory,Master,Windows,28
+Leather Workshop,Master,Brick,20
+Leather Workshop,Master,Plank,16
+Leather Workshop,Master,Steel Beams,16
+Leather Workshop,Master,Stone,14
+Lemonade Factory,Islands,Brick,20
+Lemonade Factory,Islands,Stone,24
+Lemonade Factory,Islands,Timber,48
+Light Bulb Factory,Mountains,Nails,22
+Light Bulb Factory,Mountains,Oak Plank,24
+Light Bulb Factory,Mountains,Stone,26
+Lime Plaster Factory,Islands,Brick,14
+Lime Plaster Factory,Islands,Stone,16
+Lime Plaster Factory,Islands,Timber,32
+Limestone Quarry,Islands,Brick,7
+Limestone Quarry,Islands,Stone,8
+Limestone Quarry,Islands,Timber,16
+Limestone Quarry,Master,Brick,6
+Limestone Quarry,Master,Plank,12
+Limestone Quarry,Master,Stone,11
+Linen Mill,Master,Brick,20
+Linen Mill,Master,Plank,16
+Linen Mill,Master,Steel Beams,12
+Linen Mill,Master,Windows,8
+Linseed Farm,Master,Brick,7
+Linseed Farm,Master,Plank,8
+Linseed Farm,Master,Windows,4
+Lumber Camp,Master,Plank,2
+Marquetry Workshop,Mountains,Nails,10
+Marquetry Workshop,Mountains,Oak Plank,12
+Marquetry Workshop,Mountains,Stone,13
+Meat Pie Bakery,Master,Concrete,20
+Meat Pie Bakery,Master,Steel Beams,12
+Meat Pie Bakery,Master,Windows,8
+Milk Farm,Master,Brick,20
+Milk Farm,Master,Plank,16
+Milk Farm,Master,Steel Beams,16
+Milk Farm,Master,Stone,14
+Milk Farm,Mountains,Nails,10
+Milk Farm,Mountains,Oak Plank,12
+Milk Farm,Mountains,Stone,14
+Mill,Master,Plank,4
+Mill,Master,Stone,3
+Mint,Mountains,Nails,10
+Mint,Mountains,Oak Plank,12
+Mint,Mountains,Stone,14
+Moonshine Factory,Master,Brick,12
+Moonshine Factory,Master,Plank,16
+Moonshine Factory,Master,Stone,14
+Oak Lumber Camp,Mountains,Oak Plank,1
+Oil Well,Islands,Brick,7
+Oil Well,Islands,Lime Plaster,7
+Oil Well,Islands,Stone,8
+Oil Well,Islands,Timber,16
+Pig Farm,Master,Plank,6
+Pig Farm,Master,Stone,5
+Pig Farm,Mountains,Oak Plank,6
+Pig Farm,Mountains,Stone,7
+Pillar,Master,Plank,3
+Pillar,Master,Stone,1
+Pipe Mill,Master,Concrete,20
+Pipe Mill,Master,Steel Beams,12
+Pipe Mill,Master,Windows,8
+Poncho Darner,Islands,Stone,8
+Poncho Darner,Islands,Timber,16
+Potato Farm,Master,Plank,6
+Potato Farm,Master,Stone,5
+Promenade,Master,Kerosene Lamp,60
+Promenade,Master,Plank,50
+Promenade,Master,Steel Beams,30
+Promenade,Master,Stone,125
+Quarry,Islands,Timber,4
+Quarry,Master,Plank,2
+Quarry,Mountains,Oak Plank,1
+Rail Factory,Mountains,Nails,8
+Rail Factory,Mountains,Oak Plank,10
+Rail Factory,Mountains,Stone,11
+Raspberry Plantation,Mountains,Oak Plank,2
+Raspberry Plantation,Mountains,Stone,3
+Red Pepper Farm,Master,Brick,7
+Red Pepper Farm,Master,Plank,8
+Red Pepper Farm,Master,Windows,4
+Revolver Factory,Mountains,Nails,14
+Revolver Factory,Mountains,Oak Plank,16
+Revolver Factory,Mountains,Stone,18
+Rope Workshop,Islands,Stone,4
+Rope Workshop,Islands,Timber,8
+Rope Workshop,Master,Brick,7
+Rope Workshop,Master,Plank,8
+Rope Workshop,Master,Windows,4
+Rum Distillery,Islands,Stone,8
+Rum Distillery,Islands,Timber,16
+Rum Distillery,Master,Concrete,22
+Rum Distillery,Master,Steel Beams,20
+Rum Distillery,Master,Windows,18
+Sailmakers,Master,Brick,7
+Sailmakers,Master,Plank,8
+Sailmakers,Master,Windows,4
+Salt Works,Islands,Brick,7
+Salt Works,Islands,Stone,8
+Salt Works,Islands,Timber,16
+Salt Works,Mountains,Oak Plank,6
+Salt Works,Mountains,Stone,7
+Sand Mine,Islands,Brick,7
+Sand Mine,Islands,Stone,8
+Sand Mine,Islands,Timber,16
+Sand Mine,Master,Brick,4
+Sand Mine,Master,Plank,8
+Sand Mine,Master,Stone,7
+Sand Mine,Mountains,Nails,6
+Sand Mine,Mountains,Oak Plank,8
+Sand Mine,Mountains,Stone,9
+Satin Fabric,Master,Concrete,20
+Satin Fabric,Master,Steel Beams,12
+Satin Fabric,Master,Windows,8
+Sawmill,Master,Plank,2
+Sawmill,Master,Stone,1
+Sawmill,Mountains,Oak Plank,1
+Sawmill,Mountains,Stone,1
+Schnapps Distillery,Mountains,Nails,14
+Schnapps Distillery,Mountains,Oak Plank,16
+Schnapps Distillery,Mountains,Stone,18
+Sewing Workshop,Islands,Brick,14
+Sewing Workshop,Islands,Stone,16
+Sewing Workshop,Islands,Timber,32
+Sewing Workshop,Master,Plank,8
+Sewing Workshop,Master,Stone,6
+Sheave Manufactory,Master,Concrete,22
+Sheave Manufactory,Master,Steel Beams,20
+Sheave Manufactory,Master,Windows,18
+Sheep Farm,Islands,Brick,7
+Sheep Farm,Islands,Stone,8
+Sheep Farm,Islands,Timber,16
+Sheep Farm,Master,Plank,4
+Sheep Farm,Master,Stone,3
+Shipyard,Islands,Stone,4
+Shipyard,Islands,Timber,8
+Shipyard,Master,Brick,7
+Shipyard,Master,Plank,8
+Shipyard,Master,Windows,4
+Sleeper Factory,Mountains,Nails,8
+Sleeper Factory,Mountains,Oak Plank,10
+Sleeper Factory,Mountains,Stone,11
+Sluicing Camp,Mountains,Oak Plank,4
+Sluicing Camp,Mountains,Stone,5
+Soup Kitchen,Mountains,Nails,10
+Soup Kitchen,Mountains,Oak Plank,12
+Soup Kitchen,Mountains,Stone,13
+Square,Master,Kerosene Lamp,50
+Square,Master,Steel Beams,25
+Square,Master,Stone,225
+Stable,Mountains,Oak Plank,4
+Stable,Mountains,Stone,6
+Steakhouse,Master,Brick,4
+Steakhouse,Master,Plank,8
+Steakhouse,Master,Steel Beams,2
+Steakhouse,Master,Stone,4
+Steakhouse,Mountains,Oak Plank,6
+Steakhouse,Mountains,Stone,7
+Steam Clay Pit,Islands,Steam Engine,2
+Steam Clay Pit,Islands,Stone,16
+Steam Clay Pit,Islands,Timber,32
+Steam Clay Pit,Master,Plank,8
+Steam Clay Pit,Master,Steam Engine,2
+Steam Clay Pit,Master,Stone,6
+Steam Coal Mine,Master,Plank,12
+Steam Coal Mine,Master,Steam Engine,2
+Steam Coal Mine,Master,Stone,10
+Steam Copper Mine,Master,Concrete,40
+Steam Copper Mine,Master,Steam Engine,2
+Steam Copper Mine,Master,Steel Beams,24
+Steam Copper Mine,Master,Windows,16
+Steam Engine Factory,Master,Concrete,32
+Steam Engine Factory,Master,Steel Beams,30
+Steam Engine Factory,Master,Windows,28
+Steam Engine Factory,Mountains,Nails,10
+Steam Engine Factory,Mountains,Oak Plank,12
+Steam Engine Factory,Mountains,Stone,14
+Steam Iron Mine,Master,Plank,12
+Steam Iron Mine,Master,Steam Engine,2
+Steam Iron Mine,Master,Stone,10
+Steam Limestone Quarry,Islands,Brick,14
+Steam Limestone Quarry,Islands,Steam Engine,2
+Steam Limestone Quarry,Islands,Stone,16
+Steam Limestone Quarry,Islands,Timber,32
+Steam Limestone Quarry,Master,Brick,12
+Steam Limestone Quarry,Master,Plank,32
+Steam Limestone Quarry,Master,Steam Engine,2
+Steam Limestone Quarry,Master,Stone,22
+Steelworks,Master,Brick,14
+Steelworks,Master,Plank,16
+Steelworks,Master,Stone,12
+Storage,Master,Plank,1
+Stuffing Workshop,Master,Concrete,20
+Stuffing Workshop,Master,Steel Beams,12
+Stuffing Workshop,Master,Windows,8
+Sugar Cane Plantation,Islands,Stone,3
+Sugar Cane Plantation,Islands,Timber,8
+Sugar Cane Plantation,Master,Brick,6
+Sugar Cane Plantation,Master,Plank,12
+Sugar Refinery,Islands,Brick,14
+Sugar Refinery,Islands,Stone,16
+Sugar Refinery,Islands,Timber,32
+Sugar Refinery,Master,Brick,20
+Sugar Refinery,Master,Plank,16
+Sugar Refinery,Master,Steel Beams,12
+Sugar Refinery,Master,Windows,8
+Sulfur Mine,Mountains,Oak Plank,6
+Sulfur Mine,Mountains,Stone,7
+Tailor's Shop,Master,Brick,20
+Tailor's Shop,Master,Plank,16
+Tailor's Shop,Master,Steel Beams,12
+Tailor's Shop,Master,Windows,8
+Tannery,Master,Brick,4
+Tannery,Master,Plank,8
+Tannery,Master,Steel Beams,2
+Tannery,Master,Stone,4
+Tobacco Plantation,Mountains,Nails,8
+Tobacco Plantation,Mountains,Oak Plank,10
+Tobacco Plantation,Mountains,Stone,11
+Tortilla Kitchen,Islands,Brick,14
+Tortilla Kitchen,Islands,Stone,16
+Tortilla Kitchen,Islands,Timber,32
+Vineyard,Master,Brick,7
+Vineyard,Master,Plank,8
+Vineyard,Master,Windows,4
+Watch Factory,Mountains,Nails,18
+Watch Factory,Mountains,Oak Plank,20
+Watch Factory,Mountains,Stone,22
+Water Mill,Mountains,Oak Plank,2
+Water Mill,Mountains,Stone,3
+Well,Islands,Timber,4
+Well,Master,Plank,2
+Well,Mountains,Oak Plank,1
+Whiskey Distillery,Mountains,Nails,8
+Whiskey Distillery,Mountains,Oak Plank,10
+Whiskey Distillery,Mountains,Stone,11
+Window Makers,Master,Brick,20
+Window Makers,Master,Plank,16
+Window Makers,Master,Steel Beams,16
+Winery,Master,Brick,20
+Winery,Master,Plank,16
+Winery,Master,Steel Beams,12
+Winery,Master,Windows,8
+World Exhibition,Master,Concrete,20
+World Exhibition,Master,Kerosene Lamp,75
+World Exhibition,Master,Plank,200
+World Exhibition,Master,Steel Beams,30
+World Exhibition,Master,Stone,150
+World Exhibition,Master,Windows,20

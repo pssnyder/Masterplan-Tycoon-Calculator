@@ -16,7 +16,7 @@ from typing import List, Dict, Any, Optional
 app = Flask(__name__)
 
 class MasterplanDatabase:
-    def __init__(self, db_path: str = "masterplan_tycoon.db"):
+    def __init__(self, db_path: str = "masterplan_tycoon_corrected.db"):
         self.db_path = db_path
         
     def get_connection(self) -> sqlite3.Connection:
@@ -267,7 +267,7 @@ def calculator():
 
 if __name__ == '__main__':
     # Check if database exists
-    if not Path("masterplan_tycoon.db").exists():
+    if not Path("masterplan_tycoon_corrected.db").exists():
         print("Database not found! Please run build_database.py first.")
         exit(1)
     

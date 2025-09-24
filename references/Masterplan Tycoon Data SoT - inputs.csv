@@ -1,0 +1,222 @@
+building_name,map_name,input_resource,input_resource_qty
+Ammo Factory,Mountains,Coal,1
+Anchor Workshop,Master,Steel Beams,1
+Bakery,Master,Meal,2
+Bakery,Master,Water,1
+Bakery,Mountains,Barley Meal,2
+Bakery,Mountains,Water,1
+Bakery,Other,Bean,1
+Bamboo Factory,Islands,Bamboo,2
+Bank,Mountains,Coin,150
+Barrel Factory,Mountains,Hoop,1
+Barrel Factory,Mountains,Oak,1
+Boiler Factory,Master,Copper Pipes,1
+Boiler Factory,Mountains,Copper,1
+Boiler Factory,Mountains,Water,3
+Boot Factory,Master,Tanned Leather,1
+Brass Smeltery,Master,Copper Ore,1
+Brass Smeltery,Mountains,Coal,1
+Brass Smeltery,Mountains,Copper Ore,1
+Brewery,Master,Grain,1
+Brewery,Master,Water,1
+Brick Factory,Master,Clay,2
+Brick Factory,Islands,Clay,2
+Brick Mission,Master,Bread,1
+Brick Mission,Master,Steam Engine,1
+Brick Mission,Master,Stone,1
+Butchery,Master,Pig,1
+Butchery,Mountains,Pig,1
+Cafeteria,Mountains,Cranberry,1
+Cafeteria,Mountains,Raspberry,1
+Can Factory,Master,Coal,1
+Can Factory,Master,Steel,1
+Can Factory,Mountains,Coal,1
+Can Factory,Mountains,Steel,1
+Cannery,Master,Beef,1
+Cannery,Master,Can,1
+Cannery,Master,Red Pepper,1
+Carrot Juice Kitchen,Mountains,Carrot,1
+Carrot Juice Kitchen,Mountains,Glass Cup,1
+Cement Factory,Master,Limestone,1
+Cement Factory,Master,Water,1
+Chain Factory,Mountains,Barley,2
+Chain Factory,Mountains,Copper,1
+Charcoal Kiln,Master,Tree,2
+Cheese Factory,Master,Curdling,1
+Chocolate Factory,Master,Sheave,1
+Chocolate Factory,Master,Sugar,1
+Cigar Factory,Mountains,Casket,2
+Cigar Factory,Mountains,Tobacco,1
+Coffee Roaster,Islands,Coffee Beans,1
+Concrete Factory,Master,Cement,1
+Concrete Factory,Master,Steel,1
+Copper Mission,Master,Brick,1
+Copper Mission,Master,Caoutchouc,1
+Copper Mission,Master,Lemonade,1
+Copper Mission,Master,Moonshine,1
+Copper Mission,Master,Overalls,1
+Copper Mission,Master,Rum,1
+Copper Mission,Master,Sausages,1
+Cotton Mill,Master,Cotton,1
+Cotton Mill,Islands,Cotton,1
+Crockery Factory,Mountains,Glass,1
+Curdling Factory,Master,Milk,1
+Death Islands,Master,Fish,1
+Death Islands,Master,Steam Engine,1
+Death Islands,Master,Water,1
+Depot,Mountains,Dynamite,1
+Depot,Mountains,Rails,1
+Depot,Mountains,Sleepers,1
+Depot,Mountains,Steam Engine,1
+Dynamite Factory,Mountains,Salt,2
+Dynamite Factory,Mountains,Tallow,1
+Fastener Factory,Mountains,Steel,1
+Felt Workshop,Master,Wool,1
+Felt Workshop,Islands,Wool,1
+Filament Factory,Mountains,Coal,1
+Fishery,Mountains,Water,1
+Fried Banana Kitchen,Islands,Banana,1
+Fried Banana Kitchen,Islands,Cocoa,1
+Fur Factory,Master,Calico,1
+Fur Factory,Master,Felt,1
+Fur Factory,Islands,Calico,1
+Fur Factory,Islands,Felt,1
+Furnace,Master,Coal,1
+Furnace,Master,Iron,1
+Furnace,Mountains,Coal,1
+Furnace,Mountains,Iron,1
+Furnace,Other,Coal,1
+Furnace,Other,Gold Ore,1
+Gear Factory,Mountains,Copper,1
+Glasses Factory,Master,Copper,2
+Glasses Factory,Master,Glass,2
+Glassmakers,Master,Sand,1
+Glassmakers,Mountains,Sand,1
+Gold Mission,Master,Coin,1
+Gold Mission,Master,Milk Can,1
+Gold Mission,Master,Nails,1
+Gold Mission,Master,Steak,1
+Gold Mission,Master,Steam Engine,1
+Gold Mission,Mountains,Boiler,1
+Hat Fabric,Master,Calico,1
+Hat Fabric,Master,Satin,1
+Horse Farm,Mountains,Barley,3
+Horse Farm,Mountains,Water,2
+Humitas Kitchen,Islands,Corn,1
+Humitas Kitchen,Islands,Green Pepper,1
+Humitas Kitchen,Islands,Salt,1
+Kerosene Factory,Master,Coal,1
+Kerosene Factory,Master,Oil,1
+Kerosene Lamp Factory,Master,Copper Pipes,1
+Kerosene Lamp Factory,Master,Glass,1
+Kerosene Lamp Factory,Master,Kerosene,1
+Leather Workshop,Master,Tanned Leather,1
+Lemonade Factory,Islands,Citrus,1
+Lemonade Factory,Islands,Salt,1
+Lemonade Factory,Islands,Sugar,1
+Lemonade Factory,Islands,Water,1
+Light Bulb Factory,Mountains,Filaments,1
+Light Bulb Factory,Mountains,Glass,2
+Lime Plaster Factory,Islands,Limestone,1
+Lime Plaster Factory,Islands,Sand,1
+Lime Plaster Factory,Islands,Water,1
+Limestone Mission,Master,Rum,1
+Limestone Mission,Master,Steam Engine,1
+Linen Mill,Master,Linseed,1
+Marquetry Workshop,Mountains,Oak Plank,1
+Meat Pie Bakery,Master,Stuffing,1
+Milk Farm,Master,Can,1
+Milk Farm,Master,Milk,1
+Milk Farm,Mountains,Can,1
+Milk Farm,Mountains,Milk,1
+Mill,Master,Grain,1
+Mint,Mountains,Gold,1
+Moonshine Factory,Master,Potato,1
+Moonshine Factory,Master,Sugar Cane,1
+Oil Islands,Master,Fried Banana,1
+Oil Islands,Master,Poncho,1
+Oil Islands,Master,Steam Engine,1
+Oil Islands,Islands,Brick,1
+Pig Farm,Master,Grain,2
+Pig Farm,Master,Water,1
+Pig Farm,Mountains,Barley,2
+Pig Farm,Mountains,Water,1
+Pipe Mill,Master,Copper,1
+Poncho Darner,Islands,Alpaca Wool,1
+Quarry,Mountains,Stone,1
+Rail Factory,Mountains,Steel,1
+Revolver Factory,Mountains,Ammo,1
+Revolver Factory,Mountains,Oak Plank,1
+Revolver Factory,Mountains,Steel,1
+Rope Workshop,Master,Cotton,1
+Rope Workshop,Islands,Cotton,1
+Rum Distillery,Master,Plank,1
+Rum Distillery,Master,Sugar Cane,1
+Rum Distillery,Islands,Bamboo,1
+Rum Distillery,Islands,Sugar Cane,1
+Sailmakers,Master,Cotton,3
+Sailmakers,Master,Rope,1
+Salt Works,Islands,Water,1
+Salt Works,Mountains,Water,1
+Sand Mine,Master,Water,1
+Sand Mine,Islands,Water,1
+Sand Mine,Mountains,Water,1
+Satin Fabric,Master,Linen,1
+Sawmill,Master,Tree,1
+Sawmill,Mountains,Oak,1
+Schnapps Distillery,Mountains,Boiler,1
+Schnapps Distillery,Mountains,Cranberry,1
+Schnapps Distillery,Mountains,Oak Barrel,1
+Schnapps Distillery,Mountains,Raspberry,1
+Sewing Workshop,Master,Wool,1
+Sewing Workshop,Islands,Wool,1
+Sheave Manufactory,Master,Copper,1
+Shipyard,Master,Plank,8
+Shipyard,Master,Rope,2
+Shipyard,Islands,Rope,4
+Shipyard,Islands,Timber,12
+Sleeper Factory,Mountains,Oak,1
+Sluicing Camp,Mountains,Water,1
+Soup Kitchen,Mountains,Carrot,1
+Soup Kitchen,Mountains,Fish,1
+Soup Kitchen,Mountains,Water,1
+Stable,Mountains,Foal,2
+Steakhouse,Master,Cow,1
+Steakhouse,Mountains,Goat,1
+Steam Engine Factory,Master,Boiler,1
+Steam Engine Factory,Master,Caoutchouc,1
+Steam Engine Factory,Master,Sheave,1
+Steam Engine Factory,Mountains,Boiler,1
+Steam Engine Factory,Mountains,Chain,1
+Steam Engine Factory,Mountains,Gear,1
+Steel Mission,Master,Beer,1
+Steel Mission,Master,Bread,1
+Steel Mission,Master,Brick,1
+Steel Mission,Master,Clothes,1
+Steel Mission,Master,Steam Engine,1
+Steelworks,Master,Steel,3
+Stuffing Workshop,Master,Cow,1
+Sugar Refinery,Master,Sugar Cane,1
+Sugar Refinery,Islands,Sugar Cane,1
+Tailor's Shop,Master,Calico,1
+Tailor's Shop,Master,Linen,1
+Tannery,Master,Leather,1
+Tortilla Kitchen,Islands,Beef,1
+Tortilla Kitchen,Islands,Corn,1
+Watch Factory,Mountains,Glass,1
+Watch Factory,Mountains,Gold,2
+Water Mill,Mountains,Barley,1
+Well,Mountains,Water,1
+Whiskey Distillery,Mountains,Barley,1
+Whiskey Distillery,Mountains,Oak Barrel,1
+Window Makers,Master,Glass,1
+Window Makers,Master,Tree,2
+Winery,Master,Glass,1
+Winery,Master,Grapes,1
+World Exhibition,Master,Beer,150
+World Exhibition,Master,Cheese,75
+World Exhibition,Master,Chocolate,50
+World Exhibition,Master,Lemonade,75
+World Exhibition,Master,Sausages,150
+World Exhibition,Master,Steak,100
+World Exhibition,Master,Wine,100

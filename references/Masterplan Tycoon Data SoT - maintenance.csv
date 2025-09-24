@@ -1,0 +1,461 @@
+building_name,map_name,maintenance_resource,maintenance_resource_qty
+Alpaca Farm,Islands,Fish,1
+Alpaca Farm,Islands,Water,1
+Bamboo Factory,Islands,None,0
+Bamboo Plantation,Islands,None,0
+Banana Farm,Islands,Fish,1
+Banana Farm,Islands,Water,1
+Brick Factory,Islands,Rum,2
+Brick Factory,Islands,Fried Banana,2
+Brick Factory,Islands,Poncho,2
+Caoutchouc Farm,Islands,Rum,1
+Caoutchouc Farm,Islands,Fried Banana,1
+Caoutchouc Farm,Islands,Poncho,1
+Cattle Farm,Islands,Rum,1
+Cattle Farm,Islands,Fried Banana,1
+Cattle Farm,Islands,Poncho,1
+Citrus Farm,Islands,Rum,1
+Citrus Farm,Islands,Fried Banana,1
+Citrus Farm,Islands,Poncho,1
+Clay Pit,Islands,Rum,1
+Clay Pit,Islands,Fried Banana,1
+Clay Pit,Islands,Poncho,1
+Cocoa Plantation,Islands,Fish,1
+Cocoa Plantation,Islands,Water,1
+Coffee Plantation,Islands,Clothes,1
+Coffee Plantation,Islands,Lemonade,1
+Coffee Plantation,Islands,Tortilla,1
+Coffee Roaster,Islands,Clothes,2
+Coffee Roaster,Islands,Lemonade,2
+Coffee Roaster,Islands,Tortilla,2
+Corn Farm,Islands,Rum,1
+Corn Farm,Islands,Fried Banana,1
+Corn Farm,Islands,Poncho,1
+Cotton Mill,Islands,Clothes,2
+Cotton Mill,Islands,Lemonade,2
+Cotton Mill,Islands,Tortilla,2
+Cotton Plantation,Islands,Rum,1
+Cotton Plantation,Islands,Fried Banana,1
+Cotton Plantation,Islands,Poncho,1
+Felt Workshop,Islands,Clothes,2
+Felt Workshop,Islands,Lemonade,2
+Felt Workshop,Islands,Tortilla,2
+Fishery,Islands,None,0
+Fried Banana Kitchen,Islands,Fish,2
+Fried Banana Kitchen,Islands,Water,2
+Fur Factory,Islands,Clothes,2
+Fur Factory,Islands,Lemonade,2
+Fur Factory,Islands,Tortilla,2
+Green Pepper Farm,Islands,Clothes,1
+Green Pepper Farm,Islands,Lemonade,1
+Green Pepper Farm,Islands,Tortilla,1
+Humitas Kitchen,Islands,Clothes,2
+Humitas Kitchen,Islands,Lemonade,2
+Humitas Kitchen,Islands,Tortilla,2
+Lemonade Factory,Islands,Rum,2
+Lemonade Factory,Islands,Fried Banana,2
+Lemonade Factory,Islands,Poncho,2
+Lime Plaster Factory,Islands,Clothes,2
+Lime Plaster Factory,Islands,Lemonade,2
+Lime Plaster Factory,Islands,Tortilla,2
+Limestone Quarry,Islands,Clothes,1
+Limestone Quarry,Islands,Lemonade,1
+Limestone Quarry,Islands,Tortilla,1
+Oil Well,Islands,Overalls,1
+Oil Well,Islands,Humatis,1
+Oil Well,Islands,Coffee,1
+Pillar,Islands,None,0
+Poncho Darner,Islands,Fish,2
+Poncho Darner,Islands,Water,2
+Quarry,Islands,None,0
+Rope Workshop,Islands,Rum,1
+Rope Workshop,Islands,Fried Banana,1
+Rope Workshop,Islands,Poncho,1
+Rum Distillery,Islands,Fish,2
+Rum Distillery,Islands,Water,2
+Salt Works,Islands,Rum,1
+Salt Works,Islands,Fried Banana,1
+Salt Works,Islands,Poncho,1
+Sand Mine,Islands,Clothes,1
+Sand Mine,Islands,Lemonade,1
+Sand Mine,Islands,Tortilla,1
+Sewing Workshop,Islands,Rum,2
+Sewing Workshop,Islands,Fried Banana,2
+Sewing Workshop,Islands,Poncho,2
+Sheep Farm,Islands,Rum,1
+Sheep Farm,Islands,Fried Banana,1
+Sheep Farm,Islands,Poncho,1
+Shipyard,Islands,Rum,2
+Shipyard,Islands,Fried Banana,2
+Shipyard,Islands,Poncho,2
+Steam Clay Pit,Islands,Steam Engine,1
+Steam Limestone Quarry,Islands,Steam Engine,1
+Storage,Islands,None,0
+Sugar Cane Plantation,Islands,Fish,1
+Sugar Cane Plantation,Islands,Water,1
+Sugar Refinery,Islands,Rum,2
+Sugar Refinery,Islands,Fried Banana,2
+Sugar Refinery,Islands,Poncho,2
+Tortilla Kitchen,Islands,Rum,2
+Tortilla Kitchen,Islands,Fried Banana,2
+Tortilla Kitchen,Islands,Poncho,2
+Well,Islands,None,0
+Anchor Workshop,Master,Canned Food,2
+Anchor Workshop,Master,Wine,2
+Anchor Workshop,Master,Boots,2
+Bakery,Master,Fish,2
+Bakery,Master,Water,2
+Boiler Factory,Master,Meat Pie,2
+Boiler Factory,Master,Lemonade,2
+Boiler Factory,Master,Glasses,2
+Boot Factory,Master,Steak,2
+Boot Factory,Master,Milk Can,2
+Boot Factory,Master,Vest,2
+Brass Smeltery,Master,Cheese,2
+Brass Smeltery,Master,Rum,2
+Brass Smeltery,Master,Suits,2
+Brewery,Master,Fish,2
+Brewery,Master,Water,2
+Brick Factory,Master,Bread,2
+Brick Factory,Master,Beer,2
+Brick Factory,Master,Clothes,2
+Butchery,Master,Bread,2
+Butchery,Master,Beer,2
+Butchery,Master,Clothes,2
+Can Factory,Master,Sausages,2
+Can Factory,Master,Moonshine,2
+Can Factory,Master,Overalls,2
+Cannery,Master,Steak,2
+Cannery,Master,Milk Can,2
+Cannery,Master,Vest,2
+Cattle Farm,Master,Steak,1
+Cattle Farm,Master,Milk Can,1
+Cattle Farm,Master,Vest,1
+Cement Factory,Master,Cheese,2
+Cement Factory,Master,Rum,2
+Cement Factory,Master,Suits,2
+Charcoal Kiln,Master,None,0
+Cheese Factory,Master,Canned Food,2
+Cheese Factory,Master,Wine,2
+Cheese Factory,Master,Boots,2
+Chocolate Factory,Master,Meat Pie,2
+Chocolate Factory,Master,Lemonade,2
+Chocolate Factory,Master,Glasses,2
+Clay Pit,Master,Bread,1
+Clay Pit,Master,Beer,1
+Clay Pit,Master,Clothes,1
+Coal Mine,Master,Sausages,1
+Coal Mine,Master,Moonshine,1
+Coal Mine,Master,Overalls,1
+Concrete Factory,Master,Cheese,2
+Concrete Factory,Master,Rum,2
+Concrete Factory,Master,Suits,2
+Copper Mine,Master,Cheese,1
+Copper Mine,Master,Rum,1
+Copper Mine,Master,Suits,1
+Cotton Mill,Master,Bread,2
+Cotton Mill,Master,Beer,2
+Cotton Mill,Master,Clothes,2
+Cotton Plantation,Master,Bread,1
+Cotton Plantation,Master,Beer,1
+Cotton Plantation,Master,Clothes,1
+Cow Farm,Master,Sausages,1
+Cow Farm,Master,Moonshine,1
+Cow Farm,Master,Overalls,1
+Curdling Factory,Master,Canned Food,2
+Curdling Factory,Master,Wine,2
+Curdling Factory,Master,Boots,2
+Farm,Master,Fish,1
+Farm,Master,Water,1
+Felt Workshop,Master,Bread,2
+Felt Workshop,Master,Beer,2
+Felt Workshop,Master,Clothes,2
+Fishery,Master,None,0
+Fur Factory,Master,Bread,3
+Fur Factory,Master,Beer,3
+Fur Factory,Master,Clothes,3
+Furnace,Master,Sausages,1
+Furnace,Master,Moonshine,1
+Furnace,Master,Overalls,1
+Glasses Factory,Master,Cheese,3
+Glasses Factory,Master,Rum,3
+Glasses Factory,Master,Suits,3
+Glassmakers,Master,Steak,1
+Glassmakers,Master,Milk Can,1
+Glassmakers,Master,Vest,1
+Hat Fabric,Master,Meat Pie,2
+Hat Fabric,Master,Lemonade,2
+Hat Fabric,Master,Glasses,2
+Iron Mine,Master,Sausages,1
+Iron Mine,Master,Moonshine,1
+Iron Mine,Master,Overalls,1
+Kerosene Factory,Master,Chocolate,1
+Kerosene Factory,Master,Coffee,1
+Kerosene Factory,Master,Hat,1
+Kerosene Lamp Factory,Master,Chocolate,2
+Kerosene Lamp Factory,Master,Coffee,2
+Kerosene Lamp Factory,Master,Hat,2
+Leather Workshop,Master,Sausages,2
+Leather Workshop,Master,Moonshine,2
+Leather Workshop,Master,Overalls,2
+Limestone Quarry,Master,Cheese,1
+Limestone Quarry,Master,Rum,1
+Limestone Quarry,Master,Suits,1
+Linen Mill,Master,Canned Food,2
+Linen Mill,Master,Wine,2
+Linen Mill,Master,Boots,2
+Linseed Farm,Master,Canned Food,1
+Linseed Farm,Master,Wine,1
+Linseed Farm,Master,Boots,1
+Lumber Camp,Master,None,0
+Meat Pie Bakery,Master,Cheese,2
+Meat Pie Bakery,Master,Rum,2
+Meat Pie Bakery,Master,Suits,2
+Milk Farm,Master,Sausages,2
+Milk Farm,Master,Moonshine,2
+Milk Farm,Master,Overalls,2
+Mill,Master,Fish,2
+Mill,Master,Water,2
+Moonshine Factory,Master,Bread,3
+Moonshine Factory,Master,Beer,3
+Moonshine Factory,Master,Clothes,3
+Pig Farm,Master,Bread,1
+Pig Farm,Master,Beer,1
+Pig Farm,Master,Clothes,1
+Pillar,Master,None,0
+Pipe Mill,Master,Meat Pie,1
+Pipe Mill,Master,Lemonade,1
+Pipe Mill,Master,Glasses,1
+Potato Farm,Master,Bread,1
+Potato Farm,Master,Beer,1
+Potato Farm,Master,Clothes,1
+Promenade,Master,None,0
+Quarry,Master,None,0
+Red Pepper Farm,Master,Steak,1
+Red Pepper Farm,Master,Milk Can,1
+Red Pepper Farm,Master,Vest,1
+Rope Workshop,Master,Canned Food,1
+Rope Workshop,Master,Wine,1
+Rope Workshop,Master,Boots,1
+Rum Distillery,Master,Canned Food,2
+Rum Distillery,Master,Wine,2
+Rum Distillery,Master,Boots,2
+Sailmakers,Master,Canned Food,2
+Sailmakers,Master,Wine,2
+Sailmakers,Master,Boots,2
+Sand Mine,Master,Steak,1
+Sand Mine,Master,Milk Can,1
+Sand Mine,Master,Vest,1
+Satin Fabric,Master,Meat Pie,1
+Satin Fabric,Master,Lemonade,1
+Satin Fabric,Master,Glasses,1
+Sawmill,Master,None,0
+Sewing Workshop,Master,Fish,2
+Sewing Workshop,Master,Water,2
+Sheave Manufactory,Master,Meat Pie,2
+Sheave Manufactory,Master,Lemonade,2
+Sheave Manufactory,Master,Glasses,2
+Sheep Farm,Master,Fish,1
+Sheep Farm,Master,Water,1
+Shipyard,Master,None,0
+Square,Master,None,0
+Steakhouse,Master,Sausages,2
+Steakhouse,Master,Moonshine,2
+Steakhouse,Master,Overalls,2
+Steam Clay Pit,Master,Steam Engine,1
+Steam Coal Mine,Master,Steam Engine,1
+Steam Copper Mine,Master,Steam Engine,1
+Steam Engine Factory,Master,Meat Pie,2
+Steam Engine Factory,Master,Lemonade,2
+Steam Engine Factory,Master,Glasses,2
+Steam Iron Mine,Master,Steam Engine,1
+Steam Limestone Quarry,Master,Steam Engine,1
+Steelworks,Master,Sausages,2
+Steelworks,Master,Moonshine,2
+Steelworks,Master,Overalls,2
+Storage,Master,None,0
+Stuffing Workshop,Master,Cheese,2
+Stuffing Workshop,Master,Rum,2
+Stuffing Workshop,Master,Suits,2
+Sugar Cane Plantation,Master,Bread,1
+Sugar Cane Plantation,Master,Beer,1
+Sugar Cane Plantation,Master,Clothes,1
+Sugar Refinery,Master,Meat Pie,1
+Sugar Refinery,Master,Lemonade,1
+Sugar Refinery,Master,Glasses,1
+Tailor's Shop,Master,Canned Food,2
+Tailor's Shop,Master,Wine,2
+Tailor's Shop,Master,Boots,2
+Tannery,Master,Sausages,1
+Tannery,Master,Moonshine,1
+Tannery,Master,Overalls,1
+Vineyard,Master,Steak,1
+Vineyard,Master,Milk Can,1
+Vineyard,Master,Vest,1
+Well,Master,None,0
+Window Makers,Master,Steak,2
+Window Makers,Master,Milk Can,2
+Window Makers,Master,Vest,2
+Winery,Master,Steak,2
+Winery,Master,Milk Can,2
+Winery,Master,Vest,2
+World Exhibition,Master,None,0
+Ammo Factory,Mountains,Steak,1
+Ammo Factory,Mountains,Milk Can,1
+Ammo Factory,Mountains,Coin,1
+Bakery,Mountains,Fish,2
+Bakery,Mountains,Water,2
+Bakery ,Other,Sausages,2
+Bakery ,Other,Schnapps,2
+Bakery ,Other,Revolver,2
+Bank,Mountains,None,0
+Barley Farm,Mountains,Fish,1
+Barley Farm,Mountains,Water,1
+Barrel Factory,Mountains,Steak,1
+Barrel Factory,Mountains,Milk Can,1
+Barrel Factory,Mountains,Coin,1
+Bean Farm,Mountains,Sausages,1
+Bean Farm,Mountains,Schnapps,1
+Bean Farm,Mountains,Revolver,1
+Boiler Factory,Mountains,Steak,1
+Boiler Factory,Mountains,Milk Can,1
+Boiler Factory,Mountains,Coin,1
+Brass Smeltery,Mountains,Steak,1
+Brass Smeltery,Mountains,Milk Can,1
+Brass Smeltery,Mountains,Coin,1
+Butchery,Mountains,Steak,2
+Butchery,Mountains,Milk Can,2
+Butchery,Mountains,Coin,2
+Cafeteria,Mountains,Fish,2
+Cafeteria,Mountains,Water,2
+Can Factory,Mountains,Bread,2
+Can Factory,Mountains,Fruit Punch,2
+Can Factory,Mountains,Horse,2
+Carrot Farm,Mountains,Bean Pie,1
+Carrot Farm,Mountains,Whiskey,1
+Carrot Farm,Mountains,Watch,1
+Carrot Juice Kitchen,Mountains,Bean Pie,2
+Carrot Juice Kitchen,Mountains,Whiskey,2
+Carrot Juice Kitchen,Mountains,Watch,2
+Chain Factory,Mountains,Sausages,1
+Chain Factory,Mountains,Schnapps,1
+Chain Factory,Mountains,Revolver,1
+Cigar Factory,Mountains,Bean Pie,2
+Cigar Factory,Mountains,Whiskey,2
+Cigar Factory,Mountains,Watch,2
+Coal Mine,Mountains,Bread,1
+Coal Mine,Mountains,Fruit Punch,1
+Coal Mine,Mountains,Horse,1
+Copper Mine,Mountains,Steak,1
+Copper Mine,Mountains,Milk Can,1
+Copper Mine,Mountains,Coin,1
+Cranberry Plantation,Mountains,Fish,1
+Cranberry Plantation,Mountains,Water,1
+Crockery Factory,Mountains,Bean Pie,1
+Crockery Factory,Mountains,Whiskey,1
+Crockery Factory,Mountains,Watch,1
+Depot,Mountains,Bean Pie,3
+Depot,Mountains,Whiskey,3
+Depot,Mountains,Watch,3
+Dynamite Factory,Mountains,Bean Pie,2
+Dynamite Factory,Mountains,Whiskey,2
+Dynamite Factory,Mountains,Watch,2
+Fastener Factory,Mountains,Bread,2
+Fastener Factory,Mountains,Fruit Punch,2
+Fastener Factory,Mountains,Horse,2
+Filament Factory,Mountains,Soup,2
+Filament Factory,Mountains,Carrot Juice,2
+Filament Factory,Mountains,Cigar,2
+Fishery,Mountains,None,0
+Furnace,Mountains,Bread,1
+Furnace,Mountains,Fruit Punch,1
+Furnace,Mountains,Horse,1
+Furnace ,Other,Bread,1
+Furnace ,Other,Fruit Punch,1
+Furnace ,Other,Horse,1
+Gear Factory,Mountains,Sausages,1
+Gear Factory,Mountains,Schnapps,1
+Gear Factory,Mountains,Revolver,1
+Glassmakers,Mountains,Sausages,1
+Glassmakers,Mountains,Schnapps,1
+Glassmakers,Mountains,Revolver,1
+Goat Farm,Mountains,Bread,1
+Goat Farm,Mountains,Fruit Punch,1
+Goat Farm,Mountains,Horse,1
+Gold Mine,Mountains,Sausages,1
+Gold Mine,Mountains,Schnapps,1
+Gold Mine,Mountains,Revolver,1
+Horse Farm,Mountains,Fish,1
+Horse Farm,Mountains,Water,1
+Iron Mine,Mountains,Bread,1
+Iron Mine,Mountains,Fruit Punch,1
+Iron Mine,Mountains,Horse,1
+Light Bulb Factory,Mountains,Soup,3
+Light Bulb Factory,Mountains,Carrot Juice,3
+Light Bulb Factory,Mountains,Cigar,3
+Marquetry Workshop,Mountains,Bean Pie,1
+Marquetry Workshop,Mountains,Whiskey,1
+Marquetry Workshop,Mountains,Watch,1
+Milk Farm,Mountains,Bread,2
+Milk Farm,Mountains,Fruit Punch,2
+Milk Farm,Mountains,Horse,2
+Mint,Mountains,Bread,2
+Mint,Mountains,Fruit Punch,2
+Mint,Mountains,Horse,2
+Oak Lumber Camp,Mountains,None,0
+Pig Farm,Mountains,Steak,1
+Pig Farm,Mountains,Milk Can,1
+Pig Farm,Mountains,Coin,1
+Pillar,Mountains,None,0
+Quarry,Mountains,None,0
+Rail Factory,Mountains,Bean Pie,2
+Rail Factory,Mountains,Whiskey,2
+Rail Factory,Mountains,Watch,2
+Raspberry Plantation,Mountains,Fish,1
+Raspberry Plantation,Mountains,Water,1
+Revolver Factory,Mountains,Steak,2
+Revolver Factory,Mountains,Milk Can,2
+Revolver Factory,Mountains,Coin,2
+Salt Works,Mountains,Bean Pie,1
+Salt Works,Mountains,Whiskey,1
+Salt Works,Mountains,Watch,1
+Sand Mine,Mountains,Sausages,1
+Sand Mine,Mountains,Schnapps,1
+Sand Mine,Mountains,Revolver,1
+Sawmill,Mountains,None,0
+Schnapps Distillery,Mountains,Steak,2
+Schnapps Distillery,Mountains,Milk Can,2
+Schnapps Distillery,Mountains,Coin,2
+Sleeper Factory,Mountains,Bean Pie,2
+Sleeper Factory,Mountains,Whiskey,2
+Sleeper Factory,Mountains,Watch,2
+Sluicing Camp,Mountains,Bread,1
+Sluicing Camp,Mountains,Fruit Punch,1
+Sluicing Camp,Mountains,Horse,1
+Soup Kitchen,Mountains,Bean Pie,2
+Soup Kitchen,Mountains,Whiskey,2
+Soup Kitchen,Mountains,Watch,2
+Stable,Mountains,Fish,2
+Stable,Mountains,Water,2
+Steakhouse,Mountains,Bread,2
+Steakhouse,Mountains,Fruit Punch,2
+Steakhouse,Mountains,Horse,2
+Steam Engine Factory,Mountains,Steak,3
+Steam Engine Factory,Mountains,Milk Can,3
+Steam Engine Factory,Mountains,Coin,3
+Storage,Mountains,None,0
+Sulfur Mine,Mountains,Steak,1
+Sulfur Mine,Mountains,Milk Can,1
+Sulfur Mine,Mountains,Coin,1
+Tobacco Plantation,Mountains,Bean Pie,1
+Tobacco Plantation,Mountains,Whiskey,1
+Tobacco Plantation,Mountains,Watch,1
+Watch Factory,Mountains,Sausages,2
+Watch Factory,Mountains,Schnapps,2
+Watch Factory,Mountains,Revolver,2
+Water Mill,Mountains,Fish,1
+Water Mill,Mountains,Water,1
+Well,Mountains,None,0
+Whiskey Distillery,Mountains,Sausages,2
+Whiskey Distillery,Mountains,Schnapps,2
+Whiskey Distillery,Mountains,Revolver,2
