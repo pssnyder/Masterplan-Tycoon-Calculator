@@ -1,31 +1,140 @@
-# Masterplan Tycoon Game Stats Dashboard
+# Masterplan Tycoon Resource Chain Database & AI Optimization Challenge
 
 **Author**: Patrick Snyder  
 **Creation Date**: 11/6/2024
+**Last Updated**: September 24, 2025
 
-## Description
-This script creates a dashboard for displaying game statistics from the game "Masterplan Tycoon". The dashboard provides insights into various aspects of the game, such as player statistics, building data, and resource storage information.
+## Project Evolution
 
-The dashboard is built using **Tkinter** for the GUI and **Matplotlib** for visualizations. It dynamically loads game data from a save file (`sav_0.sav`) located in the current user's local directory (`C:\Users\<username>\AppData\LocalLow\Bureau Bravin\Masterplan Tycoon`). The data is then processed and displayed across three tabs:
+This project has evolved from a simple game stats dashboard into a comprehensive resource chain analysis system with an ambitious AI optimization challenge.
 
-1. **Player Stats**: Displays key player metrics such as resources extracted, links created, and session time. The developer shares these once you beat the game, but I wanted to know them all the time.
-2. **Buildings**: Lists all constructed buildings and their counts so you have an idea of how large your infrastructure is.
-3. **Resources by Location**: Shows resources stored at different locations along with their percentage of storage capacity, sorted least to most per location so you can tell where you are low on resources.
+### Phase 1: Game Stats Dashboard ✅ COMPLETE
+Original Tkinter-based dashboard for displaying game statistics from save files.
 
-## Features
-- Dynamically loads game data from save file 0 (save slot 1) based on the current user's directory.
-- Displays player stats in a clean format.
-- Provides a scrollable table of buildings and their counts.
-- Shows a scrollable list of resources by location with percentages indicating how full each storage is.
+### Phase 2: Database-Driven Resource Chain Analysis ✅ COMPLETE  
+Complete transformation into a relational database system with normalized schema and full resource chain visualization.
 
-## Usage
-1. Run `masterplan_analysis.py` in Python.
-2. Wait for the calculation to complete.
-3. If you receive an error like "save file not found", go into the script and update the file location and save file name to match your installation. I made the assumption that the game always writes to the same location. Also, I only pull in Save Slot 1. If you want to access data from another save slot, you can adjust the save file name accordingly.
+### Phase 3: AI Save File Optimization Challenge 🚧 IN PROGRESS
+**THE GRAND CHALLENGE**: Can AI reverse-engineer and optimize a complex tycoon game without ever playing it?
 
-## Future Ideas
-- Add a Save Slot selector so you can dynamically choose more than just slot 1.
-- Add an auto-refresh feature so you don't need to re-run the script to update it.
-- Add warnings for low resource counts that trigger suggestions for additional required infrastructure trees.
-- Display a building hierarchy tree to show dependency support infrastructure for buildings and its current capacity.
-- Add a production calculator to calculate building needs depending on scenarios (e.g., "I want 1 Kerosene Lamp, what infrastructure do I need in order to produce it and how long will it take?").
+## Current Project Structure
+
+```
+src/
+├── masterplan_tycoon_clean.db          # Normalized SQLite database
+├── resource_chain_explorer_fixed.py     # Resource chain analysis tool
+├── streamlit_dashboard.py               # Database-driven web interface
+├── save_file_parser.py                  # Save file JSON analysis
+├── build_clean_database.py              # Database builder from cleaned CSVs
+└── inspect_database.py                  # Database inspection tool
+
+archive/                                 # Archived development files
+references/                              # Cleaned CSV data & save file
+```
+
+## Database Schema ✅ COMPLETE
+
+**Core Tables:**
+- `maps` - Game locations (Master, Islands, Mountains)  
+- `buildings` - All building types with generated unique IDs
+- `resources` - All resources by map
+- `recipes` - Production recipes by tier
+- `plans` - Mission plans
+
+**Relationship Tables:**
+- `building_inputs` - What each building consumes
+- `building_outputs` - What each building produces (with rates)
+- `building_construction` - Construction requirements
+- `building_maintenance` - Maintenance costs
+- `recipe_buildings` - Recipe-building associations
+
+**Key Innovation**: Used building+map combinations as unique identifiers to solve data normalization challenges.
+
+## Resource Chain Capabilities ✅ COMPLETE
+
+The system can now:
+- **Trace complete resource chains**: Find all producers and consumers of any resource
+- **Analyze building dependencies**: See inputs/outputs/construction/maintenance for any building
+- **Calculate production rates**: Output per minute, production times
+- **Map resource flows**: Upstream and downstream dependencies
+- **Cross-map analysis**: Resource chains spanning multiple game locations
+
+**Example Working Chains:**
+- Coal: 4 producers (Coal Mine, Charcoal Kiln, Steam Coal Mine, Steel Mission) → 3 consumers
+- Steel: 2 producers (Furnace needs Coal+Iron, Steel Mission) → 3 consumers
+- Furnace Analysis: Inputs Coal+Iron → Outputs 2 Steel every 30s (4.0/min)
+
+## The AI Optimization Challenge 🎯
+
+### Challenge Parameters
+**Given**: 
+- A completed game save file (JSON, 1,826 nodes, 3,394 links, 48.2 hours of play)
+- Complete normalized database of all buildings, resources, and relationships
+- Knowledge that storage buildings act as universal load balancers
+
+**Goal**: 
+Use AI reasoning to generate an optimized save file JSON that achieves the same victory conditions with better efficiency, without ever opening or playing the game.
+
+### Current Analysis Status ✅ PHASE 1 COMPLETE
+
+**Save File Parsing Results:**
+- **Total Nodes**: 1,826 buildings placed
+- **Unique Building Types**: 207 discovered
+- **Database Mapping**: 167/207 building types matched (80% success rate)
+- **Resource Flows**: 129 unique resources identified
+- **Storage Buildings**: 318 total (heavy reliance on storage as load balancers)
+- **Top Resources**: Coal (702), Water (690), Steel (651)
+
+**Building Categories Identified:**
+- **Production Buildings**: 177 types (lumbercamp, ironmine, furnace, etc.)
+- **Storage Buildings**: 3 types, 318 total instances
+- **Mission Buildings**: 23 (completion objectives)
+- **Transport**: 4 port buildings for inter-map shipping
+
+## Current Status & Next Steps
+
+### ✅ COMPLETED
+1. **Database Architecture**: Fully normalized schema with all relationships
+2. **Resource Chain Analysis**: Complete traceability of production dependencies
+3. **Save File Parsing**: Successfully analyzed game structure and building placements
+4. **Building Mapping**: 80% of save file buildings mapped to database entities
+
+### 🚧 IN PROGRESS (CHECKPOINT)
+**Phase 3A - Save File Integration**
+1. **Fix naming mismatches**: Map remaining 40 unmatched building types
+2. **Spatial analysis**: Understand current layout patterns and inefficiencies
+3. **Resource flow modeling**: Build mathematical model of current production
+
+### 📋 UPCOMING PHASES
+**Phase 3B - Optimization Algorithm**
+1. **Constraint modeling**: Victory conditions, resource requirements, map limitations
+2. **Efficiency metrics**: Define what "better" means (fewer buildings? faster completion? better ratios?)
+3. **AI optimization**: Genetic algorithm, simulated annealing, or other optimization approach
+
+**Phase 3C - Save File Generation**
+1. **Layout optimization**: Determine optimal building placements
+2. **JSON generation**: Create new save file in proper format
+3. **Validation**: Ensure generated save file is technically valid
+
+## Tools & Technologies
+
+- **Database**: SQLite with normalized relational schema
+- **Analysis**: Python, Pandas, NetworkX for graph analysis
+- **Visualization**: Streamlit, Plotly for interactive dashboards
+- **Optimization**: TBD (likely scikit-learn, scipy.optimize, or custom algorithms)
+- **Data Sources**: Cleaned CSV exports + JSON save file
+
+## The Ultimate Test
+
+This represents a unique AI challenge: **Can artificial intelligence become a master game optimizer based purely on data analysis, without experiential knowledge?** 
+
+It's like asking an AI to redesign a city's infrastructure having never lived in a city, using only:
+- Economic data about buildings and resources
+- A map of someone else's working (but inefficient) city
+- Knowledge of optimization principles
+
+**Success Criteria**: Generate a theoretically superior save file that could achieve victory more efficiently than the original 48.2-hour human playthrough.
+
+---
+
+*This project demonstrates the power of data normalization, resource chain analysis, and AI optimization applied to complex simulation games.*
