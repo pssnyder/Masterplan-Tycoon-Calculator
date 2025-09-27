@@ -1,0 +1,368 @@
+{
+  "timestamp": "2025-09-26T17:54:07.606069",
+  "summary": {
+    "total_issues": 18,
+    "total_warnings": 126,
+    "categories_with_issues": 1,
+    "categories_with_warnings": 5
+  },
+  "critical_issues": {
+    "circular_dependencies": [
+      [
+        "Water"
+      ],
+      [
+        "Stone"
+      ],
+      [
+        "Sheave",
+        "Steam Engine",
+        "Brick",
+        "Coal",
+        "Copper"
+      ],
+      [
+        "Sheave",
+        "Steam Engine",
+        "Brick",
+        "Copper"
+      ],
+      [
+        "Sheave",
+        "Steam Engine",
+        "Coal",
+        "Copper"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Coal",
+        "Copper",
+        "Boiler"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Coal",
+        "Copper",
+        "Chain"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Coal",
+        "Copper",
+        "Gear"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Coal",
+        "Copper",
+        "Copper Pipes",
+        "Boiler"
+      ],
+      [
+        "Steam Engine",
+        "Brick"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Copper",
+        "Boiler"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Copper",
+        "Chain"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Copper",
+        "Gear"
+      ],
+      [
+        "Steam Engine",
+        "Brick",
+        "Copper",
+        "Copper Pipes",
+        "Boiler"
+      ],
+      [
+        "Steam Engine",
+        "Coal",
+        "Copper",
+        "Boiler"
+      ],
+      [
+        "Steam Engine",
+        "Coal",
+        "Copper",
+        "Chain"
+      ],
+      [
+        "Steam Engine",
+        "Coal",
+        "Copper",
+        "Gear"
+      ],
+      [
+        "Steam Engine",
+        "Coal",
+        "Copper",
+        "Copper Pipes",
+        "Boiler"
+      ]
+    ]
+  },
+  "warnings": {
+    "no_inputs": [
+      "Alpaca Farm",
+      "Bakery",
+      "Bamboo Plantation",
+      "Banana Farm",
+      "Barley Farm",
+      "Bean Farm",
+      "Caoutchouc Farm",
+      "Carrot Farm",
+      "Cattle Farm",
+      "Cattle Farm",
+      "Citrus Farm",
+      "Clay Pit",
+      "Clay Pit",
+      "Coal Mine",
+      "Coal Mine",
+      "Cocoa Plantation",
+      "Coffee Plantation",
+      "Copper Mine",
+      "Copper Mine",
+      "Corn Farm",
+      "Cotton Plantation",
+      "Cotton Plantation",
+      "Cow Farm",
+      "Cranberry Plantation",
+      "Death Islands",
+      "Farm",
+      "Fishery",
+      "Fishery",
+      "Furnace",
+      "Goat Farm",
+      "Gold Mine",
+      "Green Pepper Farm",
+      "Iron Mine",
+      "Iron Mine",
+      "Limestone Quarry",
+      "Limestone Quarry",
+      "Linseed Farm",
+      "Lumber Camp",
+      "Mountains",
+      "Oak Lumber Camp",
+      "Oil Well",
+      "Pillar",
+      "Port",
+      "Potato Farm",
+      "Promenade",
+      "Quarry",
+      "Quarry",
+      "Raspberry Plantation",
+      "Red Pepper Farm",
+      "Sheep Farm",
+      "Sheep Farm",
+      "Square",
+      "Steam Clay Pit",
+      "Steam Clay Pit",
+      "Steam Coal Mine",
+      "Steam Copper Mine",
+      "Steam Iron Mine",
+      "Steam Limestone Quarry",
+      "Steam Limestone Quarry",
+      "Steam Mission",
+      "Storage",
+      "Sugar Cane Plantation",
+      "Sugar Cane Plantation",
+      "Sulfur Mine",
+      "Tobacco Plantation",
+      "Vineyard",
+      "Well",
+      "Well"
+    ],
+    "no_outputs": [
+      "Bakery",
+      "Furnace",
+      "Mountains",
+      "Pillar",
+      "Port",
+      "Promenade",
+      "Square",
+      "Storage"
+    ],
+    "isolated_resources": [
+      "Bean",
+      "Sulfer",
+      "Bean"
+    ],
+    "no_construction_data": [
+      "Bakery",
+      "Brick Mission",
+      "Copper Mission",
+      "Death Islands",
+      "Furnace",
+      "Gold Mission",
+      "Limestone Mission",
+      "Mountains",
+      "Oil Islands",
+      "Port",
+      "Steam Mission",
+      "Steel Mission"
+    ],
+    "no_maintenance_data": [
+      "Bakery",
+      "Bamboo Factory",
+      "Bamboo Plantation",
+      "Bank",
+      "Brick Mission",
+      "Charcoal Kiln",
+      "Copper Mission",
+      "Death Islands",
+      "Fishery",
+      "Fishery",
+      "Fishery",
+      "Furnace",
+      "Gold Mission",
+      "Limestone Mission",
+      "Lumber Camp",
+      "Mountains",
+      "Oak Lumber Camp",
+      "Oil Islands",
+      "Pillar",
+      "Port",
+      "Promenade",
+      "Quarry",
+      "Quarry",
+      "Quarry",
+      "Sawmill",
+      "Sawmill",
+      "Shipyard",
+      "Square",
+      "Steam Mission",
+      "Steel Mission",
+      "Storage",
+      "Well",
+      "Well",
+      "Well",
+      "World Exhibition"
+    ]
+  },
+  "statistics": {
+    "potential_ports": [
+      {
+        "name": "Port",
+        "map": "Islands",
+        "has_inputs": false,
+        "has_outputs": false
+      }
+    ],
+    "raw_materials": [
+      "Bamboo",
+      "Oak",
+      "Copper Ore",
+      "Grain",
+      "Clay",
+      "Cranberry",
+      "Raspberry",
+      "Beef",
+      "Red Pepper",
+      "Carrot",
+      "Limestone",
+      "Barley",
+      "Tree",
+      "Tobacco",
+      "Coffee Beans",
+      "Caoutchouc",
+      "Cotton",
+      "Milk",
+      "Wool",
+      "Banana",
+      "Cocoa",
+      "Iron",
+      "Corn",
+      "Green Pepper",
+      "Citrus",
+      "Filaments",
+      "Linseed",
+      "Potato",
+      "Sugar Cane",
+      "Alpaca Wool",
+      "Cow",
+      "Goat",
+      "Grapes"
+    ],
+    "zero_construction_cost": [
+      "Bakery",
+      "Brick Mission",
+      "Copper Mission",
+      "Death Islands",
+      "Furnace",
+      "Gold Mission",
+      "Limestone Mission",
+      "Mountains",
+      "Oil Islands",
+      "Port",
+      "Steam Mission",
+      "Steel Mission"
+    ],
+    "zero_maintenance_cost": [
+      "Bakery",
+      "Bamboo Factory",
+      "Bamboo Plantation",
+      "Bank",
+      "Brick Mission",
+      "Charcoal Kiln",
+      "Copper Mission",
+      "Death Islands",
+      "Fishery",
+      "Fishery",
+      "Fishery",
+      "Furnace",
+      "Gold Mission",
+      "Limestone Mission",
+      "Lumber Camp",
+      "Mountains",
+      "Oak Lumber Camp",
+      "Oil Islands",
+      "Pillar",
+      "Port",
+      "Promenade",
+      "Quarry",
+      "Quarry",
+      "Quarry",
+      "Sawmill",
+      "Sawmill",
+      "Shipyard",
+      "Square",
+      "Steam Mission",
+      "Steel Mission",
+      "Storage",
+      "Well",
+      "Well",
+      "Well",
+      "World Exhibition"
+    ],
+    "map_buildings": {
+      "Islands": 43,
+      "Mountains": 60,
+      "Master": 84,
+      "Unknown": 2
+    },
+    "map_resources": {
+      "Mountains": 62,
+      "Master": 82,
+      "Unknown": 11,
+      "Islands": 39
+    },
+    "cross_map_dependencies": []
+  }
+}

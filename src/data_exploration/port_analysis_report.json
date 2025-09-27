@@ -1,0 +1,632 @@
+{
+  "timestamp": "2025-09-26T17:55:36.043802",
+  "summary": {
+    "total_ports": 4,
+    "cross_map_resources": 52,
+    "cross_map_dependencies": 0,
+    "transport_chains": 2,
+    "total_risks": 1
+  },
+  "ports": {
+    "all_ports": [
+      {
+        "id": 62,
+        "name": "Depot",
+        "map": "Mountains",
+        "inputs": [
+          {
+            "resource": "Dynamite",
+            "quantity": 1
+          },
+          {
+            "resource": "Rails",
+            "quantity": 1
+          },
+          {
+            "resource": "Sleepers",
+            "quantity": 1
+          },
+          {
+            "resource": "Steam Engine",
+            "quantity": 1
+          }
+        ],
+        "outputs": [
+          {
+            "resource": "Train",
+            "quantity": 1,
+            "output_per_minute": 1.3
+          }
+        ],
+        "construction": [
+          {
+            "resource": "Oak Plank",
+            "quantity": 20
+          },
+          {
+            "resource": "Stone",
+            "quantity": 22
+          },
+          {
+            "resource": "Nails",
+            "quantity": 18
+          }
+        ],
+        "maintenance": [
+          {
+            "resource": "Whiskey",
+            "quantity": 3
+          },
+          {
+            "resource": "Watch",
+            "quantity": 3
+          },
+          {
+            "resource": "Bean Pie",
+            "quantity": 3
+          }
+        ],
+        "has_inputs": true,
+        "has_outputs": true,
+        "has_construction": true,
+        "has_maintenance": true
+      },
+      {
+        "id": 119,
+        "name": "Port",
+        "map": "Islands",
+        "inputs": [],
+        "outputs": [],
+        "construction": [],
+        "maintenance": [],
+        "has_inputs": false,
+        "has_outputs": false,
+        "has_construction": false,
+        "has_maintenance": false
+      },
+      {
+        "id": 148,
+        "name": "Shipyard",
+        "map": "Islands",
+        "inputs": [
+          {
+            "resource": "Rope",
+            "quantity": 4
+          },
+          {
+            "resource": "Timber",
+            "quantity": 12
+          }
+        ],
+        "outputs": [
+          {
+            "resource": "Boat",
+            "quantity": 1,
+            "output_per_minute": 2.0
+          }
+        ],
+        "construction": [
+          {
+            "resource": "Timber",
+            "quantity": 8
+          },
+          {
+            "resource": "Stone",
+            "quantity": 4
+          }
+        ],
+        "maintenance": [
+          {
+            "resource": "Poncho",
+            "quantity": 2
+          },
+          {
+            "resource": "Fried Banana",
+            "quantity": 2
+          },
+          {
+            "resource": "Rum",
+            "quantity": 2
+          }
+        ],
+        "has_inputs": true,
+        "has_outputs": true,
+        "has_construction": true,
+        "has_maintenance": true
+      },
+      {
+        "id": 149,
+        "name": "Shipyard",
+        "map": "Master",
+        "inputs": [
+          {
+            "resource": "Plank",
+            "quantity": 8
+          },
+          {
+            "resource": "Rope",
+            "quantity": 2
+          }
+        ],
+        "outputs": [
+          {
+            "resource": "Boat",
+            "quantity": 1,
+            "output_per_minute": 2.0
+          }
+        ],
+        "construction": [
+          {
+            "resource": "Brick",
+            "quantity": 7
+          },
+          {
+            "resource": "Plank",
+            "quantity": 8
+          },
+          {
+            "resource": "Windows",
+            "quantity": 4
+          }
+        ],
+        "maintenance": [],
+        "has_inputs": true,
+        "has_outputs": true,
+        "has_construction": true,
+        "has_maintenance": false
+      }
+    ],
+    "categories": {
+      "input_only": 0,
+      "output_only": 0,
+      "bidirectional": 3,
+      "no_flows": 1,
+      "zero_cost": 1
+    },
+    "category_details": {
+      "input_only": [],
+      "output_only": [],
+      "bidirectional": [
+        {
+          "id": 62,
+          "name": "Depot",
+          "map": "Mountains",
+          "inputs": [
+            {
+              "resource": "Dynamite",
+              "quantity": 1
+            },
+            {
+              "resource": "Rails",
+              "quantity": 1
+            },
+            {
+              "resource": "Sleepers",
+              "quantity": 1
+            },
+            {
+              "resource": "Steam Engine",
+              "quantity": 1
+            }
+          ],
+          "outputs": [
+            {
+              "resource": "Train",
+              "quantity": 1,
+              "output_per_minute": 1.3
+            }
+          ],
+          "construction": [
+            {
+              "resource": "Oak Plank",
+              "quantity": 20
+            },
+            {
+              "resource": "Stone",
+              "quantity": 22
+            },
+            {
+              "resource": "Nails",
+              "quantity": 18
+            }
+          ],
+          "maintenance": [
+            {
+              "resource": "Whiskey",
+              "quantity": 3
+            },
+            {
+              "resource": "Watch",
+              "quantity": 3
+            },
+            {
+              "resource": "Bean Pie",
+              "quantity": 3
+            }
+          ],
+          "has_inputs": true,
+          "has_outputs": true,
+          "has_construction": true,
+          "has_maintenance": true
+        },
+        {
+          "id": 148,
+          "name": "Shipyard",
+          "map": "Islands",
+          "inputs": [
+            {
+              "resource": "Rope",
+              "quantity": 4
+            },
+            {
+              "resource": "Timber",
+              "quantity": 12
+            }
+          ],
+          "outputs": [
+            {
+              "resource": "Boat",
+              "quantity": 1,
+              "output_per_minute": 2.0
+            }
+          ],
+          "construction": [
+            {
+              "resource": "Timber",
+              "quantity": 8
+            },
+            {
+              "resource": "Stone",
+              "quantity": 4
+            }
+          ],
+          "maintenance": [
+            {
+              "resource": "Poncho",
+              "quantity": 2
+            },
+            {
+              "resource": "Fried Banana",
+              "quantity": 2
+            },
+            {
+              "resource": "Rum",
+              "quantity": 2
+            }
+          ],
+          "has_inputs": true,
+          "has_outputs": true,
+          "has_construction": true,
+          "has_maintenance": true
+        },
+        {
+          "id": 149,
+          "name": "Shipyard",
+          "map": "Master",
+          "inputs": [
+            {
+              "resource": "Plank",
+              "quantity": 8
+            },
+            {
+              "resource": "Rope",
+              "quantity": 2
+            }
+          ],
+          "outputs": [
+            {
+              "resource": "Boat",
+              "quantity": 1,
+              "output_per_minute": 2.0
+            }
+          ],
+          "construction": [
+            {
+              "resource": "Brick",
+              "quantity": 7
+            },
+            {
+              "resource": "Plank",
+              "quantity": 8
+            },
+            {
+              "resource": "Windows",
+              "quantity": 4
+            }
+          ],
+          "maintenance": [],
+          "has_inputs": true,
+          "has_outputs": true,
+          "has_construction": true,
+          "has_maintenance": false
+        }
+      ],
+      "no_flows": [
+        {
+          "id": 119,
+          "name": "Port",
+          "map": "Islands",
+          "inputs": [],
+          "outputs": [],
+          "construction": [],
+          "maintenance": [],
+          "has_inputs": false,
+          "has_outputs": false,
+          "has_construction": false,
+          "has_maintenance": false
+        }
+      ],
+      "zero_cost": [
+        {
+          "id": 119,
+          "name": "Port",
+          "map": "Islands",
+          "inputs": [],
+          "outputs": [],
+          "construction": [],
+          "maintenance": [],
+          "has_inputs": false,
+          "has_outputs": false,
+          "has_construction": false,
+          "has_maintenance": false
+        }
+      ]
+    }
+  },
+  "cross_map_analysis": {
+    "resources_on_multiple_maps": {
+      "Bean": [
+        null,
+        "Mountains"
+      ],
+      "Beef": [
+        "Islands",
+        "Master"
+      ],
+      "Boat": [
+        "Islands",
+        "Master"
+      ],
+      "Boiler": [
+        "Master",
+        "Mountains"
+      ],
+      "Bread": [
+        null,
+        "Master",
+        "Mountains"
+      ],
+      "Brick": [
+        "Islands",
+        "Master"
+      ],
+      "Calico": [
+        "Islands",
+        "Master"
+      ],
+      "Can": [
+        "Master",
+        "Mountains"
+      ],
+      "Caoutchouc": [
+        "Islands",
+        "Master"
+      ],
+      "Clay": [
+        "Islands",
+        "Master"
+      ],
+      "Clothes": [
+        "Islands",
+        "Master"
+      ],
+      "Coal": [
+        null,
+        "Master",
+        "Mountains"
+      ],
+      "Coffee": [
+        "Islands",
+        "Master"
+      ],
+      "Coin": [
+        "Master",
+        "Mountains"
+      ],
+      "Copper": [
+        "Master",
+        "Mountains"
+      ],
+      "Copper Ore": [
+        "Master",
+        "Mountains"
+      ],
+      "Cotton": [
+        "Islands",
+        "Master"
+      ],
+      "Felt": [
+        "Islands",
+        "Master"
+      ],
+      "Fish": [
+        "Islands",
+        "Master",
+        "Mountains"
+      ],
+      "Fried Banana": [
+        "Islands",
+        "Master"
+      ],
+      "Fruit Punch": [
+        null,
+        "Mountains"
+      ],
+      "Glass": [
+        "Master",
+        "Mountains"
+      ],
+      "Gold Ore": [
+        null,
+        "Mountains"
+      ],
+      "Horse": [
+        null,
+        "Mountains"
+      ],
+      "Iron": [
+        "Master",
+        "Mountains"
+      ],
+      "Lemonade": [
+        "Islands",
+        "Master"
+      ],
+      "Light Bulb": [
+        "Master",
+        "Mountains"
+      ],
+      "Limestone": [
+        "Islands",
+        "Master"
+      ],
+      "Milk": [
+        "Master",
+        "Mountains"
+      ],
+      "Milk Can": [
+        "Master",
+        "Mountains"
+      ],
+      "Nails": [
+        "Master",
+        "Mountains"
+      ],
+      "Oak Plank": [
+        null,
+        "Master",
+        "Mountains"
+      ],
+      "Oil": [
+        "Islands",
+        "Master"
+      ],
+      "Overalls": [
+        "Islands",
+        "Master"
+      ],
+      "Pig": [
+        "Master",
+        "Mountains"
+      ],
+      "Poncho": [
+        "Islands",
+        "Master"
+      ],
+      "Revolver": [
+        null,
+        "Mountains"
+      ],
+      "Rope": [
+        "Islands",
+        "Master"
+      ],
+      "Rum": [
+        "Islands",
+        "Master"
+      ],
+      "Salt": [
+        "Islands",
+        "Mountains"
+      ],
+      "Sand": [
+        "Islands",
+        "Master",
+        "Mountains"
+      ],
+      "Sausages": [
+        null,
+        "Master",
+        "Mountains"
+      ],
+      "Schnapps": [
+        null,
+        "Mountains"
+      ],
+      "Steak": [
+        "Master",
+        "Mountains"
+      ],
+      "Steam Engine": [
+        "Islands",
+        "Master",
+        "Mountains"
+      ],
+      "Steel": [
+        "Master",
+        "Mountains"
+      ],
+      "Stone": [
+        null,
+        "Islands",
+        "Master",
+        "Mountains"
+      ],
+      "Sugar": [
+        "Islands",
+        "Master"
+      ],
+      "Sugar Cane": [
+        "Islands",
+        "Master"
+      ],
+      "Water": [
+        "Islands",
+        "Master",
+        "Mountains"
+      ],
+      "Win": [
+        "Master",
+        "Mountains"
+      ],
+      "Wool": [
+        "Islands",
+        "Master"
+      ]
+    },
+    "cross_dependencies": []
+  },
+  "transport_chains": [
+    {
+      "building": "Quarry",
+      "map": "Mountains",
+      "resource": "Stone",
+      "input_qty": 1,
+      "output_qty": 1,
+      "efficiency": 1.0,
+      "rate": 0.8
+    },
+    {
+      "building": "Well",
+      "map": "Mountains",
+      "resource": "Water",
+      "input_qty": 1,
+      "output_qty": 1,
+      "efficiency": 1.0,
+      "rate": 4.0
+    }
+  ],
+  "calculation_risks": {
+    "missing_port_logic": [
+      {
+        "building": "Port",
+        "map": "Islands",
+        "issue": "No inputs or outputs defined"
+      }
+    ],
+    "circular_transport": [],
+    "infinite_loops": [],
+    "missing_connections": [],
+    "unrealistic_rates": []
+  }
+}
